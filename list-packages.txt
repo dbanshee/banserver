@@ -1,0 +1,43 @@
+ apt --fix-broken install
+ apt-get install apache2
+ apt-get install apt-file
+ apt-get install bash-completion
+ apt-get install chromium
+ apt-get install disk-manager
+ apt-get install filezilla galculator gparted iotop iperf lsof
+ apt-get install firmware-iwlwifi
+ apt-get install freerdp2-x11
+ apt-get install git
+ apt-get install hardinfo
+ apt-get install hdparm
+ apt-get install hwinfo
+ apt-get install lshw
+ apt-get install lxde-core lxappearance
+ apt-get install lxterminal
+ apt-get install mariadb-server
+ apt-get install mesa-utils
+ apt-get install net-tools
+ apt-get install --no-install-recommends lxsession
+ apt-get install --no-install-recommends meld
+ apt-get install --no-install-recommends xinit
+ apt-get install --no-install-recommends xpdf
+ apt-get install --no-install-recommends xserver-xorg
+ apt-get install openssh-server
+ apt-get install python-pip
+ apt-get install remmina
+ apt-get install scite
+ apt-get install screen
+ apt-get install smartmontools
+ apt-get install sudo
+ apt-get install telnet
+ apt-get install tigervnc-standalone-server
+ apt-get install tree
+ apt-get install vim
+ apt-get install vlc
+ apt-get install wget
+ apt-get install wireless-tools
+ apt-get install x11vnc
+ apt-get install xarchiver
+ apt-get install xrdp
+ apt-get install xserver-xorg-legacy
+ apt-get -o APT

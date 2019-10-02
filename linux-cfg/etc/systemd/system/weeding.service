@@ -1,0 +1,14 @@
+[Unit]
+Description=ClauNoelWeeding
+After=network.target
+
+[Service]
+ExecStart=/usr/local/ban/bodaclaunoel/weeding.sh
+WorkingDirectory=/usr/local/ban/bodaclaunoel
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=banshee
+
+[Install]
+WantedBy=multi-user.target
