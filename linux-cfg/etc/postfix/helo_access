@@ -1,0 +1,3 @@
+banserver.net        REJECT
+smtp.banserver.net   REJECT
+mail.banserver.net   REJECT

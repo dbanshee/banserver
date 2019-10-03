@@ -1,0 +1,4 @@
+banshee@banserver:~$ which sendmail
+/sbin/sendmail
+banshee@banserver:~$ ll /sbin/sendmail
+lrwxrwxrwx 1 root root 5 sep 27 18:09 /sbin/sendmail -> exim4

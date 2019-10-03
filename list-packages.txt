@@ -4,6 +4,8 @@
  apt-get install bash-completion
  apt-get install chromium
  apt-get install disk-manager
+ apt-get install dovecot-common dovecot-imapd
+ apt-get install fail2ban
  apt-get install filezilla galculator gparted iotop iperf lsof
  apt-get install firmware-iwlwifi
  apt-get install freerdp2-x11
@@ -23,12 +25,15 @@
  apt-get install --no-install-recommends xpdf
  apt-get install --no-install-recommends xserver-xorg
  apt-get install openssh-server
+ apt-get install postfix
  apt-get install python-pip
  apt-get install remmina
  apt-get install scite
  apt-get install screen
  apt-get install smartmontools
+ apt-get install sshfs
  apt-get install sudo
+ apt-get install synaptic
  apt-get install telnet
  apt-get install tigervnc-standalone-server
  apt-get install tree
@@ -41,3 +46,4 @@
  apt-get install xrdp
  apt-get install xserver-xorg-legacy
  apt-get -o APT
+ apt-get reinstall postfix
