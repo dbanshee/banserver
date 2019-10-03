@@ -113,6 +113,8 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:/usr/local/ban/scripts
+export MAIL="~/Maildir/"
+export MBOX="~/Maildir/"
 alias sc='screenBanServer.sh'
 
 echo "

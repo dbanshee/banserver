@@ -2,3 +2,47 @@ banshee@banserver:~$ which sendmail
 /sbin/sendmail
 banshee@banserver:~$ ll /sbin/sendmail
 lrwxrwxrwx 1 root root 5 sep 27 18:09 /sbin/sendmail -> exim4
+
+
+
+https://savannah.gnu.org/support/?109516
+
+Hello,
+This behavior is mandated by the Open Group POSIX Specification. According to the spec:
+"Incoming mail shall be stored in one or more unspecified locations for each user, collectively called the system mailbox for that user. When mailx is invoked in Receive Mode, the system mailbox shall be the default place to find new mail. As messages are read, they shall be marked to be moved to a secondary file for storage, unless specific action is taken. This secondary file is called the mbox and is normally located in the directory referred to by the HOME environment variable (see MBOX in the ENVIRONMENT VARIABLES section for a description of this file). Messages shall remain in this file until explicitly removed. When the -f option is used to read mail messages from secondary files, messages shall be retained in those files unless specifically removed. All three of these locations-system mailbox, mbox, and secondary file-are referred to in this section as simply "mailboxes", unless more specific identification is required."
+The ENVIRONMENT VARIABLES section states the following
+"MBOX
+     Determine a pathname of the file to save messages from the system mailbox that have been read. The exit command shall override this function, as shall saving the message explicitly in another file. The default shall be mbox in the directory named by the HOME variable."
+For a detailed discussion, please see http://pubs.opengroup.org/onlinepubs/9699919799/, and http://mailutils.org/manual/html_section/mail.html#Saving-Messages.
+To summarize:
+There are two distinct mailboxes for each user: the system mailbox, which receives incoming messages, and the secondary mailbox, which is used for storing read messages.
+Default name for the secondary mailbox is ~/mbox.
+The name of the secondary mailbox can be changed by setting the environment variable MBOX.
+The default behavior upon normal exit from the program is to move to the secondary mailbox all messages that are marked as read during the interactive session.
+This behavior can be disabled by setting the hold variable. When this variable is set, the messages will be held in the system mailbox until explicitly moved elsewhere.
+Setting secondary mailbox to be the same as the system mailbox results in undefined behavior.
+Judging by your message, you would need the p.5.
+Another issue raised by your posting is that of mailbox visibility to the imap4d server. It is defined by the server namespaces and is discussed in detail in http://mailutils.org/manual/html_section/imap4d.html#Namespace.
+Hope that helps.
+Sergey Poznyakoff <gray>
+Administrador de Proyecto
+vie 15 jun 2018 04:14:25 UTC, envío original:  Quote
+Mailutils is configured to use the mailbox ~/Maildir. Mail reads from ~/Maildir/new, but it saves held messages to ~/mbox/cur rather than ~/Maildir/cur. Mail creates an entirely separate maildir folder hierarchy at ~/mbox.  On exit, the appropriate flags are set (:2,R).
+The result is that it is then impossible to access these messages from a remote IMAP client.
+Environment
+Ubuntu server 18.04 LTS (4.15.0-23-generic)
+mailutils 3.4-1
+dovecot 2.2.33.2 (d6601f4ec)
+postfix 3.3.0-1
+/etc/mailutils.conf
+mailbox {
+  mailbox-pattern "maildir:///home/${user}/Maildir";
+  mailbox-type maildir;
+};
+
+
+~/.profile
+MAIL=$HOME/Maildir
+
+
+openssl s_client -showcerts -connect localhost:465

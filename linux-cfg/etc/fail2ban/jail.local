@@ -268,7 +268,7 @@ logpath  = %(auditd_log)s
 enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
-
+action  = %(action_mw)s 
 
 [apache-badbots]
 # Ban hosts which agent identifies spammer robots crawling the web
@@ -279,55 +279,67 @@ port     = http,https
 logpath  = %(apache_access_log)s
 bantime  = 48h
 maxretry = 1
-
+action  = %(action_mw)s 
 
 [apache-noscript]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
-
+action  = %(action_mw)s 
 
 [apache-overflows]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
-
+action  = %(action_mw)s 
 
 [apache-nohome]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
+action  = %(action_mw)s 
 
 
 [apache-botsearch]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
+action  = %(action_mw)s 
 
 
 [apache-fakegooglebot]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_access_log)s
 maxretry = 1
 ignorecommand = %(ignorecommands_dir)s/apache-fakegooglebot <ip>
+action  = %(action_mw)s 
 
 
 [apache-modsecurity]
 
+enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
+action  = %(action_mw)s 
 
 
 [apache-shellshock]
 
+enabled = true
 port    = http,https
 logpath = %(apache_error_log)s
 maxretry = 1
+action  = %(action_mw)s 
 
 
 [openhab-auth]
@@ -387,11 +399,12 @@ logpath = %(lighttpd_error_log)s
 
 [roundcube-auth]
 
+enabled  = true
 port     = http,https
 logpath  = %(roundcube_errors_log)s
 # Use following line in your jail.local if roundcube logs to journal.
 #backend = %(syslog_backend)s
-
+action  = %(action_mw)s 
 
 [openwebmail]
 
@@ -540,37 +553,42 @@ backend  = %(syslog_backend)s
 
 [postfix]
 # To use another modes set filter parameter "mode" in jail.local:
+enabled = true
 mode    = more
 port    = smtp,465,submission
 logpath = %(postfix_log)s
 backend = %(postfix_backend)s
-
+action  = %(action_mw)s 
 
 [postfix-rbl]
 
+enabled  = true
 filter   = postfix[mode=rbl]
 port     = smtp,465,submission
 logpath  = %(postfix_log)s
 backend  = %(postfix_backend)s
 maxretry = 1
+action  = %(action_mw)s 
 
 
 [sendmail-auth]
 
+enabled = true
 port    = submission,465,smtp
 logpath = %(syslog_mail)s
 backend = %(syslog_backend)s
-
+action  = %(action_mw)s 
 
 [sendmail-reject]
 # To use more aggressive modes set filter parameter "mode" in jail.local:
 # normal (default), extra or aggressive
 # See "tests/files/logs/sendmail-reject" or "filter.d/sendmail-reject.conf" for usage example and details.
 #mode    = normal
+enabled  = true
 port     = smtp,465,submission
 logpath  = %(syslog_mail)s
 backend  = %(syslog_backend)s
-
+action  = %(action_mw)s 
 
 [qmail-rbl]
 
@@ -583,10 +601,11 @@ logpath = /service/qmail/log/main/current
 # but can be set by syslog_facility in the dovecot configuration.
 [dovecot]
 
+enabled = true
 port    = pop3,pop3s,imap,imaps,submission,465,sieve
 logpath = %(dovecot_log)s
 backend = %(dovecot_backend)s
-
+action  = %(action_mw)s 
 
 [sieve]
 
@@ -634,6 +653,7 @@ backend  = %(syslog_backend)s
 
 [postfix-sasl]
 
+enabled  = true
 filter   = postfix[mode=auth]
 port     = smtp,465,submission,imap,imaps,pop3,pop3s
 # You might consider monitoring /var/log/mail.warn instead if you are
@@ -641,7 +661,7 @@ port     = smtp,465,submission,imap,imaps,pop3,pop3s
 # "warn" level but overall at the smaller filesize.
 logpath  = %(postfix_log)s
 backend  = %(postfix_backend)s
-
+action  = %(action_mw)s 
 
 [perdition]
 
@@ -751,7 +771,7 @@ enabled  = true
 port     = 3306
 logpath  = %(mysql_log)s
 backend  = %(mysql_backend)s
-
+action  = %(action_mw)s 
 
 # Log wrong MongoDB auth (for details see filter 'filter.d/mongodb-auth.conf')
 [mongodb-auth]
