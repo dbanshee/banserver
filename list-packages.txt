@@ -8,6 +8,7 @@
  apt-get install fail2ban
  apt-get install filezilla galculator gparted iotop iperf lsof
  apt-get install firmware-iwlwifi
+ apt-get install firmware-misc-nonfree
  apt-get install freerdp2-x11
  apt-get install git
  apt-get install hardinfo
@@ -28,6 +29,7 @@
  apt-get install postfix
  apt-get install python-pip
  apt-get install remmina
+ apt-get install roundcube roundcube-plugins
  apt-get install scite
  apt-get install screen
  apt-get install smartmontools
@@ -45,5 +47,7 @@
  apt-get install xarchiver
  apt-get install xrdp
  apt-get install xserver-xorg-legacy
+ apt-get install xserver-xorg-video-intel
  apt-get -o APT
  apt-get reinstall postfix
+ apt-get upgrade
