@@ -1,0 +1,29 @@
+Commands to networking ingo an manipulation
+
+Bandwidth Control 
+
+tc
+tcng
+wondershape
+trickle
+
+
+Auditoria
+
+netstat
+iftop
+nload
+nethogs - Net top tool grouping bandwidth per process:
+bmon
+slurm
+tcptrack
+vnstat
+speedometer
+pktstat
+netwatch
+trafshow
+netload
+ifstat
+dstat
+collectl
+
