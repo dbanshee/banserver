@@ -174,6 +174,11 @@ action_ = %(banaction)s[name=%(__name__)s, bantime="%(bantime)s", port="%(port)s
 action_mw = %(banaction)s[name=%(__name__)s, bantime="%(bantime)s", port="%(port)s", protocol="%(protocol)s", chain="%(chain)s"]
             %(mta)s-whois[name=%(__name__)s, sender="%(sender)s", dest="%(destemail)s", protocol="%(protocol)s", chain="%(chain)s"]
 
+# ban & send an e-mail and telegram notify with whois report to the destemail.
+action_mwt= %(banaction)s[name=%(__name__)s, bantime="%(bantime)s", port="%(port)s", protocol="%(protocol)s", chain="%(chain)s"]
+            %(mta)s-whois[name=%(__name__)s, sender="%(sender)s", dest="%(destemail)s", protocol="%(protocol)s", chain="%(chain)s"]
+	    telegram-whois[name=%(__name__)s, sender="%(sender)s", protoocol="%(protocol)s", chain="%(chain)s"]
+
 # ban & send an e-mail with whois report and relevant log lines
 # to the destemail.
 action_mwl = %(banaction)s[name=%(__name__)s, bantime="%(bantime)s", port="%(port)s", protocol="%(protocol)s", chain="%(chain)s"]
@@ -244,7 +249,7 @@ action = %(action_)s
 port    = ssh
 logpath = %(sshd_log)s
 backend = %(sshd_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [dropbear]
 
@@ -268,7 +273,7 @@ logpath  = %(auditd_log)s
 enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [apache-badbots]
 # Ban hosts which agent identifies spammer robots crawling the web
@@ -279,14 +284,14 @@ port     = http,https
 logpath  = %(apache_access_log)s
 bantime  = 48h
 maxretry = 1
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [apache-noscript]
 
 enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [apache-overflows]
 
@@ -294,7 +299,7 @@ enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [apache-nohome]
 
@@ -302,7 +307,7 @@ enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [apache-botsearch]
@@ -311,7 +316,7 @@ enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [apache-fakegooglebot]
@@ -321,7 +326,7 @@ port     = http,https
 logpath  = %(apache_access_log)s
 maxretry = 1
 ignorecommand = %(ignorecommands_dir)s/apache-fakegooglebot <ip>
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [apache-modsecurity]
@@ -330,7 +335,7 @@ enabled  = true
 port     = http,https
 logpath  = %(apache_error_log)s
 maxretry = 2
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [apache-shellshock]
@@ -339,7 +344,7 @@ enabled = true
 port    = http,https
 logpath = %(apache_error_log)s
 maxretry = 1
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [openhab-auth]
@@ -404,7 +409,7 @@ port     = http,https
 logpath  = %(roundcube_errors_log)s
 # Use following line in your jail.local if roundcube logs to journal.
 #backend = %(syslog_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [openwebmail]
 
@@ -558,7 +563,7 @@ mode    = more
 port    = smtp,465,submission
 logpath = %(postfix_log)s
 backend = %(postfix_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [postfix-rbl]
 
@@ -568,7 +573,7 @@ port     = smtp,465,submission
 logpath  = %(postfix_log)s
 backend  = %(postfix_backend)s
 maxretry = 1
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 
 [sendmail-auth]
@@ -577,7 +582,7 @@ enabled = true
 port    = submission,465,smtp
 logpath = %(syslog_mail)s
 backend = %(syslog_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [sendmail-reject]
 # To use more aggressive modes set filter parameter "mode" in jail.local:
@@ -588,7 +593,7 @@ enabled  = true
 port     = smtp,465,submission
 logpath  = %(syslog_mail)s
 backend  = %(syslog_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [qmail-rbl]
 
@@ -605,7 +610,7 @@ enabled = true
 port    = pop3,pop3s,imap,imaps,submission,465,sieve
 logpath = %(dovecot_log)s
 backend = %(dovecot_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [sieve]
 
@@ -661,7 +666,7 @@ port     = smtp,465,submission,imap,imaps,pop3,pop3s
 # "warn" level but overall at the smaller filesize.
 logpath  = %(postfix_log)s
 backend  = %(postfix_backend)s
-action  = %(action_mw)s 
+action  = %(action_mwt)s 
 
 [perdition]
 
@@ -771,7 +776,7 @@ enabled  = true
 port     = 3306
 logpath  = %(mysql_log)s
 backend  = %(mysql_backend)s
-action  = %(action_mw)s 
+action   = %(action_mwt)s 
 
 # Log wrong MongoDB auth (for details see filter 'filter.d/mongodb-auth.conf')
 [mongodb-auth]
@@ -911,4 +916,15 @@ backend = %(syslog_backend)s
 # Logs auth failures to apache2 error log
 port    = http,https
 logpath = %(apache_error_log)s
+
+
+[gitea]
+enabled  = true
+port     = http,https
+filter   = gitea
+logpath  = /usr/local/ban/gitea/log/gitea.log
+maxretry = 10
+findtime = 3600
+bantime  = 900
+action   = %(action_mwt)s
 
