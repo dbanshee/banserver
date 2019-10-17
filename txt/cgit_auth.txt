@@ -1,0 +1,5 @@
+Gitolite
+https://wiki.archlinux.org/index.php/Gitolite
+
+cgit filter
+https://github.com/repomaa/cgit-auth
