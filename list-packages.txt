@@ -11,7 +11,9 @@
  apt-get install firefox-esr
  apt-get install firmware-iwlwifi
  apt-get install galculator
+ apt-get install gedit
  apt-get install git
+ apt-get install glew-utils
  apt-get install hardinfo
  apt-get install hwinfo
  apt-get install iftop

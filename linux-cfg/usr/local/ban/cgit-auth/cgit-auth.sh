@@ -5,6 +5,9 @@ export LANG=C.UTF-8
 LOG_FILE=/tmp/cgit_auth.log
 #LOG_FILE=/dev/null
 
+ALLOWED_USER="banshee"
+ALLOWED_PASS="30069f3264078fe359c5703ac909edd4f7121dea1856ac6ce569919900a15bfe" # patata
+
 echo "############################" >> $LOG_FILE
 echo "Params :  $@"    >> $LOG_FILE
 #echo "Env : `env`"     >> $LOG_FILE
@@ -41,14 +44,27 @@ elif [ "$ACTION" = "authenticate-post" ] ; then
     done
     echo "Post Body : $POSTBODY" >> $LOG_FILE
 
-    # User Validation
-    # ...
-
-    # Set Cookie
+    # Response
     echo "Status: 302 Redirect"
     echo "Cache-Control: no-cache, no-store"
     echo "Location: /cgit"
-    echo "Set-Cookie: cgitauth=; HttpOnly"
+
+    # User Validation
+    # ...
+    user=$(echo $POSTBODY | grep -oP 'username=\K([^&]+)')
+    pass=$(echo $POSTBODY | grep -oP 'password=\K([^&]+)')
+
+    echo "User : $user, Password : $pass" >> $LOG_FILE
+
+    hash=$(echo "$pass" | sha256sum | cut -d' ' -f1)
+    echo "Hash : '${hash}', Allowed : ${ALLOWED_PASS}" >> $LOG_FILE
+
+    # Set Cookie 
+    if [ "$hash" != "$ALLOWED_PASS" ] ; then      
+      echo "Set-Cookie: cgitauth=; HttpOnly"
+    else
+      echo "Set-Cookie: cgitauth=${ALLOWED_USER}; HttpOnly"
+    fi
     echo ""
 
     exit 0
