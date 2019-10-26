@@ -6,7 +6,21 @@ LOG_FILE=/tmp/cgit_auth.log
 #LOG_FILE=/dev/null
 
 ALLOWED_USER="banshee"
-ALLOWED_PASS="patata" # patata
+ALLOWED_PASS="30069f3264078fe359c5703ac909edd4f7121dea1856ac6ce569919900a15bfe" # patata
+SECRET_FILENAME=/home/banshee/auth-secret
+SECRET_SIZE_BYTES=32
+
+
+function get_secret {
+  if [ ! -f $SECRET_FILENAME ] ; then
+    echo "Secret File : '$SECRET_FILENAME' not exists" >> $LOG_FILE
+    dd if=/dev/urandom bs=${SECRET_SIZE_BYTES} count=1 2> /dev/null | hexdump -v -e '/1 "%02X"' >> $SECRET_FILENAME
+  fi
+
+  cat $SECRET_FILENAME
+}
+
+
 
 # MAIN
 
@@ -63,10 +77,8 @@ elif [ "$ACTION" = "authenticate-post" ] ; then
     echo "Secret value : $(get_secret)" >> $LOG_FILE
 
     # Set Cookie 
-    #if [ "$hash" != "$ALLOWED_PASS" ] ; then      
-    if [ "$pass" != "${ALLOWED_PASS}" ] ; then
-      #echo "Set-Cookie: cgitauth=; HttpOnly"
-      :
+    if [ "$hash" != "$ALLOWED_PASS" ] ; then      
+      echo "Set-Cookie: cgitauth=; HttpOnly"
     else
       echo "Set-Cookie: cgitauth=${ALLOWED_USER}; HttpOnly"
     fi
