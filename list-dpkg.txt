@@ -5,10 +5,11 @@ Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
 +++-====================================-====================================-============-===============================================================================
 ii  adduser                              3.118                                all          add and remove users and groups
 ii  adwaita-icon-theme                   3.30.1-1                             all          default icon theme of GNOME
-ii  apache2                              2.4.38-3+deb10u1                     amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.38-3+deb10u1                     amd64        Apache HTTP Server (modules and other binary files)
-ii  apache2-data                         2.4.38-3+deb10u1                     all          Apache HTTP Server (common files)
-ii  apache2-utils                        2.4.38-3+deb10u1                     amd64        Apache HTTP Server (utility programs for web servers)
+ii  apache2                              2.4.38-3+deb10u3                     amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.38-3+deb10u3                     amd64        Apache HTTP Server (modules and other binary files)
+ii  apache2-data                         2.4.38-3+deb10u3                     all          Apache HTTP Server (common files)
+ii  apache2-utils                        2.4.38-3+deb10u3                     amd64        Apache HTTP Server (utility programs for web servers)
+ii  apachetop                            0.18.4-1                             amd64        Realtime Apache monitoring tool
 ii  apparmor                             2.13.2-10                            amd64        user-space parser utility for AppArmor
 ii  apt                                  1.8.2                                amd64        commandline package manager
 ii  apt-file                             3.2.2                                all          search for files within Debian packages (command-line interface)
@@ -38,6 +39,7 @@ ii  bzip2                                1.0.6-9.2~deb10u1                    am
 ii  ca-certificates                      20190110                             all          Common CA certificates
 rc  ca-certificates-java                 20190405                             all          Common CA certificates (JKS keystore)
 ii  cgit                                 1.2.1+git2.18.0-1                    amd64        hyperfast web frontend for git repositories written in C
+rc  cockpit-ws                           188-1                                amd64        Cockpit Web Service
 ii  comerr-dev:amd64                     2.1-1.44.5-1+deb10u2                 amd64        common error description library - headers and static libraries
 ii  console-setup                        1.193~deb10u1                        all          console font and keymap setup program
 ii  console-setup-linux                  1.193~deb10u1                        all          Linux specific part of console-setup
@@ -45,6 +47,8 @@ ii  coreutils                            8.30-3                               am
 ii  cpio                                 2.12+dfsg-9                          amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                  4:8.3.0-1                            amd64        GNU C preprocessor (cpp)
 ii  cpp-8                                8.3.0-6                              amd64        GNU C preprocessor
+rc  cracklib-runtime                     2.9.6-2                              amd64        runtime support for password checker library cracklib2
+rc  crda                                 3.18-1                               amd64        wireless Central Regulatory Domain Agent
 ii  cron                                 3.0pl1-134                           amd64        process scheduling daemon
 ii  cups-bsd                             2.2.10-6+deb10u1                     amd64        Common UNIX Printing System(tm) - BSD commands
 ii  cups-client                          2.2.10-6+deb10u1                     amd64        Common UNIX Printing System(tm) - client programs (SysV)
@@ -72,6 +76,7 @@ ii  disk-manager                         1.1.1-2                              al
 ii  distro-info-data                     0.41                                 all          information about the distributions' releases (data files)
 ii  dmidecode                            3.2-1                                amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.155-3                         amd64        Linux Kernel Device Mapper userspace library
+rc  dnsmasq-base                         2.80-1                               amd64        Small caching DNS proxy and DHCP/TFTP server
 ii  dosfstools                           4.1-2                                amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dovecot-core                         1:2.3.4.1-5+deb10u1                  amd64        secure POP3/IMAP server - core files
 ii  dovecot-imapd                        1:2.3.4.1-5+deb10u1                  amd64        secure POP3/IMAP server - IMAP daemon
@@ -88,9 +93,9 @@ rc  extra-xdg-menus                      1.0-4                                al
 ii  fail2ban                             0.10.2-2.1                           all          ban hosts that cause multiple authentication errors
 ii  fakeroot                             1.23-1                               amd64        tool for simulating superuser privileges
 ii  fdisk                                2.33.1-0.1                           amd64        collection of partitioning utilities
-ii  file                                 1:5.35-4                             amd64        Recognize the type of data in a file using "magic" numbers
+ii  file                                 1:5.35-4+deb10u1                     amd64        Recognize the type of data in a file using "magic" numbers
 ii  findutils                            4.6.0+git+20190209-2                 amd64        utilities for finding files--find, xargs
-ii  firefox-esr                          60.9.0esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
+ii  firefox-esr                          68.2.0esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
 ii  firmware-iwlwifi                     20190114-2                           all          Binary firmware for Intel Wireless cards
 ii  firmware-linux-free                  3.4                                  all          Binary firmware for various drivers in the Linux kernel
 ii  flex                                 2.6.4-6.2                            amd64        fast lexical analyzer generator
@@ -106,6 +111,7 @@ ii  g++                                  4:8.3.0-1                            am
 ii  g++-8                                8.3.0-6                              amd64        GNU C++ compiler
 ii  galculator                           2.1.4-1+b1                           amd64        scientific calculator
 ii  galera-3                             25.3.25-2                            amd64        Replication framework for transactional applications
+ii  gamin                                0.1.10-5+b1                          amd64        File and directory monitoring system
 ii  gawk                                 1:4.2.1+dfsg-1                       amd64        GNU awk, a pattern scanning and processing language
 ii  gcc                                  4:8.3.0-1                            amd64        GNU C compiler
 ii  gcc-8                                8.3.0-6                              amd64        GNU C compiler
@@ -212,13 +218,14 @@ ii  liba52-0.7.4:amd64                   0.7.4-19                             am
 ii  libaa1:amd64                         1.4p5-46                             amd64        ASCII art library
 ii  libaacs0:amd64                       0.9.0-2                              amd64        free-and-libre implementation of AACS
 ii  libacl1:amd64                        2.2.53-4                             amd64        access control list - shared library
+ii  libadns1                             1.5.0~rc1-1.1                        amd64        Asynchronous-capable DNS client library
 ii  libaio1:amd64                        0.3.112-3                            amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl               1.19.03-2                            all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-5+b1                            amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-3                               all          Perl module for three-way merge of textual data
 ii  libaom0:amd64                        1.0.0-3                              amd64        AV1 Video Codec Library
 ii  libapache2-mod-php                   2:7.3+69                             all          server-side, HTML-embedded scripting language (Apache 2 module) (default)
-ii  libapache2-mod-php7.3                7.3.9-1~deb10u1                      amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php7.3                7.3.11-1~deb10u1                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-wsgi                  4.6.5-1                              amd64        Python WSGI adapter module for Apache
 ii  libapparmor1:amd64                   2.13.2-10                            amd64        changehat AppArmor library
 ii  libapr1:amd64                        1.6.5-1+b1                           amd64        Apache Portable Runtime Library
@@ -273,6 +280,7 @@ ii  libblkid1:amd64                      2.33.1-0.1                           am
 ii  libblockdev-crypto2:amd64            2.20-7+deb10u1                       amd64        Crypto plugin for libblockdev
 ii  libblockdev-fs2:amd64                2.20-7+deb10u1                       amd64        file system plugin for libblockdev
 ii  libblockdev-loop2:amd64              2.20-7+deb10u1                       amd64        Loop device plugin for libblockdev
+ii  libblockdev-mdraid2:amd64            2.20-7+deb10u1                       amd64        MD RAID plugin for libblockdev
 ii  libblockdev-part-err2:amd64          2.20-7+deb10u1                       amd64        Partition error utility functions for libblockdev
 ii  libblockdev-part2:amd64              2.20-7+deb10u1                       amd64        Partitioning plugin for libblockdev
 ii  libblockdev-swap2:amd64              2.20-7+deb10u1                       amd64        Swap plugin for libblockdev
@@ -287,6 +295,7 @@ ii  libboost-thread1.67.0:amd64          1.67.0-13                            am
 ii  libbrotli1:amd64                     1.0.7-2                              amd64        library implementing brotli encoder and decoder (shared libraries)
 ii  libbs2b0:amd64                       3.1.0+dfsg-2.2                       amd64        Bauer stereophonic-to-binaural DSP library
 ii  libbsd0:amd64                        0.9.1-2                              amd64        utility functions from BSD systems - shared library
+ii  libbytesize1                         1.4-1                                amd64        library for common operations with sizes in bytes
 ii  libbz2-1.0:amd64                     1.0.6-9.2~deb10u1                    amd64        high-quality block-sorting file compressor library - runtime
 ii  libc-ares2:amd64                     1.14.0-1                             amd64        asynchronous name resolver
 ii  libc-bin                             2.28-10                              amd64        GNU C Library: Binaries
@@ -410,6 +419,7 @@ ii  libfribidi0:amd64                    1.0.5-3.1                            am
 ii  libfuse2:amd64                       2.9.9-1                              amd64        Filesystem in Userspace (library)
 ii  libgail-common:amd64                 2.24.32-3                            amd64        GNOME Accessibility Implementation Library -- common modules
 ii  libgail18:amd64                      2.24.32-3                            amd64        GNOME Accessibility Implementation Library -- shared libraries
+ii  libgamin0                            0.1.10-5+b1                          amd64        Client library for the gamin file and directory monitoring system
 ii  libgbm1:amd64                        18.3.6-2                             amd64        generic buffer management API -- runtime
 ii  libgc1c2:amd64                       1:7.6.4-0.4                          amd64        conservative garbage collector for C and C++
 ii  libgcc-8-dev:amd64                   8.3.0-6                              amd64        GCC support library (development files)
@@ -582,8 +592,8 @@ ii  liblz4-1:amd64                       1.8.3-1                              am
 ii  liblzma5:amd64                       5.2.4-1                              amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.10-0.1                             amd64        data compression library
 ii  libmad0:amd64                        0.15.1b-10                           amd64        MPEG audio decoder library
-ii  libmagic-mgc                         1:5.35-4                             amd64        File type determination library using "magic" numbers (compiled magic file)
-ii  libmagic1:amd64                      1:5.35-4                             amd64        Recognize the type of data in a file using "magic" numbers - library
+ii  libmagic-mgc                         1:5.35-4+deb10u1                     amd64        File type determination library using "magic" numbers (compiled magic file)
+ii  libmagic1:amd64                      1:5.35-4+deb10u1                     amd64        Recognize the type of data in a file using "magic" numbers - library
 ii  libmailtools-perl                    2.18-1                               all          Manipulate email in perl programs
 ii  libmailutils5:amd64                  1:3.5-3                              amd64        GNU Mail abstraction library
 ii  libmariadb3:amd64                    1:10.3.17-0+deb10u1                  amd64        MariaDB database client library
@@ -690,6 +700,7 @@ ii  libpsl5:amd64                        0.20.2-2                             am
 ii  libpulse-mainloop-glib0:amd64        12.2-4+deb10u1                       amd64        PulseAudio client libraries (glib support)
 ii  libpulse0:amd64                      12.2-4+deb10u1                       amd64        PulseAudio client libraries
 ii  libpulsedsp:amd64                    12.2-4+deb10u1                       amd64        PulseAudio OSS pre-load library
+rc  libpwquality-common                  1.4.0-3                              all          library for password quality checking and generation (data files)
 ii  libpython-all-dev:amd64              2.7.16-1                             amd64        package depending on all supported Python2 development packages
 ii  libpython-dev:amd64                  2.7.16-1                             amd64        header files and a static library for Python2
 ii  libpython-stdlib:amd64               2.7.16-1                             amd64        interactive high-level object-oriented language (Python2)
@@ -775,8 +786,8 @@ ii  libss2:amd64                         1.44.5-1+deb10u2                     am
 ii  libssh-4:amd64                       0.8.7-1                              amd64        tiny C SSH library (OpenSSL flavor)
 ii  libssh-gcrypt-4:amd64                0.8.7-1                              amd64        tiny C SSH library (gcrypt flavor)
 ii  libssh2-1:amd64                      1.8.0-2.1                            amd64        SSH2 client-side library
-ii  libssl-dev:amd64                     1.1.1d-0+deb10u1                     amd64        Secure Sockets Layer toolkit - development files
-ii  libssl1.1:amd64                      1.1.1d-0+deb10u1                     amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                     1.1.1d-0+deb10u2                     amd64        Secure Sockets Layer toolkit - development files
+ii  libssl1.1:amd64                      1.1.1d-0+deb10u2                     amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstartup-notification0:amd64       0.12-6                               amd64        library for program launch feedback (shared library)
 ii  libstdc++-8-dev:amd64                8.3.0-6                              amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     8.3.0-6                              amd64        GNU Standard C++ Library v3
@@ -1003,12 +1014,14 @@ ii  mariadb-server                       1:10.3.17-0+deb10u1                  al
 ii  mariadb-server-10.3                  1:10.3.17-0+deb10u1                  amd64        MariaDB database server binaries
 ii  mariadb-server-core-10.3             1:10.3.17-0+deb10u1                  amd64        MariaDB database core server files
 ii  mawk                                 1.3.3-17+b3                          amd64        a pattern scanning and text processing language
+ii  mdadm                                4.1-1                                amd64        tool to administer Linux MD arrays (software RAID)
 ii  meld                                 3.20.0-2                             all          graphical tool to diff and merge files
 ii  menu                                 2.1.47+b1                            amd64        generates programs menu for all menu-aware applications
 ii  mesa-utils                           8.4.0-1+b1                           amd64        Miscellaneous Mesa GL utilities
 ii  mesa-va-drivers:amd64                18.3.6-2                             amd64        Mesa VA-API video acceleration drivers
 ii  mesa-vdpau-drivers:amd64             18.3.6-2                             amd64        Mesa VDPAU video acceleration drivers
 ii  mime-support                         3.62                                 all          MIME files 'mime.types' & 'mailcap', and support programs
+rc  modemmanager                         1.10.0-1                             amd64        D-Bus service for managing modems
 ii  mount                                2.33.1-0.1                           amd64        tools for mounting and manipulating filesystems
 ii  mousepad                             0.4.1-2                              amd64        simple Xfce oriented text editor
 ii  mysql-common                         5.8+1.0.5                            all          MySQL database common files, e.g. /etc/mysql/my.cnf
@@ -1019,6 +1032,7 @@ ii  ncurses-term                         6.1+20181013-2+deb10u1               al
 ii  net-tools                            1.60+git20180626.aebd88e-1           amd64        NET-3 networking toolkit
 ii  netbase                              5.6                                  all          Basic TCP/IP networking system
 ii  nethogs                              0.8.5-2+b1                           amd64        Net top tool grouping bandwidth per process
+rc  network-manager                      1.14.6-2                             amd64        network management framework (daemon and userspace tools)
 ii  notification-daemon                  3.20.0-4                             amd64        daemon for displaying passive pop-up notifications
 ii  ntfs-3g                              1:2017.3.23AR.3-3                    amd64        read/write NTFS driver for FUSE
 ii  obconf                               1:2.0.4+git20150213-2                amd64        preferences manager for Openbox window manager
@@ -1029,12 +1043,13 @@ rc  openjdk-11-jre-headless:amd64        11.0.4+11-1~deb10u1                  am
 ii  openssh-client                       1:7.9p1-10+deb10u1                   amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:7.9p1-10+deb10u1                   amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:7.9p1-10+deb10u1                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                              1.1.1d-0+deb10u1                     amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                              1.1.1d-0+deb10u2                     amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.77                                 amd64        utility to detect other OSes on a set of drives
 ii  p11-kit                              0.23.15-2                            amd64        p11-glue utilities
 ii  p11-kit-modules:amd64                0.23.15-2                            amd64        p11-glue proxy and trust modules
 ii  p7zip                                16.02+dfsg-6                         amd64        7zr file archiver with high compression ratio
 ii  p7zip-full                           16.02+dfsg-6                         amd64        7z and 7za file archivers with high compression ratio
+rc  packagekit                           1.1.12-5                             amd64        Provides a package management service
 ii  parted                               3.2-25                               amd64        disk partition manipulator
 ii  passwd                               1:4.5-1.1                            amd64        change and administer password and group data
 ii  patch                                2.7.6-3+deb10u1                      amd64        Apply a diff file to an original
@@ -1058,17 +1073,17 @@ ii  php-net-socket                       1.0.14-2                             al
 ii  php-pear                             1:1.10.6+submodules+notgz-1.1        all          PEAR Base System
 ii  php-pspell                           2:7.3+69                             all          pspell module for PHP [default]
 ii  php-xml                              2:7.3+69                             all          DOM, SimpleXML, WDDX, XML, and XSL module for PHP [default]
-ii  php7.3-cli                           7.3.9-1~deb10u1                      amd64        command-line interpreter for the PHP scripting language
-ii  php7.3-common                        7.3.9-1~deb10u1                      amd64        documentation, examples and common module for PHP
-ii  php7.3-gd                            7.3.9-1~deb10u1                      amd64        GD module for PHP
-ii  php7.3-intl                          7.3.9-1~deb10u1                      amd64        Internationalisation module for PHP
-ii  php7.3-json                          7.3.9-1~deb10u1                      amd64        JSON module for PHP
-ii  php7.3-mbstring                      7.3.9-1~deb10u1                      amd64        MBSTRING module for PHP
-ii  php7.3-mysql                         7.3.9-1~deb10u1                      amd64        MySQL module for PHP
-ii  php7.3-opcache                       7.3.9-1~deb10u1                      amd64        Zend OpCache module for PHP
-ii  php7.3-pspell                        7.3.9-1~deb10u1                      amd64        pspell module for PHP
-ii  php7.3-readline                      7.3.9-1~deb10u1                      amd64        readline module for PHP
-ii  php7.3-xml                           7.3.9-1~deb10u1                      amd64        DOM, SimpleXML, WDDX, XML, and XSL module for PHP
+ii  php7.3-cli                           7.3.11-1~deb10u1                     amd64        command-line interpreter for the PHP scripting language
+ii  php7.3-common                        7.3.11-1~deb10u1                     amd64        documentation, examples and common module for PHP
+ii  php7.3-gd                            7.3.11-1~deb10u1                     amd64        GD module for PHP
+ii  php7.3-intl                          7.3.11-1~deb10u1                     amd64        Internationalisation module for PHP
+ii  php7.3-json                          7.3.11-1~deb10u1                     amd64        JSON module for PHP
+ii  php7.3-mbstring                      7.3.11-1~deb10u1                     amd64        MBSTRING module for PHP
+ii  php7.3-mysql                         7.3.11-1~deb10u1                     amd64        MySQL module for PHP
+ii  php7.3-opcache                       7.3.11-1~deb10u1                     amd64        Zend OpCache module for PHP
+ii  php7.3-pspell                        7.3.11-1~deb10u1                     amd64        pspell module for PHP
+ii  php7.3-readline                      7.3.11-1~deb10u1                     amd64        readline module for PHP
+ii  php7.3-xml                           7.3.11-1~deb10u1                     amd64        DOM, SimpleXML, WDDX, XML, and XSL module for PHP
 ii  pinentry-curses                      1.1.0-2                              amd64        curses-based PIN or pass-phrase entry dialog for GnuPG
 ii  pinentry-gnome3                      1.1.0-2                              amd64        GNOME 3 PIN or pass-phrase entry dialog for GnuPG
 ii  pkg-config                           0.29-6                               amd64        manage compile and link flags for libraries
@@ -1078,6 +1093,7 @@ ii  policykit-1                          0.105-25                             am
 ii  poppler-data                         0.4.9-2                              all          encoding data for the poppler PDF rendering library
 ii  poppler-utils                        0.71.0-5                             amd64        PDF utilities (based on Poppler)
 ii  postfix                              3.4.5-1                              amd64        High-performance mail transport agent
+ii  ppp                                  2.4.7-2+4.1                          amd64        Point-to-Point Protocol (PPP) - daemon
 ii  procps                               2:3.3.15-2                           amd64        /proc file system utilities
 ii  psmisc                               23.2-1                               amd64        utilities that use the proc file system
 ii  publicsuffix                         20190415.1030-1                      all          accurate, machine-readable list of domain name suffixes
@@ -1164,7 +1180,7 @@ ii  shared-mime-info                     1.10-1                               am
 ii  socat                                1.7.3.2-2                            amd64        multipurpose relay for bidirectional data transfer
 ii  sound-theme-freedesktop              0.8-2                                all          freedesktop.org sound theme
 ii  ssl-cert                             1.0.39                               all          simple debconf wrapper for OpenSSL
-ii  sudo                                 1.8.27-1                             amd64        Provide limited super user privileges to specific users
+ii  sudo                                 1.8.27-1+deb10u1                     amd64        Provide limited super user privileges to specific users
 ii  synaptic                             0.84.6                               amd64        Graphical package manager
 ii  systemd                              241-7~deb10u1                        amd64        system and service manager
 ii  systemd-sysv                         241-7~deb10u1                        amd64        system and service manager - SysV links
@@ -1175,7 +1191,7 @@ ii  tasksel                              3.53                                 al
 ii  tasksel-data                         3.53                                 all          official tasks used for installation of Debian systems
 ii  tcl                                  8.6.9+1                              amd64        Tool Command Language (default version) - shell
 ii  tcl8.6                               8.6.9+dfsg-2                         amd64        Tcl (the Tool Command Language) v8.6 - shell
-ii  tcpdump                              4.9.2-3                              amd64        command-line network traffic analyzer
+ii  tcpdump                              4.9.3-1~deb10u1                      amd64        command-line network traffic analyzer
 ii  tdb-tools                            1.3.16-2+b1                          amd64        Trivial Database - bundled binaries
 ii  telnet                               0.17-41.2                            amd64        basic telnet client
 ii  tk                                   8.6.9+1                              amd64        Toolkit for Tcl and X11 (default version) - windowing shell
@@ -1187,6 +1203,7 @@ ii  ucf                                  3.0038+nmu1                          al
 ii  udev                                 241-7~deb10u1                        amd64        /dev/ and hotplug management daemon
 ii  udisks2                              2.8.1-4                              amd64        D-Bus service to access and manipulate storage devices
 ii  unzip                                6.0-23+deb10u1                       amd64        De-archiver for .zip files
+rc  usb-modeswitch                       2.5.2+repack0-2                      amd64        mode switching tool for controlling "flip flop" USB devices
 ii  usb.ids                              2019.07.27-0+deb10u1                 all          USB ID Repository
 ii  usbmuxd                              1.1.1~git20181007.f838cf6-1          amd64        USB multiplexor daemon for iPhone and iPod Touch devices
 ii  usbutils                             1:010-3                              amd64        Linux USB utilities
@@ -1220,6 +1237,7 @@ ii  wireshark                            2.6.8-1.1                            am
 ii  wireshark-common                     2.6.8-1.1                            amd64        network traffic analyzer - common files
 ii  wireshark-qt                         2.6.8-1.1                            amd64        network traffic analyzer - Qt version
 ii  wondershaper                         1.1a-10                              all          Easy to use traffic shaping script
+rc  wpasupplicant                        2:2.7+git20190128+0c1e29f-6+deb10u1  amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  wspanish                             1.0.28                               all          Spanish dictionary words for /usr/share/dict
 ii  x11-apps                             7.7+7                                amd64        X applications
 ii  x11-common                           1:7.7+19                             all          X Window System (X.Org) infrastructure
