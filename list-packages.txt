@@ -20,6 +20,7 @@
  apt-get install hwinfo
  apt-get install iftop
  apt-get install iotop
+ apt-get install java-package
  apt-get install libapache2-mod-wsgi
  apt-get install libkrb5-dev
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
@@ -37,6 +38,7 @@
  apt-get install mariadb-server
  apt-get install meld
  apt-get install mesa-utils
+ apt-get install mldonkey-server
  apt-get install mousepad
  apt-get install nethogs
  apt-get install net-tools
@@ -46,6 +48,7 @@
  apt-get install postfix
  apt-get install psmisc
  apt-get install python-pip
+ apt-get install rar
  apt-get install remmina
  apt-get install roundcube roundcube-plugins
  apt-get install samba
