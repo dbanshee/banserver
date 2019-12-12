@@ -116,8 +116,6 @@ export PATH=$PATH:/usr/local/ban/scripts
 export MAIL="~/Maildir/"
 export MBOX="~/Maildir/"
 alias sc='screenBanServer.sh'
-alias tg='telegram-send -g "$([ $? = 0 ] && echo "" || echo "error: ") $(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*tg$//'\'')"'
-
 
 echo "
 ///////////////////////////////////////////
@@ -126,14 +124,15 @@ echo "
 //  Date : `date`
 ///////////////////////////////////////////
 
-  Domains: banserver.bansheerocks.com  gitea.bansheerocks.com bodaclaunoel.cyberlove.us
+  Domains: banpi.bansheerocks.com  gitea.bansheerocks.com bodaclaunoel.cyberlove.us
 
   Port Forward: SSH -> 9722:22  HTTP -> 9780:80  HTTPS -> 9743:443  VNC -> 9759:5900  RDP -> 9789:3389  FTP -> 9721:21
 
-  Web:   https://banserver.bansheerocks.com/banserver.html
-         https://banserver.bansheerocks.com/mail/
+  Web:   https://banpi.bansheerocks.com:9743/banpi.html
+         https://banpi.bansheerocks.com:9743/mail
+	 https://banpi.bansheerocks.com:9743/jupyter/
          https://gitea.bansheerocks.com
-         http://bodaclaunoel.cyberlove.us
+         http://bodaclaunoel.cyberlove.us	  
 
   Execute 'sc' to enter Default BanServer Screen
 
