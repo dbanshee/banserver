@@ -47,3 +47,9 @@ python3 -m ipykernel install --user --name=python3_virtualenv/
 336  vim /home/banshee/.local/share/jupyter/kernels/python3_virtualenv/kernel.json
 
 Se creo mal el fichero del kernel. Apuntaba python3 en lugar del al virtualenv creado. Se modifico el fichero a mano
+
+JupyterLab en JupyterHub
+
+sudo pip3 install jupyterlab
+sudo jupyter labextension install @jupyterlab/hub-extension
+-- set c.Spawner.default_url = '/lab' in jupyterhub_config.py 
