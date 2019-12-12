@@ -1,0 +1,13 @@
+
+-- Instalacion
+sudo pip install jupyterlab
+jupyter kernelspec list
+
+? sudo apt install ipython3
+sudo pip3 install ipykernel
+jupyter kernelspec list
+
+
+-- Ejecucion
+jupyter notebook
+jupyter lab
