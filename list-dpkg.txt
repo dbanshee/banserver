@@ -103,7 +103,7 @@ ii  fakeroot                             1.23-1                               am
 ii  fdisk                                2.33.1-0.1                           amd64        collection of partitioning utilities
 ii  file                                 1:5.35-4+deb10u1                     amd64        Recognize the type of data in a file using "magic" numbers
 ii  findutils                            4.6.0+git+20190209-2                 amd64        utilities for finding files--find, xargs
-ii  firefox-esr                          68.2.0esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
+ii  firefox-esr                          68.3.0esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
 ii  firmware-iwlwifi                     20190114-2                           all          Binary firmware for Intel Wireless cards
 ii  firmware-linux-free                  3.4                                  all          Binary firmware for various drivers in the Linux kernel
 ii  firmware-misc-nonfree                20190114-2                           all          Binary firmware for various drivers in the Linux kernel
@@ -147,8 +147,8 @@ ii  gir1.2-peas-1.0:amd64                1.22.0-4                             am
 ii  gir1.2-spiceclientglib-2.0:amd64     0.35-2                               amd64        GObject for communicating with Spice servers (GObject-Introspection)
 ii  gir1.2-spiceclientgtk-3.0:amd64      0.35-2                               amd64        GTK3 widget for SPICE clients (GObject-Introspection)
 ii  gir1.2-vte-2.91:amd64                0.54.2-2                             amd64        GObject introspection data for the VTE library
-ii  git                                  1:2.20.1-2                           amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:2.20.1-2                           all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:2.20.1-2+deb10u1                   amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:2.20.1-2+deb10u1                   all          fast, scalable, distributed revision control system (manual pages)
 ii  glew-utils                           2.1.0-4                              amd64        OpenGL Extension Wrangler - utilities
 ii  glib-networking:amd64                2.58.0-2                             amd64        network-related giomodules for GLib
 ii  glib-networking-common               2.58.0-2                             all          network-related giomodules for GLib - data files
@@ -664,7 +664,7 @@ ii  libnotify-bin                        0.7.7-4                              am
 ii  libnotify4:amd64                     0.7.7-4                              amd64        sends desktop notifications to a notification daemon
 ii  libnpth0:amd64                       1.6-1                                amd64        replacement for GNU Pth using system threads
 ii  libnspr4:amd64                       2:4.20-1                             amd64        NetScape Portable Runtime Library
-ii  libnss3:amd64                        2:3.42.1-1+deb10u1                   amd64        Network Security Service libraries
+ii  libnss3:amd64                        2:3.42.1-1+deb10u2                   amd64        Network Security Service libraries
 ii  libntfs-3g883                        1:2017.3.23AR.3-3                    amd64        read/write NTFS driver for FUSE (runtime library)
 ii  libnuma1:amd64                       2.0.12-1                             amd64        Libraries for controlling NUMA policy
 ii  liboauth0:amd64                      1.0.3-3                              amd64        C library implementing OAuth Core 1.0a API (runtime)
