@@ -7,7 +7,6 @@ jupyter kernelspec list
 sudo pip3 install ipykernel
 jupyter kernelspec list
 
-
 -- Ejecucion
 jupyter notebook
 jupyter lab
@@ -62,5 +61,19 @@ jupyter labextension list
 sudo jupyter labextension install @mflevine/jupyterlab_html
 
 -- Git Extension
-pip install --upgrade jupyterlab-git
-jupyter lab build
+sudo pip install --upgrade jupyterlab-git
+sudo jupyter lab build
+
+-- GDrive Extensino
+sudo jupyter labextension install @jupyterlab/google-drive
+
+-- SQL Extension
+sudo pip install jupyterlab_sql
+sudo jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+sudo jupyter lab build
+
+-- Table of Contents
+sudo jupyter labextension install @jupyterlab/toc
+
+-- Data Registry
+sudo jupyter labextension install @jupyterlab/dataregistry-extension
