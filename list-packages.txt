@@ -6,7 +6,9 @@
  apt-get install arduino
  apt-get install atop clinfo cockpit
  apt-get install bash-completion
+ apt-get install bazel
  apt-get install cgit
+ apt-get install curl
  apt-get install disk-manager
  apt-get install dovecot-common dovecot-imapd
  apt-get install ethtool
@@ -18,6 +20,7 @@
  apt-get install gedit
  apt-get install git
  apt-get install glew-utils
+ apt-get install gradle
  apt-get install hardinfo
  apt-get install hwinfo
  apt-get install iftop
@@ -48,9 +51,13 @@
  apt-get install net-tools
  apt-get install --no-install-recommends xinit
  apt-get install --no-install-recommends xserver-xorg
+ apt-get install npm
+ apt-get install openjdk-11-jdk
  apt-get install openssh-server
  apt-get install postfix
  apt-get install psmisc
+ apt-get install python3-dev
+ apt-get install python3-pip
  apt-get install python-pip
  apt-get install rar
  apt-get install remmina
@@ -79,6 +86,7 @@
  apt-get -o APT
  apt-get purge arduino
  apt-get purge atop clinfo cockpit
+ apt-get purge bazel
  apt-get purge mariadb-common
  apt-get purge mariadb-server
  apt-get purge mariadb-server-10.3 mariadb-server-core-10.3

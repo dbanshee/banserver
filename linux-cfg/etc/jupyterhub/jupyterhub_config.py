@@ -35,6 +35,7 @@
 #  
 #  If set to 0, no limit is enforced.
 #c.JupyterHub.active_server_limit = 0
+c.JupyterHub.active_server_limit = 3 
 
 ## Duration (in seconds) to determine the number of active users.
 #c.JupyterHub.active_user_window = 1800
@@ -346,6 +347,7 @@ c.JupyterHub.base_url = '/jupyter/'
 
 ## File to write PID Useful for daemonizing JupyterHub.
 #c.JupyterHub.pid_file = ''
+c.JupyterHub.pid_file = '/var/run/jupyter.pid'
 
 ## The public facing port of the proxy.
 #  
@@ -602,6 +604,7 @@ c.JupyterHub.base_url = '/jupyter/'
 #  implement this support. A custom spawner **must** add support for this setting
 #  for it to be enforced.
 #c.Spawner.cpu_limit = None
+c.Spawner.cpu_limit = 0.5
 
 ## Enable debug-logging of the single-user server
 #c.Spawner.debug = False
@@ -617,6 +620,7 @@ c.JupyterHub.base_url = '/jupyter/'
 #  - Start with `/notebooks` instead of `/tree` if `default_url` points to a notebook instead of a directory.
 #  - You can set this to `/lab` to have JupyterLab start by default, rather than Jupyter Notebook.
 #c.Spawner.default_url = ''
+c.Spawner.default_url = '/lab'
 
 ## Disable per-user configuration of single-user servers.
 #  
@@ -699,6 +703,7 @@ c.JupyterHub.base_url = '/jupyter/'
 #  implement this support. A custom spawner **must** add support for this setting
 #  for it to be enforced.
 #c.Spawner.mem_limit = None
+c.Spawner.mem_limit = '1G'
 
 ## Path to the notebook directory for the single-user server.
 #  
@@ -820,6 +825,7 @@ c.Spawner.notebook_dir = '~/jupyter'
 #  
 #  Defaults to an empty set, in which case no user has admin access.
 #c.Authenticator.admin_users = set()
+c.Authenticator.admin_users = { 'banshee' }
 
 ## The max age (in seconds) of authentication info before forcing a refresh of
 #  user auth info.
@@ -933,6 +939,7 @@ c.Spawner.notebook_dir = '~/jupyter'
 #  
 #  If empty, does not perform any additional restriction.
 #c.Authenticator.whitelist = set()
+c.Authenticator.whitelist = { 'banshee' }
 
 #------------------------------------------------------------------------------
 # CryptKeeper(SingletonConfigurable) configuration
@@ -947,3 +954,7 @@ c.Spawner.notebook_dir = '~/jupyter'
 
 ## The number of threads to allocate for encryption
 #c.CryptKeeper.n_threads = 2
+
+
+# Ban
+#c.LocalAuthenticator.create_system_users = True

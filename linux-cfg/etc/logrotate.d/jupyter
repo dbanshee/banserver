@@ -1,0 +1,9 @@
+/var/log/jupyterhub.log {
+  create 664 root banserver
+  rotate 2
+  monthly
+  compress
+  missingok
+  notifempty
+}
+ 

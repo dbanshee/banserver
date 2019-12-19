@@ -404,7 +404,7 @@ logpath = %(lighttpd_error_log)s
 
 [roundcube-auth]
 
-enabled  = true
+#enabled  = true
 port     = http,https
 logpath  = %(roundcube_errors_log)s
 # Use following line in your jail.local if roundcube logs to journal.
@@ -918,13 +918,25 @@ port    = http,https
 logpath = %(apache_error_log)s
 
 
-[gitea]
-enabled  = true
-port     = http,https
-filter   = gitea
-logpath  = /usr/local/ban/gitea/log/gitea.log
-maxretry = 10
-findtime = 3600
-bantime  = 900
-action   = %(action_mwt)s
+#[gitea]
+#enabled  = true
+#port     = http,https
+#filter   = gitea
+#logpath  = /usr/local/ban/gitea/log/gitea.log
+#maxretry = 10
+#findtime = 3600
+#bantime  = 900
+#action   = %(action_mwt)s
+
+
+#[jupyterhub]
+#enabled  = true
+#port     = http,https
+#filter   = jupyterhub
+#logpath  = /var/log/jupyterhub.log
+#backend  = systemd
+#maxretry = 5
+#findtime = 3600
+#bantime  = 900
+#action   = %(action_mwt)s
 

@@ -4,7 +4,7 @@ A partir de la version 1.5 los binarios oficiales son compilados con extensiones
 El interprete Python se cerrara elevando un core dumped al importar tensorflow
 Es necesario compilar los fuentes con soporte nativo para la arquitectura donde se vaya a ejecutar.
 
-(https://tech.amikelive.com/node-887/how-to-resolve-error-illegal-instruction-core-dumped-when-running-import-tensorflow-in-a-python-program/)
+https://tech.amikelive.com/node-887/how-to-resolve-error-illegal-instruction-core-dumped-when-running-import-tensorflow-in-a-python-program/
 
 #### Instrucciones descargar desde source
 (https://www.tensorflow.org/install/source)

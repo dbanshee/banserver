@@ -53,3 +53,14 @@ JupyterLab en JupyterHub
 sudo pip3 install jupyterlab
 sudo jupyter labextension install @jupyterlab/hub-extension
 -- set c.Spawner.default_url = '/lab' in jupyterhub_config.py 
+
+
+-- Extensions:
+jupyter labextension list
+
+-- Html Extension
+sudo jupyter labextension install @mflevine/jupyterlab_html
+
+-- Git Extension
+pip install --upgrade jupyterlab-git
+jupyter lab build
