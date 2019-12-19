@@ -4,13 +4,15 @@
 
 - File Formats: <https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html>
 
-- HTML Render extension: <https://github.com/mflevine/jupyterlab_html>
-
 >jupyter labextension install @mflevine/jupyterlab_html
 
 - Extensions: <https://github.com/topics/jupyterlab-extension>
 
+- Lot of Extensions: <https://github.com/markusschanta/awesome-jupyter>
+
 - Top Extensions: <https://awesomeopensource.com/projects/jupyterlab-extension>
+
+    - HTML Render extension: <https://github.com/mflevine/jupyterlab_html>
 
     - Awesome Extension: <https://awesomeopensource.com/project/Yogayu/awesome-jupyterlab-extension>
 
@@ -40,3 +42,18 @@
     
     - Variable Inspector: <https://github.com/lckr/jupyterlab-variableInspector>
     
+    - Tutor: <https://github.com/lgpage/nbtutor>
+
+    - Callback: <https://github.com/osteele/callgraph>
+    
+    - Dash separate Plot: <https://github.com/plotly/jupyterlab-dash>
+    
+    - 3D Plots: <https://github.com/maartenbreddels/ipyvolume>
+    
+    - WebRTC: <https://github.com/maartenbreddels/ipywebrtc>
+    
+    - GMaps Plot: <https://github.com/pbugnion/gmaps>
+    
+    - Convert Notebook to HTML/PDF: <https://github.com/takluyver/bookbook>
+    
+    - Python bytecode: <https://github.com/jtpio/jupyterlab-python-bytecode>

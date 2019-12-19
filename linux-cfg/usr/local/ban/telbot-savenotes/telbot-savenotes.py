@@ -3,12 +3,8 @@
 # This program is dedicated to the public domain under the CC0 license.
 
 """
-Simple Bot to reply to Telegram messages.
-First, a few handler functions are defined. Then, those functions are passed to
-the Dispatcher and registered at their respective places.
-Then, the bot is started and runs until we press Ctrl-C on the command line.
+Banserver Telegram Bot Savenotes.
 Usage:
-Basic Echobot example, repeats messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
@@ -18,6 +14,8 @@ import logging
 from config import Config
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
+import requests
+from bs4 import BeautifulSoup
 
 appDir=os.path.dirname(__file__)
 config = Config(os.path.join(appDir, 'telbot-savenotes.cfg'))
@@ -27,8 +25,7 @@ savenotes_path=config.savenotes_path
 
 
 # Enable logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-
+logging.basicConfig(format='[TELBOT-SAVENOTES]|[%(asctime)s] -- %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
@@ -89,13 +86,45 @@ def saveNote(msg):
     now = datetime.datetime.now()
     formattedDate=now.strftime("%Y-%m-%d %H:%M:%S")
     
+    note_list = []
+    if msg.startswith('http://') or msg.startswith('https://'):
+        url = msg
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, features="html.parser")
+        metas = soup.find_all('meta')
+
+        website = [ meta.attrs['content'] for meta in metas if 'property' in meta.attrs and meta.attrs['property'] == 'og:site_name' ]
+        title = [ meta.attrs['content'] for meta in metas if 'property' in meta.attrs and meta.attrs['property'] == 'og:title' ]
+        
+        if not title:
+            title = [ meta.attrs['content'] for meta in metas if 'name' in meta.attrs and meta.attrs['name'] == 'title' ]
+            
+        description = [ meta.attrs['content'] for meta in metas if 'property' in meta.attrs and meta.attrs['property'] == 'og:description' ]
+        if not description:
+            description = [ meta.attrs['content'] for meta in metas if 'name' in meta.attrs and meta.attrs['name'] == 'description' ]     
+            
+        imgUrl = [ meta.attrs['content'] for meta in metas if 'property' in meta.attrs and meta.attrs['property'] == 'og:image' ]
+        
+        
+        if website:
+            note_list.append("> **[{}]** -".format(website[0]))
+        if title:
+            note_list.append("{}\\".format(title[0]))
+        if description:
+            note_list.append("{}\\".format(description[0]))
+        note_list.append("<{}>\\".format(url))
+        if imgUrl:
+            note_list.append("![Image]({})".format(imgUrl[0]))
+        note_list.append('\n')
+    else:
+        note_list.append(">{}".format(msg))
+        note_list.append('\n')
+                             
+        
     with open(savenotes_path, "a") as myfile:
         myfile.write("- **["+formattedDate+"]**\n")
-        myfile.write(">"+msg)
-        myfile.write("\n\n")
+        myfile.write('\n'.join(note_list))
         myfile.flush()
         
-    
-
 if __name__ == '__main__':
     main()
