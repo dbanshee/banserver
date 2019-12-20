@@ -7,6 +7,12 @@
 
 ## Unclassified
 
+- **[2019-12-20 19:44:39]**
+> **[Aprende Machine Learning]** -¿Cómo funcionan las Convolutional Neural Networks? Visión por Ordenador\
+En este artículo intentaré explicar la teoría relativa a las Redes Neuronales Convolucionales (en inglés CNN) que son el algoritmo utilizado en Aprendizaje Automático para dar la capacidad de «ver»…\
+<https://www.aprendemachinelearning.com/como-funcionan-las-convolutional-neural-networks-vision-por-ordenador/>\
+![Image](https://i1.wp.com/www.aprendemachinelearning.com/wp-content/uploads/2018/11/convolutional_neural_network.png?fit=560%2C315&ssl=1)
+
 - **[2019-12-20 15:32:36]**
 > **[GitHub]** -P2PSP/P2PSP.github.io\
 P2PSP Website. Contribute to P2PSP/P2PSP.github.io development by creating an account on GitHub.\
