@@ -74,3 +74,7 @@ Please specify optimization flags to use during compilation when bazel option "-
 
 ### Pip Package
     ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
+
+
+### Install pip package
+    sudo pip3 install /tmp/tensorflow_pkg/tensorflow-1.14.0-cp37-cp37m-linux_x86_64.whl
