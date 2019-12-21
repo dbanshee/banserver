@@ -113,6 +113,11 @@ def getUrl(s):
         return None
 
 def makeUrlNote(url, msg):
+    website = None
+    title = None
+    description = None
+    imgUrl = None
+
     response = requests.get(url)
     soup = BeautifulSoup(response.text, features="html.parser")
     metas = soup.find_all('meta')

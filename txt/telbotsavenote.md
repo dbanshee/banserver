@@ -7,6 +7,11 @@
 
 ## Unclassified
 
+- **[2019-12-21 13:00:41]**
+Git repository access control\
+<https://wincent.com/wiki/Git_repository_access_control>\
+![Image](https://wincent.com/assets/static/logo.png)
+
 - **[2019-12-20 19:44:39]**
 > **[Aprende Machine Learning]** -¿Cómo funcionan las Convolutional Neural Networks? Visión por Ordenador\
 En este artículo intentaré explicar la teoría relativa a las Redes Neuronales Convolucionales (en inglés CNN) que son el algoritmo utilizado en Aprendizaje Automático para dar la capacidad de «ver»…\
