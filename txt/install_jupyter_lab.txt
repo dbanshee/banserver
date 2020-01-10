@@ -54,6 +54,13 @@ sudo jupyter labextension install @jupyterlab/hub-extension
 -- set c.Spawner.default_url = '/lab' in jupyterhub_config.py 
 
 
+-- Instalacion code autocompletino
+sudo pip3 install pyreadline
+
+
+-- Librerias adicionales
+sudo pip3 install pillow
+
 -- Extensions:
 jupyter labextension list
 

@@ -31,7 +31,7 @@ ii  base-files                            10.3+deb10u2                         a
 ii  base-passwd                           3.5.46                               amd64        Debian base system master password and group files
 ii  bash                                  5.0-4                                amd64        GNU Bourne Again SHell
 ii  bash-completion                       1:2.8-6                              all          programmable completion for the bash shell
-ii  bazel                                 0.25.2                               amd64        Bazel is a tool that automates software builds and tests.
+hi  bazel                                 0.25.2                               amd64        Bazel is a tool that automates software builds and tests.
 ii  bc                                    1.07.1-2+b1                          amd64        GNU bc arbitrary precision calculator language
 ii  binutils                              2.31.1-16                            amd64        GNU assembler, linker and binary utilities
 ii  binutils-common:amd64                 2.31.1-16                            amd64        Common files for the GNU assembler, linker and binary utilities
@@ -885,9 +885,9 @@ ii  librsvg2-common:amd64                 2.44.10-2.1                          a
 ii  librtmp1:amd64                        2.4+20151223.gitfa8646d.1-2          amd64        toolkit for RTMP streams (shared library)
 ii  librubberband2:amd64                  1.8.1-7                              amd64        audio time-stretching and pitch-shifting library
 ii  libsamplerate0:amd64                  0.1.9-2                              amd64        Audio sample rate conversion library
-ii  libsasl2-2:amd64                      2.1.27+dfsg-1                        amd64        Cyrus SASL - authentication abstraction library
-ii  libsasl2-modules:amd64                2.1.27+dfsg-1                        amd64        Cyrus SASL - pluggable authentication modules
-ii  libsasl2-modules-db:amd64             2.1.27+dfsg-1                        amd64        Cyrus SASL - pluggable authentication modules (DB)
+ii  libsasl2-2:amd64                      2.1.27+dfsg-1+deb10u1                amd64        Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules:amd64                2.1.27+dfsg-1+deb10u1                amd64        Cyrus SASL - pluggable authentication modules
+ii  libsasl2-modules-db:amd64             2.1.27+dfsg-1+deb10u1                amd64        Cyrus SASL - pluggable authentication modules (DB)
 ii  libsbc1:amd64                         1.4-1                                amd64        Sub Band CODEC library - runtime
 ii  libscrypt0                            1.21-3                               amd64        scrypt shared library
 ii  libsdl-image1.2:amd64                 1.2.12-10+deb10u1                    amd64        Image loading library for Simple DirectMedia Layer 1.2, libraries
@@ -1151,6 +1151,7 @@ ii  libxxf86dga1:amd64                    2:1.1.4-1+b3                         a
 ii  libxxf86vm1:amd64                     1:1.1.4-1+b2                         amd64        X11 XFree86 video mode extension library
 ii  libxz-java                            1.8-2                                all          Java library with a complete implementation of XZ data compression
 ii  libyajl2:amd64                        2.1.0-3                              amd64        Yet Another JSON Library
+ii  libyaml-0-2:amd64                     0.2.1-1                              amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-snake-java                    1.23-1                               all          YAML parser and emitter for the Java programming language
 ii  libyelp0:amd64                        3.31.90-1                            amd64        Library for the GNOME help browser
 ii  libzmq5:amd64                         4.3.1-4+deb10u1                      amd64        lightweight messaging kernel (shared library)
@@ -1494,6 +1495,8 @@ ii  p11-kit-modules:amd64                 0.23.15-2                            a
 ii  p7zip                                 16.02+dfsg-6                         amd64        7zr file archiver with high compression ratio
 ii  p7zip-full                            16.02+dfsg-6                         amd64        7z and 7za file archivers with high compression ratio
 rc  packagekit                            1.1.12-5                             amd64        Provides a package management service
+ii  pandoc                                2.2.1-3+b2                           amd64        general markup converter
+ii  pandoc-data                           2.2.1-3                              all          general markup converter - data files
 ii  parted                                3.2-25                               amd64        disk partition manipulator
 ii  passwd                                1:4.5-1.1                            amd64        change and administer password and group data
 ii  patch                                 2.7.6-3+deb10u1                      amd64        Apply a diff file to an original

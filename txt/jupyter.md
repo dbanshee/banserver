@@ -57,3 +57,6 @@
     - Convert Notebook to HTML/PDF: <https://github.com/takluyver/bookbook>
     
     - Python bytecode: <https://github.com/jtpio/jupyterlab-python-bytecode>
+    
+    - Convert Notebooks to MD
+<>jupytex
