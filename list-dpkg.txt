@@ -110,7 +110,7 @@ ii  fakeroot                              1.23-1                               a
 ii  fdisk                                 2.33.1-0.1                           amd64        collection of partitioning utilities
 ii  file                                  1:5.35-4+deb10u1                     amd64        Recognize the type of data in a file using "magic" numbers
 ii  findutils                             4.6.0+git+20190209-2                 amd64        utilities for finding files--find, xargs
-ii  firefox-esr                           68.3.0esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
+ii  firefox-esr                           68.4.1esr-1~deb10u1                  amd64        Mozilla Firefox web browser - Extended Support Release (ESR)
 ii  firmware-iwlwifi                      20190114-2                           all          Binary firmware for Intel Wireless cards
 ii  firmware-linux-free                   3.4                                  all          Binary firmware for various drivers in the Linux kernel
 ii  firmware-misc-nonfree                 20190114-2                           all          Binary firmware for various drivers in the Linux kernel
@@ -1627,11 +1627,13 @@ ii  python3-setuptools                    40.8.0-1                             a
 ii  python3-six                           1.12.0-1                             all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-systemd                       234-2+b1                             amd64        Python 3 bindings for systemd
 ii  python3-urllib3                       1.24.1-1                             all          HTTP library with thread-safe connection pooling for Python3
+ii  python3-venv                          3.7.3-1                              amd64        pyvenv-3 binary for python3 (default python3 version)
 ii  python3-wheel                         0.32.3-2                             all          built-package format for Python
 ii  python3-xdg                           0.25-5                               all          Python 3 library to access freedesktop.org standards
 ii  python3.7                             3.7.3-2                              amd64        Interactive high-level object-oriented language (version 3.7)
 ii  python3.7-dev                         3.7.3-2                              amd64        Header files and a static library for Python (v3.7)
 ii  python3.7-minimal                     3.7.3-2                              amd64        Minimal subset of the Python language (version 3.7)
+ii  python3.7-venv                        3.7.3-2                              amd64        Interactive high-level object-oriented language (pyvenv binary, version 3.7)
 ii  qemu-kvm                              1:3.1+dfsg-8+deb10u3                 amd64        QEMU Full virtualization on x86 hardware
 ii  qemu-system-common                    1:3.1+dfsg-8+deb10u3                 amd64        QEMU full system emulation binaries (common files)
 ii  qemu-system-data                      1:3.1+dfsg-8+deb10u3                 all          QEMU full system emulation (data files)

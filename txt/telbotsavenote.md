@@ -7,6 +7,110 @@
 
 ## Unclassified
 
+- **[2020-01-14 19:52:55]**
+> **[Coral]** -Products | Coral\
+Helping you bring local AI to applications from prototype to production\
+<https://coral.ai/products/>\
+![Image](https://lh3.googleusercontent.com/TLsBmHoguy_7DoTayiMqS5mxgxAVfX351QcNVL8KkPyh_F6ZxR6Kx-xX_4a7krPlMwUwIuw8kSVsNItfx-apuqEYNCjnOI8Hcj35GQ=s0)
+
+- **[2020-01-14 19:51:16]**
+> **[Coral]** -Edge TPU performance benchmarks | Coral\
+Inferencing speed benchmarks for the Edge TPU\
+<https://coral.ai/docs/edgetpu/benchmarks/>\
+![Image](/static/images/social-horizontal.png)
+
+- **[2020-01-14 17:13:46]**
+> **[Profesional Review]** -Qué son los Nvidia CUDA Cores y cuál es su importancia\
+¿Qué son los CUDA Cores y cuál es su importancia? En este artículo os lo explicamos de una forma muy sencilla y entendible.\
+<https://www.profesionalreview.com/2018/10/09/que-son-nvidia-cuda-core/>\
+![Image](https://www.profesionalreview.com/wp-content/uploads/2018/10/Qué-son-los-Nvidia-CUDA-Cores-2.jpg)
+
+- **[2020-01-14 17:13:41]**
+> **[Profesional Review]** -Qué son los Nvidia CUDA Cores y cuál es su importancia\
+¿Qué son los CUDA Cores y cuál es su importancia? En este artículo os lo explicamos de una forma muy sencilla y entendible.\
+<https://www.profesionalreview.com/2018/10/09/que-son-nvidia-cuda-core/>\
+![Image](https://www.profesionalreview.com/wp-content/uploads/2018/10/Qué-son-los-Nvidia-CUDA-Cores-2.jpg)
+
+- **[2020-01-14 12:09:51]**
+> **[GitHub]** -fo40225/tensorflow-windows-wheel\
+Tensorflow prebuilt binary for Windows. Contribute to fo40225/tensorflow-windows-wheel development by creating an account on GitHub.\
+<https://github.com/fo40225/tensorflow-windows-wheel>\
+![Image](https://avatars2.githubusercontent.com/u/10285869?s=400&v=4)
+
+- **[2020-01-13 21:24:58]**
+<http://wiki.fast.ai/index.php/Fine_tuning>\
+<Fine tuning - Deep Learning Course Wiki
+http://wiki.fast.ai/index.php/Fine_tuning>\
+
+
+- **[2020-01-13 09:32:09]**
+> **[freeCodeCamp.org]** -How to get started debugging TensorFlow\
+by Daniel Deutsch
+
+How to get started debugging TensorFlow
+Photo by Matthew Kane on Unsplash — https://unsplash.com/photos/5brvJbR1Pn8Table
+of Contents
+ * What this is about
+   [https://github.com/Createdd/Writing/blob/master/2018/articles/DebugTFBasics.md#what-this-is-about]
+ * The reference code base
+   [https://github.com/Createdd/Writing/blob/master/2018/articles/DebugTFBasics.md#the-reference-code-base]
+ * 1. Fetch and print values within Session.run
+   [https://github.com/Createdd/Writing/\
+<https://www.freecodecamp.org/news/debugging-tensorflow-a-starter-e6668ce72617/>\
+![Image](https://cdn-media-1.freecodecamp.org/images/0*Tpvh9TOicl1dT3W-)
+
+- **[2020-01-13 08:31:34]**
+> **[TensorFlow]** -Serving a TensorFlow Model  |  TFX\
+<https://www.tensorflow.org/tfx/serving/serving_basic?hl=es>\
+
+
+- **[2020-01-10 22:32:41]**
+> **[GitHub]** -mozilla/DeepSpeech\
+A TensorFlow implementation of Baidu's DeepSpeech architecture - mozilla/DeepSpeech\
+<https://github.com/mozilla/DeepSpeech>\
+![Image](https://avatars0.githubusercontent.com/u/131524?s=400&v=4)
+
+- **[2020-01-10 18:05:39]**
+> **[Stack Overflow]** -What's the purpose of keras.backend.function()\
+The Kera manual doesn't say too much:
+
+keras.backend.function(inputs, outputs, updates=None)
+
+Instantiates a Keras function.
+Arguments
+inputs: List of placeholder tensors.
+outputs: List of output t...\
+<https://stackoverflow.com/questions/48142181/whats-the-purpose-of-keras-backend-function>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-01-10 16:42:19]**
+> **[Medium]** -TensorFlow Introduction\
+Artificial intelligence is a tool that allows technology to go a step further.\
+<https://medium.com/@gema.parreno.piqueras/tensorflow-introduction-139faf9753c7>\
+![Image](https://miro.medium.com/max/964/1*BycBUEIk3CQgcgyiCGQgag.jpeg)
+
+- **[2020-01-10 16:42:14]**
+> **[Medium]** -How to Build Efficient Audio-Data Pipelines with TensorFlow 2.0\
+Use TensorFlow’s Dataset API to eliminate bottlenecks in your training workflow\
+<https://towardsdatascience.com/how-to-build-efficient-audio-data-pipelines-with-tensorflow-2-0-b3133474c3c1>\
+![Image](https://miro.medium.com/max/1200/1*9M27n3hXWYrhT4qxRmPMZA.jpeg)
+
+- **[2020-01-09 16:00:31]**
+> **[Google Cloud]** -Vision AI | Extrae información valiosa de imágenes mediante ML  |  API de Cloud Vision
+       |  Google Cloud\
+Extrae información valiosa de tus imágenes en la nube o en el perímetro con AutoML Vision, o usa modelos preparados previamente de la API Vision para detectar emociones, texto y mucho más.\
+<https://cloud.google.com/vision/?hl=es>\
+
+
+- **[2020-01-09 15:55:34]**
+> **[Valossa AI]** -Valossa Video AI\
+Cognitive AI
+That Comes Near You 
+The most advanced solution for building cloud, on-premise and live cognitive video systems  Sign up FOR A FREE
+PLATFORM TRIAL\
+<https://valossa.com>\
+![Image](https://valossa.com/wp-content/uploads/2016/09/valossa-logo_blue_transp_160.png)
+
 - **[2019-12-29 12:55:36]**
 > **[TensorFlow]** -Serving Models  |  TFX  |  TensorFlow\
 <https://www.tensorflow.org/tfx/guide/serving?hl=es>\

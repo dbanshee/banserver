@@ -58,5 +58,7 @@
     
     - Python bytecode: <https://github.com/jtpio/jupyterlab-python-bytecode>
     
+    - Notebook Grader: <https://github.com/jupyter/nbgrader>
+    
     - Convert Notebooks to MD
 <>jupytex

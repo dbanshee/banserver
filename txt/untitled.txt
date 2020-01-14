@@ -1,0 +1,49 @@
+https://stackoverflow.com/questions/29037211/how-do-i-add-a-kernel-on-a-remote-machine-in-ipython-jupyter-notebook
+https://pypi.org/project/remote_ikernel/
+
+
+# Install Docker
+sudo apt  install docker
+sudo apt  install docker.io
+
+
+# Install Nvidia Container Toolkit
+# Add the package repositories
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+
+
+sudo apt-get install -y nvidia-docker2
+sudo systemctl restart docker
+
+
+# Download specific docker image
+#docker pull tensorflow/tensorflow:devel-gpu
+docker pull tensorflow/tensorflow:1.14.0-gpu
+
+
+# Run Container
+lspci | grep -i nvidia
+
+# Check
+sudo docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+
+# run
+sudo docker run --runtime=nvidia -it tensorflow/tensorflow:devel-gpu bash
+
+
+
+-------------------------------------------------------------------------------------
+Examples using GPU-enabled images
+Download and run a GPU-enabled TensorFlow image (may take a few minutes):
+
+docker run --gpus all -it --rm tensorflow/tensorflow:latest-gpu \
+   python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+
+It can take a while to set up the GPU-enabled image. If repeatably running GPU-based scripts, you can use docker exec to reuse a container.
+
+Use the latest TensorFlow GPU image to start a bash shell session in the container:
+docker run --gpus all -it tensorflow/tensorflow:latest-gpu bash

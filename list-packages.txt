@@ -59,6 +59,7 @@
  apt-get install psmisc
  apt-get install python3-dev
  apt-get install python3-pip
+ apt-get install python3-venv
  apt-get install python-pip
  apt-get install rar
  apt-get install remmina
