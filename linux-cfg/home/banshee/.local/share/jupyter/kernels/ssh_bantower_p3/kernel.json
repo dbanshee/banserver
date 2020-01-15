@@ -13,7 +13,7 @@
     "ipython3 kernel -f {host_connection_file}",
     "{connection_file}"
   ],
-  "display_name": "SSH banshee@bantower Remote Python 3.7",
+  "display_name": "SSH@bantower py3_venv Generic",
   "remote_ikernel_argv": [
     "/usr/local/bin/remote_ikernel",
     "manage",

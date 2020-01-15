@@ -1,11 +1,11 @@
 {
  "argv": [
-  "/home/banshee/python3_virtualenv/bin/python3",
+  "/home/banshee/python3_venvs/p3_generic/bin/python3",
   "-m",
   "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
- "display_name": "python3_virtualenv",
+ "display_name": "Local venv P3 generic",
  "language": "python"
 }
