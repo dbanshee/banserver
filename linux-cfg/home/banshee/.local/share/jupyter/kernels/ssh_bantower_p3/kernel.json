@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "/usr/bin/python3.7",
+    "-m",
+    "remote_ikernel",
+    "--interface",
+    "ssh",
+    "--host",
+    "banshee@bantower",
+    "--cpus",
+    "2",
+    "--kernel_cmd",
+    "ipython3 kernel -f {host_connection_file}",
+    "{connection_file}"
+  ],
+  "display_name": "SSH banshee@bantower Remote Python 3.7",
+  "remote_ikernel_argv": [
+    "/usr/local/bin/remote_ikernel",
+    "manage",
+    "--add",
+    "--kernel_cmd=ipython kernel -f {connection_file}",
+    "--name=Renite Python 3",
+    "--cpus=2",
+    "--interface=ssh",
+    "--host=banshee@bantower"
+  ],
+  "env" : { "LD_LIBRARY_PATH":"/home/banshee/src/tensorflow_custom/i5_gpu_cuda10_capabilities_30/cuda10libs/"}
+}

@@ -7,6 +7,51 @@
 
 ## Unclassified
 
+- **[2020-01-15 19:02:08]**
+># Set up kernels for your local virtual environments that can be run # from a single notebook server. remote_ikernel manage --add \ --kernel_cmd="/home/me/Virtualenvs/dev/bin/ipython kernel -f {connection_file}" \ --name="Python 2 (venv:dev)" --interface=local
+
+- **[2020-01-15 15:53:03]**
+> **[TensorFlow]** -TensorFlow Core\
+<!--no description-->\
+<https://www.tensorflow.org/guide>\
+
+
+- **[2020-01-15 13:47:07]**
+> **[openNASA]** -Deep Asteroid | openNASA\
+<h2>Project Overview</h2><p>Near Earth Object (NEO) is, by definition, any small Solar System 
+body whose orbit brings it into proximity with Earth. We’re surrounded 
+by these objects: more than 40...\
+<https://open.nasa.gov/innovation-space/deep-asteroid/>\
+![Image](https://i.ytimg.com/vi/txunN4gUeig/hqdefault.jpg)
+
+- **[2020-01-15 12:29:43]**
+> **[YouTube]** -Cómo hacer Deepfake, tutorial en español - Parte 1\
+#Deepfake #AI #FakeApp Cómo hacer Deepfake Parte 2: https://www.youtube.com/watch?v=xVjb0eYc5-I Archivos de descarga: FaceApp: https://shon.xyz/etwEu NVidia ...\
+<https://www.youtube.com/watch?v=UpqqeJwhj1Q>\
+![Image](https://i.ytimg.com/vi/UpqqeJwhj1Q/maxresdefault.jpg)
+
+- **[2020-01-15 09:23:05]**
+<https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0>\
+<https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0>\
+
+
+- **[2020-01-15 09:22:35]**
+> **[opensource.google.com]** -Projects â opensource.google.com\
+Learn about all our projects.\
+<https://opensource.google/projects/tensorflow-playground>\
+![Image](https://opensource.google.com/assets/static/images/misc/og1.jpg)
+
+- **[2020-01-15 09:07:13]**
+<https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf>\
+<https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf>\
+
+
+- **[2020-01-15 09:04:25]**
+> **[GitHub]** -openai/gpt-2\
+Code for the paper "Language Models are Unsupervised Multitask Learners" - openai/gpt-2\
+<https://github.com/openai/gpt-2>\
+![Image](https://avatars2.githubusercontent.com/u/14957082?s=400&v=4)
+
 - **[2020-01-14 19:52:55]**
 > **[Coral]** -Products | Coral\
 Helping you bring local AI to applications from prototype to production\

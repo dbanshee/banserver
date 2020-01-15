@@ -124,13 +124,13 @@ echo "
 //  Date : `date`
 ///////////////////////////////////////////
 
-  Domains: banpi.bansheerocks.com  gitea.bansheerocks.com bodaclaunoel.cyberlove.us
+  Domains: banserver.bansheerocks.com  gitea.bansheerocks.com bodaclaunoel.cyberlove.us
 
   Port Forward: SSH -> 9722:22  HTTP -> 9780:80  HTTPS -> 9743:443  VNC -> 9759:5900  RDP -> 9789:3389  FTP -> 9721:21
 
-  Web:   https://banpi.bansheerocks.com:9743/banpi.html
-         https://banpi.bansheerocks.com:9743/mail
-	 https://banpi.bansheerocks.com:9743/jupyter/
+  Web:   https://banserver.bansheerocks.com:9743/banpi.html
+         https://banserver.bansheerocks.com:9743/mail
+	 https://banserver.bansheerocks.com:9743/jupyter/
          https://gitea.bansheerocks.com
          http://bodaclaunoel.cyberlove.us	  
 

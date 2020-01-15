@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "/usr/bin/python3.7",
+    "-m",
+    "remote_ikernel",
+    "--interface",
+    "ssh",
+    "--host",
+    "banshee@bantower",
+    "--cpus",
+    "4",
+    "--kernel_cmd",
+    "/home/banshee/python_venvs/ipython3_tf1_1.14_gpu kernel -f {host_connection_file}",
+    "{connection_file}"
+  ],
+  "display_name": "SSH banshee@bantower Remote P3 Venv GPU 4 CPUs",
+  "remote_ikernel_argv": [
+    "/usr/local/bin/remote_ikernel",
+    "manage",
+    "--add",
+    "--kernel_cmd=/home/banshee/python_venvs/ipython3_tf1_1.14_gpu kernel -f {connection_file}",
+    "--name=Remote P3 Venv GPU",
+    "--cpus=4",
+    "--interface=ssh",
+    "--host=banshee@bantower"
+  ]
+}

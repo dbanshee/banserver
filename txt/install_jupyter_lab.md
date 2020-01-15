@@ -169,3 +169,13 @@ ipython kernelspec list
 ssh-keygen 
 ssh-copy-id banshee@bantower
 ```
+
+
+
+## Remote SSH Virtual Envs
+Investigar como iniciar remotamente un virtual env
+ikernel profiles
+<https://stackoverflow.com/questions/20327621/calling-ipython-from-a-virtualenv>
+```python
+ipython profile create sshjupyter
+```

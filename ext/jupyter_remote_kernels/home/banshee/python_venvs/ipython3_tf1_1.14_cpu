@@ -1,0 +1,13 @@
+#! /bin/sh
+
+VERSION="3"
+VENV_PATH="/home/banshee/python_venvs/tf1_1.14_cpu"
+
+
+if [ ! -f $VENV_PATH/bin/python$VERSION ]
+then
+	echo "Please install the python$VERSION package." >&2
+	exit 1
+else
+	exec $VENV_PATH/bin/python$VERSION -c "import sys; sys.argv[0] = '/usr/bin/ipython$VERSION'; from IPython.terminal.ipapp import launch_new_instance; launch_new_instance()" "$@"
+fi
