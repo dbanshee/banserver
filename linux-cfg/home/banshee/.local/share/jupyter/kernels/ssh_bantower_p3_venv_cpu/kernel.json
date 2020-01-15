@@ -13,7 +13,7 @@
     "/home/banshee/python_venvs/ipython3_tf1_1.14_cpu kernel -f {host_connection_file}",
     "{connection_file}"
   ],
-  "display_name": "SSH py3_venv bantower TF v1.14 P3 CPU",
+  "display_name": "SSH@bantower py3_venv TF v1.14 P3 CPU",
   "remote_ikernel_argv": [
     "/usr/local/bin/remote_ikernel",
     "manage",

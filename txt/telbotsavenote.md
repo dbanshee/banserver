@@ -7,6 +7,12 @@
 
 ## Unclassified
 
+- **[2020-01-15 22:26:38]**
+<https://es.wikipedia.org/wiki/Random_forest>\
+<Random forest - Wikipedia, la enciclopedia libre
+https://es.wikipedia.org/wiki/Random_forest>\
+
+
 - **[2020-01-15 19:02:08]**
 ># Set up kernels for your local virtual environments that can be run # from a single notebook server. remote_ikernel manage --add \ --kernel_cmd="/home/me/Virtualenvs/dev/bin/ipython kernel -f {connection_file}" \ --name="Python 2 (venv:dev)" --interface=local
 

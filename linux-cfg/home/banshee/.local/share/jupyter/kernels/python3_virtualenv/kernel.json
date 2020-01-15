@@ -6,6 +6,6 @@
   "-f",
   "{connection_file}"
  ],
- "display_name": "Local venv P3 generic",
+ "display_name": "Python3 venv Generic",
  "language": "python"
 }
