@@ -7,6 +7,40 @@
 
 ## Unclassified
 
+- **[2020-01-17 10:13:28]**
+<http://numba.pydata.org/numba-doc/latest/cuda/overview.html>\
+<http://numba.pydata.org/numba-doc/latest/cuda/overview.html>\
+
+
+- **[2020-01-17 09:35:36]**
+<https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/>\
+<Difference Between a Batch and an Epoch in a Neural Network
+https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/>\
+
+
+- **[2020-01-16 19:13:57]**
+Grupos de Google te permite crear y participar en foros online y en grupos basados en correo electrónico con una amplia experiencia en conversaciones de comunidades.\
+<https://groups.google.com/a/continuum.io/forum/m/#!topic/numba-users/KqBg3eP6ATY>\
+
+
+- **[2020-01-16 17:53:11]**
+> **[Google Cloud]** -Cloud Tensor Processing Units (TPUs)  |  Cloud TPU
+       |  Google Cloud\
+<https://cloud.google.com/tpu/docs/tpus>\
+
+
+- **[2020-01-16 17:50:51]**
+> **[Google Cloud]** -System Architecture  |  Cloud TPU
+       |  Google Cloud\
+<https://cloud.google.com/tpu/docs/system-architecture>\
+
+
+- **[2020-01-16 15:45:29]**
+> **[Intel AI]** -Hardware - Intel AI\
+From hardware that excels at training massive, unstructured data sets, to extreme low-power silicon for on-device inference, Intel AI supports cloud service providers, enterprises and research teams with a portfolio of multi-purpose, purpose-built, customizable and application-specific hardware that turn model into reality.\
+<https://www.intel.ai/hardware/#gs.stiwxf>\
+![Image](https://simplecore.intel.com/ai/wp-content/uploads/sites/69/Place-Holder-Logo.jpg)
+
 - **[2020-01-15 22:26:38]**
 <https://es.wikipedia.org/wiki/Random_forest>\
 <Random forest - Wikipedia, la enciclopedia libre
