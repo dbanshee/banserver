@@ -7,6 +7,181 @@
 
 ## Unclassified
 
+- **[2020-01-23 11:07:53]**
+<https://arxiv.org/pdf/1803.08375.pdf>\
+<https://arxiv.org/pdf/1803.08375.pdf>\
+
+
+- **[2020-01-23 10:42:17]**
+<https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/>\
+<https://missinglink.ai/guides/neural-network-concepts/7-types-neural-network-activation-functions-right/>\
+
+
+- **[2020-01-23 10:26:15]**
+Tensorflow — Neural Network Playground\
+Tinker with a real neural network right here in your browser.\
+<http://playground.tensorflow.org/#activation=relu&batchSize=10&dataset=spiral&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,8,5&seed=0.53586&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&showTestData_hide=true&activation_hide=true&problem_hide=true&noise_hide=true&discretize_hide=true&regularization_hide=true&dataset_hide=true&batchSize_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&numHiddenLayers_hide=true>\
+![Image](http://playground.tensorflow.org/preview.png)
+
+- **[2020-01-23 10:21:53]**
+> **[Google Cloud Blog]** -Understanding neural networks with TensorFlow Playground\
+Explore TensorFlow Playground demos. See how they explain the mechanism and power of neural networks, which extract hidden insights and complex patterns.\
+<https://cloud.google.com/blog/products/gcp/understanding-neural-networks-with-tensorflow-playground>\
+![Image](https://cloud.google.com/blog/static/assets/GCP_Twitter_Card-2000×1000.png)
+
+- **[2020-01-22 22:22:45]**
+> **[GitHub]** -stared/livelossplot\
+Live training loss plot in Jupyter Notebook for Keras, PyTorch and others - stared/livelossplot\
+<https://github.com/stared/livelossplot/blob/master/examples/keras.ipynb>\
+![Image](https://repository-images.githubusercontent.com/124682643/a50c9100-9131-11e9-9c30-cee98d05df06)
+
+- **[2020-01-22 22:17:20]**
+> **[Medium]** -How to plot the model training in Keras — using custom callback function and using TensorBoard\
+I started exploring the different ways to visualize the training process while working on the Dog breed identification dataset from Kaggle…\
+<https://medium.com/@kapilvarshney/how-to-plot-the-model-training-in-keras-using-custom-callback-function-and-using-tensorboard-41e4ce3cb401>\
+![Image](https://miro.medium.com/max/1200/1*S6Y_u6-_WVmPYs_se8cICw.png)
+
+- **[2020-01-22 22:16:09]**
+<https://machinelearningmastery.com/custom-metrics-deep-learning-keras-python/>\
+<How to Use Metrics for Deep Learning with Keras in Python
+https://machinelearningmastery.com/custom-metrics-deep-learning-keras-python/>\
+
+
+- **[2020-01-22 22:04:46]**
+Tensorflow — Neural Network Playground\
+Tinker with a real neural network right here in your browser.\
+<https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.60437&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false>\
+![Image](http://playground.tensorflow.org/preview.png)
+
+- **[2020-01-22 21:33:59]**
+<https://adventuresinmachinelearning.com/python-tensorflow-tutorial/>\
+<Python TensorFlow Tutorial - Build a Neural Network - Adventures in Machine Learning
+https://adventuresinmachinelearning.com/python-tensorflow-tutorial/>\
+
+
+- **[2020-01-22 19:26:48]**
+> **[Peltarion.com]** -Binary crossentropy loss function | Peltarion Platform\
+Binary crossentropy is a loss function used on problems involving yes/no (binary) decisions.\
+<https://peltarion.com/knowledge-center/documentation/modeling-view/build-an-ai-model/loss-functions/binary-crossentropy>\
+
+
+- **[2020-01-22 19:19:11]**
+> **[Medium]** -Understanding binary cross-entropy / log loss: a visual explanation\
+Have you ever thought about what exactly does it mean to use this loss function?\
+<https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a>\
+![Image](https://miro.medium.com/max/1200/0*BJZqDD5ieVE6XxdD)
+
+- **[2020-01-22 18:02:04]**
+<https://www.mldawn.com/binary-classification-from-scratch-using-numpy/>\
+<https://www.mldawn.com/binary-classification-from-scratch-using-numpy/>\
+
+
+- **[2020-01-22 17:46:14]**
+<https://ml-cheatsheet.readthedocs.io/en/latest/index.html>\
+<https://ml-cheatsheet.readthedocs.io/en/latest/index.html>\
+
+
+- **[2020-01-22 13:07:56]**
+Solving the Two Spirals problem with Keras\
+In this post we will see how to create a Multi Layer Perceptron (MLP), one of the most common Neural Network architectures, with Keras. Then...\
+<https://glowingpython.blogspot.com/2017/04/solving-two-spirals-problem-with-keras.html>\
+![Image](https://3.bp.blogspot.com/-f59mE0OpFIc/WQGrB5jHu_I/AAAAAAAABGI/7m1cwaTpI94TjizUrvCr7xa2pF3WeBLEQCLcB/w1200-h630-p-k-no-nu/spirals_nn1.png)
+
+- **[2020-01-22 10:47:51]**
+> **[Blog de Lenovo]** -Redes generativas adversarias: la IA está aprendiendo de forma exponencial\
+Qué son las GANs y ejemplos de uso, y cómo mejoran numerosas tareas al fusionar dos IAs que "compiten" entre sí.\
+<https://www.bloglenovo.es/redes-generativas-adversarias-la-ia-esta-aprendiendo-de-forma-exponencial/>\
+![Image](https://img.blogs.es/bloglenovo/wp-content/uploads/2019/07/redes-generativas-adversarias-poder.jpg)
+
+- **[2020-01-22 10:47:44]**
+> **[IArtificial.net]** -Redes Neuronales Generativas Adversarias (GANs) - IArtificial.net\
+Las Redes Neuronales Generativas Adversarias permite crear imágenes que parecen reales. Funcionan con dos redes neuronales que "luchan" como adversarios.\
+<https://iartificial.net/redes-neuronales-generativas-adversarias-gans/>\
+![Image](https://iartificial.net/wp-content/uploads/2019/03/StyleGAN.png)
+
+- **[2020-01-22 08:41:32]**
+<http://www2.washjeff.edu/users/rhigginbottom/latex/resources/symbols.pdf>\
+<http://www2.washjeff.edu/users/rhigginbottom/latex/resources/symbols.pdf>\
+
+
+- **[2020-01-22 08:39:59]**
+<https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Calculus.html>\
+<https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Calculus.html>\
+
+
+- **[2020-01-22 06:26:47]**
+> **[Docker Blog]** -Docker can now run within Docker - Docker Blog\
+Learn from Docker experts to simplify and advance your app development and management with Docker. Stay up to date on Docker events and new version announcements!\
+<https://www.docker.com/blog/docker-can-now-run-within-docker/>\
+![Image](https://www.docker.com/blog/media/2013/09/docker-meme.jpg)
+
+- **[2020-01-21 12:23:17]**
+Program it with high-level languages and AI while performing low-latency operations on its customizable hardware.\
+<https://store.arduino.cc/portenta-h7>\
+
+
+- **[2020-01-21 12:23:10]**
+<https://www.arduino.cc/pro/>\
+<https://www.arduino.cc/pro/>\
+
+
+- **[2020-01-21 08:28:56]**
+<https://www.google.com/url?sa=t&source=web&rct=j&url=http://openaccess.uoc.edu/webapps/o2/bitstream/10609/23827/1/jperezsanchezTFC0613.pdf&ved=2ahUKEwjUwd3MlZTnAhU64eAKHfM4CEgQFjAKegQIARAB&usg=AOvVaw3wCP3tOt6E0CLc4Qf6z0ZC>\
+<https://www.google.com/url?sa=t&source=web&rct=j&url=http://openaccess.uoc.edu/webapps/o2/bitstream/10609/23827/1/jperezsanchezTFC0613.pdf&ved=2ahUKEwjUwd3MlZTnAhU64eAKHfM4CEgQFjAKegQIARAB&usg=AOvVaw3wCP3tOt6E0CLc4Qf6z0ZC>\
+
+
+- **[2020-01-21 08:25:10]**
+> **[The Data Frog]** -Boost python with your GPU (numba+CUDA)\
+Use python to drive your GPU with CUDA for accelerated, parallel computing. Notebook ready to run on the Google Colab platform\
+<https://www.thedatafrog.com/en/boost-python-gpu/>\
+![Image](https://thedatafrog.s3.amazonaws.com/media/images/python_boost.original.png)
+
+- **[2020-01-21 07:15:24]**
+> **[Raccoons]** -Performance comparison : Coral Edge TPU vs Jetson Nano | Raccoons\
+A quick performance comparison between the new NVIDIA Jetson Nano and the Google Coral Edge TPU. Focus on AI capabilities, with some analysis.\
+<https://blog.raccoons.be/coral-tpu-jetson-nano-performance>\
+![Image](https://images.storychief.com/account_10626/coralvsjetsonfront_44b5639017c687c20b5cb70c539f887c_2000.png)
+
+- **[2020-01-21 00:11:40]**
+> **[Blog BricoGeek.com]** -Todo lo que necesitas saber sobre Jetson Nano de NVIDIA | BricoGeek.com\
+Te hemos preparado una completa guía sobre la NVIDIA Jetson Nano para que conozcas más en detalle qué es la Jetson Nano, cómo funciona y sobre todo qué es lo que puedes hacer con ella\
+<https://blog.bricogeek.com/noticias/robotica/todo-lo-que-necesitas-saber-sobre-jetson-nano-de-nvidia/>\
+![Image](https://cdn-blog.bricogeek.com/img_cms/3177-crear-tu-propio-coche-autonomo-con-ia-con-jetson-nano.jpg)
+
+- **[2020-01-20 09:11:49]**
+<https://docs-cupy.chainer.org/en/stable/reference/index.html#cupy-reference>\
+<https://docs-cupy.chainer.org/en/stable/reference/index.html#cupy-reference>\
+
+
+- **[2020-01-20 09:09:00]**
+<https://docs-cupy.chainer.org/en/stable/tutorial/basic.html#how-to-write-cpu-gpu-agnostic-code>\
+<https://docs-cupy.chainer.org/en/stable/tutorial/basic.html#how-to-write-cpu-gpu-agnostic-code>\
+
+
+- **[2020-01-20 09:05:06]**
+> **[GitHub]** -ContinuumIO/gtc2017-numba\
+Numba tutorial for GTC 2017 conference. Contribute to ContinuumIO/gtc2017-numba development by creating an account on GitHub.\
+<https://github.com/ContinuumIO/gtc2017-numba/blob/master/1%20-%20Numba%20Basics.ipynb>\
+![Image](https://avatars0.githubusercontent.com/u/1158637?s=400&v=4)
+
+- **[2020-01-20 09:01:49]**
+> **[Medium]** -Speed Up your Algorithms Part 2— Numba\
+Get C++/Fortran like speed for your functions with Numba\
+<https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1>\
+![Image](https://miro.medium.com/max/1200/0*S9e58pstVLokmajz)
+
+- **[2020-01-20 08:32:43]**
+> **[TBem Robótica]** -Qué es MicroPython - Probablemente te guste más que Arduino.\
+Ha nacido una nueva forma de programar microcontroladores y es a través del Lenguaje de Programación MicroPython. Aquí te explicamos qué es MicroPython.\
+<https://teslabem.com/blog/que-es-micropython/>\
+![Image](https://teslabem.com/wp-content/uploads/2016/08/upython-with-micro.jpg)
+
+- **[2020-01-18 08:15:27]**
+> **[GitHub]** -jbagnato/machine-learning\
+Código Python, Jupyter Notebooks, archivos csv con ejemplos para los ejercicios del Blog aprendemachinelearning.com - jbagnato/machine-learning\
+<https://github.com/jbagnato/machine-learning/blob/master/Ejercicio_CNN.ipynb>\
+![Image](https://repository-images.githubusercontent.com/112259090/b64a4f80-789e-11e9-95a1-e99677c8d998)
+
 - **[2020-01-17 10:13:28]**
 <http://numba.pydata.org/numba-doc/latest/cuda/overview.html>\
 <http://numba.pydata.org/numba-doc/latest/cuda/overview.html>\
