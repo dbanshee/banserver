@@ -7,6 +7,111 @@
 
 ## Unclassified
 
+- **[2020-01-27 20:46:41]**
+> **[Think Big]** -Crea tu modelo Machine Learning con Teachable Machine - LUCA\
+Hace unos pocos meses, Google liberó Teachable Machine, una herramienta y un recurso sorprendentes para Machine Learning dirigida al público general. Esta\
+<https://empresas.blogthinkbig.com/creando-y-desplegando-modelos-de-machine-learning-con-teachable-machine/>\
+![Image](https://empresas.blogthinkbig.com/wp-content/uploads/2020/01/galaxia-1.jpg?fit=1200%2C675)
+
+- **[2020-01-27 20:06:10]**
+<https://en.wikipedia.org/wiki/Convolutional_neural_network>\
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Kernel_Machine.svg/1200px-Kernel_Machine.svg.png)<https://en.wikipedia.org/wiki/Convolutional_neural_network>\
+
+
+- **[2020-01-27 16:48:05]**
+<https://git-scm.com/docs/git-http-backend>\
+<https://git-scm.com/docs/git-http-backend>\
+
+
+- **[2020-01-27 16:41:12]**
+<https://git-scm.com/book/en/v2/Git-on-the-Server-Smart-HTTP>\
+<https://git-scm.com/book/en/v2/Git-on-the-Server-Smart-HTTP>\
+
+
+- **[2020-01-26 22:13:20]**
+<https://keras.io/layers/recurrent/#lstm>\
+<https://keras.io/layers/recurrent/#lstm>\
+
+
+- **[2020-01-26 08:48:35]**
+> **[Stack Overflow]** -What's the purpose of keras.backend.function()\
+The Keras manual doesn't say too much:
+
+keras.backend.function(inputs, outputs, updates=None)
+
+Instantiates a Keras function.
+Arguments
+inputs: List of placeholder tensors.
+outputs: List of output \
+<https://stackoverflow.com/questions/48142181/whats-the-purpose-of-keras-backend-function>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-01-25 17:29:38]**
+<https://www.nvidia.com/es-es/autonomous-machines/embedded-systems/>\
+<Kits de desarrollo y módulos para sistemas embedidos | NVIDIA Jetson
+https://www.nvidia.com/es-es/autonomous-machines/embedded-systems/>\
+
+
+- **[2020-01-25 17:29:37]**
+> **[TensorFlow]** -Use a GPU  |  TensorFlow Core\
+<https://www.tensorflow.org/guide/gpu?hl=es>\
+
+
+- **[2020-01-25 17:29:36]**
+> **[GitHub]** -Limit the resource usage for tensorflow backend · Issue #1538 · keras-team/keras\
+When I use tensorflow as backend I got an high memory usage on my GPUs. I check that is possible to limit memory usage by using tf.ConfigProto config = tf.ConfigProto( gpu_options = tf.GPUOptions(p...\
+<https://github.com/keras-team/keras/issues/1538>\
+![Image](https://avatars0.githubusercontent.com/u/34455048?s=400&v=4)
+
+- **[2020-01-25 17:29:35]**
+> **[Medium]** -Using allow_growth memory option in Tensorflow and Keras\
+We faced a problem when we have a GPU computer that shared with multiple users. Most users run their GPU process without the…\
+<https://kobkrit.com/using-allow-growth-memory-option-in-tensorflow-and-keras-dc8c8081bc96>\
+![Image](https://miro.medium.com/max/1146/1*jG35C7ra5oiecPTVM0GO5A.png)
+
+- **[2020-01-25 17:29:32]**
+> **[Michael Blogs Code]** -Reducing and Profiling GPU Memory Usage in Keras with TensorFlow Backend\
+Intro Are you running out of GPU memory when using keras or tensorflow deep learning models, but only some of the time? Are you curious about exactly how much GPU memory your tensorflow model uses …\
+<https://michaelblogscode.wordpress.com/2017/10/10/reducing-and-profiling-gpu-memory-usage-in-keras-with-tensorflow-backend/>\
+![Image](https://michaelblogscode.files.wordpress.com/2017/10/tegra-x1-header.jpg)
+
+- **[2020-01-25 17:29:31]**
+> **[Stack Overflow]** -How to prevent tensorflow from allocating the totality of a GPU memory?\
+I work in an environment in which computational resources are shared, i.e., we have a few server machines equipped with a few Nvidia Titan X GPUs each.
+
+For small to moderate size models, the 12 GB...\
+<https://stackoverflow.com/questions/34199233/how-to-prevent-tensorflow-from-allocating-the-totality-of-a-gpu-memory>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-01-24 21:33:46]**
+> **[YouTube]** -MACHINE LEARNING VS. PROGRAMACIÓN TRADICIONAL | #4 Aprende más sobre Inteligencia Artificial\
+No hay duda de que Machine Learning y la Inteligencia Artificial están afectando al mundo en desarrollo, aunque alguno los llama como temas sobrevalorados qu...\
+<https://youtu.be/KC51Su9jZzg>\
+![Image](https://i.ytimg.com/vi/KC51Su9jZzg/maxresdefault.jpg)
+
+- **[2020-01-24 21:31:58]**
+> **[YouTube]** -¿Estamos usando el sistema operativo equivocado? Windows vs Linux para Gaming\
+Comprar windows 7: http://gvgmall.com/gvg/Win7hw360 Comprar windows 10: http://gvgmall.com/gvg/win10hw360 Comprar Windows 10 LTSC: http://gvgmall.com/gvg/win...\
+<https://youtu.be/Nkt01jYfdws>\
+![Image](https://i.ytimg.com/vi/Nkt01jYfdws/hqdefault.jpg)
+
+- **[2020-01-24 20:13:47]**
+> **[YouTube]** -🔍 NVIDIA JETSON NANO análisis del MEJOR SINGLE BOARD COMPUTER para emulación Raspberry pi killer\
+Nvidia Jetson Nano es un single board computer que compite con raspberry pi 4, ¿rinde mejor con emuladores? La verdad es quee se nota que lleva un hardware s...\
+<https://youtu.be/tdPYgmTKS9A>\
+![Image](https://i.ytimg.com/vi/tdPYgmTKS9A/maxresdefault.jpg)
+
+- **[2020-01-24 18:03:59]**
+> **[TensorFlow]** -Pix2Pix  |  TensorFlow Core\
+<https://www.tensorflow.org/tutorials/generative/pix2pix>\
+
+
+- **[2020-01-24 18:03:54]**
+> **[TensorFlow]** -TensorFlow Core\
+<!--no description-->\
+<https://www.tensorflow.org/tutorials/>\
+
+
 - **[2020-01-23 11:07:53]**
 <https://arxiv.org/pdf/1803.08375.pdf>\
 <https://arxiv.org/pdf/1803.08375.pdf>\

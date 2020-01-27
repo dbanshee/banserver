@@ -226,6 +226,7 @@ ii  hicolor-icon-theme                    0.17-2                               a
 ii  hostname                              3.21                                 amd64        utility to set/show the host name or domain name
 ii  htmldoc                               1.9.3-1                              amd64        HTML processor that generates indexed HTML, PS, and PDF
 ii  htmldoc-common                        1.9.3-1                              all          Common arch-independent files for htmldoc
+ii  htop                                  2.2.0-1+b1                           amd64        interactive processes viewer
 ii  hunspell-en-us                        1:2018.04.16-1                       all          English_american dictionary for hunspell
 ii  hwinfo                                21.63-3                              amd64        Hardware identification system
 ii  i965-va-driver:amd64                  2.3.0+dfsg1-1                        amd64        VAAPI driver for Intel G45 & HD Graphics family

@@ -26,6 +26,7 @@
  apt-get install gparted
  apt-get install gradle
  apt-get install hardinfo
+ apt-get install htop
  apt-get install hwinfo
  apt-get install iftop
  apt-get install iotop

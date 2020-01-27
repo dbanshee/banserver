@@ -1,0 +1,31 @@
+gnuplot
+set terminal jpeg
+set output 'tempPlot.jpg'
+set style data lines
+set datafile separator "|"
+set xdata time
+set timefmt '%Y-%m-%d %H:%M:%s'
+set xrange["2014-02-25 00:00:00":"2015-02-27 00:00:00"]
+plot "< sqlite3 ic3KDB.db 'SELECT event_time, value FROM TEMP'" using 1:2 
+
+
+
+
+gnuplot
+set terminal jpeg
+set output 'tempPlot.jpg'
+set style data lines
+set datafile separator "|"
+set xdata time
+set timefmt '%Y-%m-%d %H:%M:%s'
+plot "< sqlite3 ic3KDB.db 'SELECT event_time, value FROM TEMP ORDER BY 1'" using 1:2 
+
+
+
+gnuplot
+set terminal jpeg
+set output 'tempPlot.jpg'
+set style data lines
+set datafile separator "|"
+set yrange[10:30]
+plot "< sqlite3 ic3KDB.db 'SELECT id, value FROM TEMP'" using 1:2 

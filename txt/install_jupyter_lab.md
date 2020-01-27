@@ -33,6 +33,10 @@ jupyter lab
 sudo pip install ipykernel 
 ```
 
+- **Cell Time with %%time*
+```bash
+sudo pip3 install ipython-autotime
+```
     - **Java**
 ```bash
 wget https://github.com/SpencerPark/IJava/releases/download/v1.3.0/ijava-1.3.0.zip

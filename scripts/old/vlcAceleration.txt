@@ -1,0 +1,14 @@
+# Packages
+
+vainfo
+vdpauinfo
+
+ii  libvdpau-va-gl1:amd64                       0.2.1-1                                amd64        VDPAU driver with OpenGL/VAAPI backend
+ii  libvdpau1:amd64                             0.7-1                                  amd64        Video Decode and Presentation API for Unix (libraries)
+ii  vdpau-va-driver:amd64                       0.7.3-2ubuntu1.2                       amd64        VDPAU-based backend for VA API
+ii  vdpauinfo                                   0.1-1                                  amd64        Video Decode and Presentation API for Unix (vdpauinfo utility)
+
+
+
+# Environment
+VDPAU_DRIVER=va_gl
