@@ -7,6 +7,17 @@
 
 ## Unclassified
 
+- **[2020-01-28 13:58:49]**
+> **[TensorFlow]** -Train and serve a TensorFlow model with TensorFlow Serving  |  TFX\
+<https://www.tensorflow.org/tfx/tutorials/serving/rest_simple?hl=es>\
+
+
+- **[2020-01-28 12:47:28]**
+> **[Notion]** -Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.\
+A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team\
+<https://www.notion.so/Material-de-divulgaci-n-charlas-t-cnicas-talleres-entrevistas-sailormerqury-45b9ba0b8e55470e935a2b7f2093dda3>\
+![Image](https://www.notion.so/images/meta.png)
+
 - **[2020-01-27 20:46:41]**
 > **[Think Big]** -Crea tu modelo Machine Learning con Teachable Machine - LUCA\
 Hace unos pocos meses, Google liberó Teachable Machine, una herramienta y un recurso sorprendentes para Machine Learning dirigida al público general. Esta\

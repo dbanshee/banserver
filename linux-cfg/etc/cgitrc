@@ -10,3 +10,5 @@ scan-path=/usr/local/git-server
 
 auth-filter=/usr/local/ban/cgit-auth/cgit-auth.sh
 #auth-filter=lua:/usr/lib/cgit/filters/simple-authentication.lua
+
+clone-prefix=https://banserver.bansheerocks.com:9743/git

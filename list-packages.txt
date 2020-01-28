@@ -1,3 +1,4 @@
+ apt autoremove
  apt install ristretto
  apt install snapd
  apt-get autoremove
@@ -37,6 +38,7 @@
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
  apt-get install libssl-dev
  apt-get install linux-source-4.19
+ apt-get install lshw
  apt-get install lsof
  apt-get install lua-posix
  apt-get install luarocks

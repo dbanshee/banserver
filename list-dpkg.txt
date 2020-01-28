@@ -784,7 +784,6 @@ ii  liblwp-protocol-https-perl            6.07-2                               a
 ii  liblwres161:amd64                     1:9.11.5.P4+dfsg-5.1                 amd64        Lightweight Resolver Library used by BIND
 ii  liblz4-1:amd64                        1.8.3-1                              amd64        Fast LZ compression algorithm library - runtime
 ii  liblzma5:amd64                        5.2.4-1                              amd64        XZ-format compression library
-ii  liblzo2-2:amd64                       2.10-0.1                             amd64        data compression library
 ii  libmad0:amd64                         0.15.1b-10                           amd64        MPEG audio decoder library
 ii  libmagic-mgc                          1:5.35-4+deb10u1                     amd64        File type determination library using "magic" numbers (compiled magic file)
 ii  libmagic1:amd64                       1:5.35-4+deb10u1                     amd64        Recognize the type of data in a file using "magic" numbers - library
@@ -1121,7 +1120,7 @@ ii  libthai0:amd64                        0.1.28-2                             a
 ii  libtheora0:amd64                      1.1.1+dfsg.1-15                      amd64        Theora Video Compression Codec
 ii  libtidy5deb1:amd64                    2:5.6.0-10                           amd64        HTML/XML syntax checker and reformatter - shared library
 ii  libtie-ixhash-perl                    1.23-2                               all          Perl module to order associative arrays
-ii  libtiff5:amd64                        4.0.10-4                             amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                        4.1.0+git191117-2~deb10u1            amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                      2.3000-2                             all          collection of modules to manipulate date/time information
 ii  libtinfo6:amd64                       6.1+20181013-2+deb10u2               amd64        shared low-level terminfo library for terminal handling
 ii  libtirpc-common                       1.1.4-0.4                            all          transport-independent RPC library - common files
@@ -1364,6 +1363,7 @@ ii  login                                 1:4.5-1.1                            a
 ii  logrotate                             3.14.0-4                             amd64        Log rotation utility
 ii  lsb-base                              10.2019051400                        all          Linux Standard Base init script functionality
 ii  lsb-release                           10.2019051400                        all          Linux Standard Base version reporting utility
+ii  lshw                                  02.18.85-0.1                         amd64        information about hardware configuration
 ii  lsof                                  4.91+dfsg-1                          amd64        utility to list open files
 ii  lua-any                               25                                   all          helper script for shebang lines in Lua scripts
 ii  lua-bit32:amd64                       5.3.0-3                              amd64        Backport of the Lua 5.2 bit32 library to Lua 5.1
@@ -1745,7 +1745,7 @@ ii  pulseaudio-utils                      12.2-4+deb10u1                       a
 ii  python                                2.7.16-1                             amd64        interactive high-level object-oriented language (Python2 version)
 ii  python-all                            2.7.16-1                             amd64        package depending on all supported Python2 runtime versions
 ii  python-all-dev                        2.7.16-1                             amd64        package depending on all supported Python2 development packages
-ii  python-apt-common                     1.8.4                                all          Python interface to libapt-pkg (locales)
+ii  python-apt-common                     1.8.4.1                              all          Python interface to libapt-pkg (locales)
 ii  python-asn1crypto                     0.24.0-1                             all          Fast ASN.1 parser and serializer (Python 2)
 ii  python-cairo:amd64                    1.16.2-1+b1                          amd64        Python bindings for the Cairo vector graphics library
 ii  python-certifi                        2018.8.24-1                          all          root certificates for validating SSL certs and verifying TLS hosts
@@ -1793,7 +1793,7 @@ ii  python2.7                             2.7.16-2+deb10u1                     a
 ii  python2.7-dev                         2.7.16-2+deb10u1                     amd64        Header files and a static library for Python (v2.7)
 ii  python2.7-minimal                     2.7.16-2+deb10u1                     amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                               3.7.3-1                              amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apt                           1.8.4                                amd64        Python 3 interface to libapt-pkg
+ii  python3-apt                           1.8.4.1                              amd64        Python 3 interface to libapt-pkg
 ii  python3-asn1crypto                    0.24.0-1                             all          Fast ASN.1 parser and serializer (Python 3)
 ii  python3-cairo:amd64                   1.16.2-1+b1                          amd64        Python3 bindings for the Cairo vector graphics library
 ii  python3-certifi                       2018.8.24-1                          all          root certificates for validating SSL certs and verifying TLS hosts (python3)
@@ -1878,7 +1878,6 @@ ii  software-properties-common            0.96.20.2-2                          a
 ii  sound-theme-freedesktop               0.8-2                                all          freedesktop.org sound theme
 ii  spice-client-glib-usb-acl-helper      0.35-2                               amd64        Helper tool to validate usb ACLs
 ii  sqlite3                               3.27.2-3                             amd64        Command line interface for SQLite 3
-ii  squashfs-tools                        1:4.3-12                             amd64        Tool to create and append to squashfs filesystems
 ii  ssl-cert                              1.0.39                               all          simple debconf wrapper for OpenSSL
 ii  strace                                4.26-0.2                             amd64        System call tracer
 ii  sudo                                  1.8.27-1+deb10u1                     amd64        Provide limited super user privileges to specific users
