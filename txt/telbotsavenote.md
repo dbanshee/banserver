@@ -7,6 +7,49 @@
 
 ## Unclassified
 
+- **[2020-01-29 18:20:27]**
+Hyperparameter tuning with Keras Tuner\
+<https://blog.tensorflow.org/2020/01/hyperparameter-tuning-with-keras-tuner.html?linkId=81371017&m=1>\
+![Image](https://storage.googleapis.com/tensorflow-blog/image_blank.png)
+
+- **[2020-01-29 17:55:39]**
+> **[Medium]** -Building a Smart PySC2 Agent\
+In my previous tutorial, we were able to create a simple PySC2 agent that built units and attacked the enemy. This time we will use a…\
+<https://chatbotslife.com/building-a-smart-pysc2-agent-cdc269cb095d>\
+![Image](https://miro.medium.com/max/480/0*vORRb8Vm0WInUTNf.)
+
+- **[2020-01-29 17:22:41]**
+> **[ComputerHoy]** -Revolution Pi, el mini PC industrial basado en Raspberry Pi\
+Revolution Pi es un mini PC industrial basado en Raspberry Pi. Esta formado por módulos base y módulos de expansión para conectar con máquinas industriales.\
+<https://computerhoy.com/noticias/tecnologia/revolution-pi-mini-pc-industrial-basado-raspbery-pi-570983>\
+![Image](https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/01/revolution-pi-mini-pc-industrial-basado-raspbery-pi-1854181.jpg?itok=6UMXOzAS)
+
+- **[2020-01-29 16:00:06]**
+How we improved Tensorflow Serving performance by over 70%\
+<https://hackernoon.com/how-we-improved-tensorflow-serving-performance-by-over-70-f21b5dad2d98>\
+![Image](https://hackernoon.com/hn-images/0*onk3Qhv2Be7rYuzm.png)
+
+- **[2020-01-29 14:30:53]**
+> **[GitHub]** -tensorflow/serving\
+A flexible, high-performance serving system for machine learning models - tensorflow/serving\
+<https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/setup.md>\
+![Image](https://avatars2.githubusercontent.com/u/15658638?s=400&v=4)
+
+- **[2020-01-29 12:52:54]**
+> **[TensorFlow]** -Preprocessing data with TensorFlow Transform  |  TFX\
+<https://www.tensorflow.org/tfx/tutorials/transform/census?hl=es>\
+
+
+- **[2020-01-29 07:59:20]**
+> **[TensorFlow]** -Preprocess data with TensorFlow Transform  |  TFX\
+<https://www.tensorflow.org/tfx/tutorials/transform/simple>\
+
+
+- **[2020-01-28 22:12:42]**
+<http://diwo.bq.com/utilizar-rele-arduino-zum-core/>\
+<http://diwo.bq.com/utilizar-rele-arduino-zum-core/>\
+
+
 - **[2020-01-28 13:58:49]**
 > **[TensorFlow]** -Train and serve a TensorFlow model with TensorFlow Serving  |  TFX\
 <https://www.tensorflow.org/tfx/tutorials/serving/rest_simple?hl=es>\
