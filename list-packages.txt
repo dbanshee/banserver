@@ -3,6 +3,7 @@
  apt install snapd
  apt-get autoremove
  apt-get install apache2
+ apt-get install apache2-suexec-custom
  apt-get install apachetop
  apt-get install apt-file
  apt-get install arduino
@@ -23,6 +24,7 @@
  apt-get install galculator
  apt-get install gedit
  apt-get install git
+ apt-get install gitolite3
  apt-get install glew-utils
  apt-get install gparted
  apt-get install gradle
@@ -78,6 +80,8 @@
  apt-get install synaptic
  apt-get install tcpdump
  apt-get install telnet
+ apt-get install tensorflow-model-server
+ apt-get install tensorflow-model-server-universal
  apt-get install tidy
  apt-get install tree
  apt-get install trickle
@@ -99,6 +103,7 @@
  apt-get purge arduino
  apt-get purge atop clinfo cockpit
  apt-get purge bazel
+ apt-get purge gitolite3
  apt-get purge mariadb-common
  apt-get purge mariadb-server
  apt-get purge mariadb-server-10.3 mariadb-server-core-10.3
@@ -107,4 +112,5 @@
  apt-get reinstall postfix
  apt-get remove mariadb-server
  apt-get remove roundcube-mysql
+ apt-get remove tensorflow-model-server
  apt-get upgrade

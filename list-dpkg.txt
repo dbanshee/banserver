@@ -11,6 +11,7 @@ ii  antlr                                 2.7.7+dfsg-9.2                       a
 ii  apache2                               2.4.38-3+deb10u3                     amd64        Apache HTTP Server
 ii  apache2-bin                           2.4.38-3+deb10u3                     amd64        Apache HTTP Server (modules and other binary files)
 ii  apache2-data                          2.4.38-3+deb10u3                     all          Apache HTTP Server (common files)
+ii  apache2-suexec-custom                 2.4.38-3+deb10u3                     amd64        Apache HTTP Server configurable suexec program for mod_suexec
 ii  apache2-utils                         2.4.38-3+deb10u3                     amd64        Apache HTTP Server (utility programs for web servers)
 ii  apachetop                             0.18.4-1                             amd64        Realtime Apache monitoring tool
 ii  apparmor                              2.13.2-10                            amd64        user-space parser utility for AppArmor
@@ -1895,6 +1896,7 @@ ii  tcl8.6                                8.6.9+dfsg-2                         a
 ii  tcpdump                               4.9.3-1~deb10u1                      amd64        command-line network traffic analyzer
 ii  tdb-tools                             1.3.16-2+b1                          amd64        Trivial Database - bundled binaries
 ii  telnet                                0.17-41.2                            amd64        basic telnet client
+ii  tensorflow-model-server-universal     2.1.0                                all          TensorFlow Serving ModelServer
 ii  testng                                6.9.12-4                             all          testing framework for Java
 ii  thin-provisioning-tools               0.7.6-2.1                            amd64        Tools for handling thinly provisioned device-mapper meta-data
 ii  tidy                                  2:5.6.0-10                           amd64        HTML/XML syntax checker and reformatter

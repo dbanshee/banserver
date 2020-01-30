@@ -7,6 +7,47 @@
 
 ## Unclassified
 
+- **[2020-01-30 19:36:12]**
+> **[Google]** -Discovering millions of datasets on the web\
+Dataset Search launches publicly with an index of 25 million datasets, helping scientists, journalists, students, data geeks to find data.\
+<https://blog.google/products/search/discovering-millions-datasets-web/>\
+![Image](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Dataset_Search_Launch.gif)
+
+- **[2020-01-30 09:16:31]**
+> **[TensorFlow]** -Installation  |  TFX  |  TensorFlow\
+<https://www.tensorflow.org/tfx/serving/setup>\
+
+
+- **[2020-01-30 07:51:46]**
+<https://www.fast.ai/>\
+<fast.ai · Making neural nets uncool again
+https://www.fast.ai/>\
+
+
+- **[2020-01-30 01:07:04]**
+> **[Medium]** -Deploying Keras model on Tensorflow Serving with GPU support\
+When finished working on your model, you need to deploy it to production. We were thinking how to get our great models to users. Tensorflow…\
+<https://blog.deeppoint.ai/deployment-keras-model-into-tensorflow-serving-with-gpu-e3137b8c8bfb>\
+![Image](https://miro.medium.com/max/500/1*LBjjmGofNJ_6vetddYAvIQ.jpeg)
+
+- **[2020-01-29 21:30:05]**
+Cinco expertos en inteligencia artificial comparten cuál es su uso y algoritmo favoritos\
+Para gustos, los colores. Igual que hay muchos editores de código y cada programador tiene uno favorito, en materia de Inteligencia Artificial abundan los...\
+<https://www.xataka.com/robotica-e-ia/estos-algoritmos-usos-preferidos-cinco-expertos-inteligencia-artificial>\
+![Image](https://i.blogs.es/4f1a89/algoritmos-favoritos-ia/840_560.jpg)
+
+- **[2020-01-29 20:26:32]**
+> **[Medium]** -Deploying Keras model on Tensorflow Serving with GPU support\
+When finished working on your model, you need to deploy it to production. We were thinking how to get our great models to users. Tensorflow…\
+<https://blog.deeppoint.ai/deployment-keras-model-into-tensorflow-serving-with-gpu-e3137b8c8bfb>\
+![Image](https://miro.medium.com/max/500/1*LBjjmGofNJ_6vetddYAvIQ.jpeg)
+
+- **[2020-01-29 20:22:55]**
+> **[GitHub]** -tensorflow/serving\
+A flexible, high-performance serving system for machine learning models - tensorflow/serving\
+<https://github.com/tensorflow/serving/blob/master/tensorflow_serving/batching/README.md>\
+![Image](https://avatars2.githubusercontent.com/u/15658638?s=400&v=4)
+
 - **[2020-01-29 18:20:27]**
 Hyperparameter tuning with Keras Tuner\
 <https://blog.tensorflow.org/2020/01/hyperparameter-tuning-with-keras-tuner.html?linkId=81371017&m=1>\
