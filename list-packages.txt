@@ -29,15 +29,18 @@
  apt-get install gparted
  apt-get install gradle
  apt-get install hardinfo
+ apt-get install html2ps
  apt-get install htop
  apt-get install hwinfo
  apt-get install iftop
  apt-get install iotop
  apt-get install java-common
  apt-get install java-package
+ apt-get install kate
  apt-get install libapache2-mod-wsgi
  apt-get install libkrb5-dev
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
+ apt-get install libreoffice
  apt-get install libssl-dev
  apt-get install linux-source-4.19
  apt-get install lshw
@@ -104,6 +107,7 @@
  apt-get purge atop clinfo cockpit
  apt-get purge bazel
  apt-get purge gitolite3
+ apt-get purge kate
  apt-get purge mariadb-common
  apt-get purge mariadb-server
  apt-get purge mariadb-server-10.3 mariadb-server-core-10.3

@@ -7,6 +7,95 @@
 
 ## Unclassified
 
+- **[2020-02-03 09:41:57]**
+The programming guide to the CUDA model and interface.\
+<https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#compute-capabilities>\
+
+
+- **[2020-02-03 08:46:05]**
+<https://ngc.nvidia.com/catalog/all>\
+<https://ngc.nvidia.com/catalog/all>\
+
+
+- **[2020-02-02 21:54:43]**
+> **[GitHub]** -tensorflow/tensorrt\
+TensorFlow/TensorRT integration. Contribute to tensorflow/tensorrt development by creating an account on GitHub.\
+<https://github.com/tensorflow/tensorrt>\
+![Image](https://avatars2.githubusercontent.com/u/15658638?s=400&v=4)
+
+- **[2020-02-02 09:39:20]**
+During the TensorFlow with TensorRT (TF-TRT) optimization, TensorRT performs several important transformations and optimizations to the neural network graph. First, layers with unused output are eliminated to avoid unnecessary computation. Next, where possible, convolution, bias, and ReLU layers are fused to form a single layer. Another transformation is horizontal layer fusion, or layer aggregation, along with the required division of aggregated layers to their respective output. Horizontal layer fusion improves performance by combining layers that take the same source tensor and apply the same operations with similar parameters. This guide provides instructions on how to accelerate inference in TF-TRT.\
+<http://docs.nvidia.com/deeplearning/frameworks/tf-trt-user-guide/index.html>\
+
+
+- **[2020-02-01 21:36:47]**
+> **[GitHub]** -NVIDIA/tensorrt-inference-server\
+The TensorRT Inference Server provides a cloud inferencing solution optimized for NVIDIA GPUs.  - NVIDIA/tensorrt-inference-server\
+<https://github.com/NVIDIA/tensorrt-inference-server/blob/master/README.rst>\
+![Image](https://avatars0.githubusercontent.com/u/1728152?s=400&v=4)
+
+- **[2020-02-01 20:03:20]**
+This support matrix is for NVIDIA optimized frameworks. The matrix provides a single view into the supported software and specific versions that come packaged with the frameworks based on the container image.\
+<http://docs.nvidia.com/deeplearning/frameworks/support-matrix/index.html>\
+
+
+- **[2020-02-01 19:59:27]**
+<https://docs.nvidia.com/deeplearning/sdk/tensorrt-inference-server-guide/docs/index.htmlindex.html>\
+<NVIDIA TensorRT Inference Server — NVIDIA TensorRT Inference Server 1.10.0 documentation
+https://docs.nvidia.com/deeplearning/sdk/tensorrt-inference-server-guide/docs/index.htmlindex.html>\
+
+
+- **[2020-02-01 19:43:50]**
+> **[NVIDIA Developer Blog]** -TensorRT Integration Speeds Up TensorFlow Inference | NVIDIA Developer Blog\
+Update, May 9, 2018: TensorFlow v1.7 and above integrates with TensorRT 3.0.4. NVIDIA is working on supporting the integration for a wider set of configurations and versions. We’ll publish updates…\
+<https://devblogs.nvidia.com/tensorrt-integration-speeds-tensorflow-inference/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2018/03/TRT-TF-main-362x233.png)
+
+- **[2020-02-01 15:57:41]**
+Los 12 mejores documentales que puedes ver en HBO y Netflix sobre el mundo del software, la tecnología y el desarrollo\
+Con la tecnología formando parte omnipresente de nuestras vidas es posible que a más de uno le entre curiosidad por las historias detrás de algunos de los...\
+<https://www.genbeta.com/a-fondo/12-documentales-que-puedes-ver-hbo-netflix-mundo-software-tecnologia-desarrollo>\
+![Image](https://i.blogs.es/6aaaf4/documentales-tecnologia/840_560.png)
+
+- **[2020-01-31 23:49:55]**
+> **[DeepLearnPhysics Blog]** -How to Implement Minibatching in Tensorflow\
+A demonstration of minibatch implementation in Tensorflow, comparing training with and without minibatches with the MNIST dataset as an example\
+<http://deeplearnphysics.org/Blog/minibatch.html>\
+![Image](profile.png)
+
+- **[2020-01-31 23:27:42]**
+> **[TensorFlow]** -Distributed training with Keras  |  TensorFlow Core\
+<https://www.tensorflow.org/tutorials/distribute/keras>\
+
+
+- **[2020-01-31 23:27:33]**
+> **[TensorFlow]** -Distributed training with TensorFlow  |  TensorFlow Core\
+<https://www.tensorflow.org/guide/distributed_training>\
+
+
+- **[2020-01-31 23:26:27]**
+> **[Packt Hub]** -Distributed TensorFlow: Working with multiple GPUs & servers\
+Learn the fundamentals of distributed tensorflow by testing it out on multiple GPUs, servers, and learned how to train a full MNIST classifier in a distributed way with tensorflow.\
+<https://hub.packtpub.com/distributed-tensorflow-multiple-gpu-server/>\
+![Image](https://hub.packtpub.com/wp-content/uploads/2018/05/servers.jpg)
+
+- **[2020-01-31 15:35:37]**
+> **[IArtificial.net]** -Regularización Lasso L1, Ridge L2 y ElasticNet - IArtificial.net\
+La regularización consiste en añadir una penalización a la función de coste. Esta penalización produce modelos más simples que generalizan mejor.\
+<https://iartificial.net/regularizacion-lasso-l1-ridge-l2-y-elasticnet/>\
+
+
+- **[2020-01-31 09:05:27]**
+<https://sebastianraschka.com/faq/docs/logisticregr-neuralnet.html>\
+<https://sebastianraschka.com/faq/docs/logisticregr-neuralnet.html>\
+
+
+- **[2020-01-31 08:39:29]**
+> **[IArtificial.net]** -IArtificial.net\
+Ayudamos a Profesionales, Negocios y Empresas a sacar partido a la Inteligencia Artificial, Machine Learning y Análisis de Datos.\
+<https://iartificial.net>\
+
+
 - **[2020-01-30 19:36:12]**
 > **[Google]** -Discovering millions of datasets on the web\
 Dataset Search launches publicly with an index of 25 million datasets, helping scientists, journalists, students, data geeks to find data.\
