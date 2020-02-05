@@ -60,5 +60,7 @@
     
     - Notebook Grader: <https://github.com/jupyter/nbgrader>
     
-    - Convert Notebooks to MD
-<>jupytex
+    - Convert Notebooks to MD: <https://github.com/jupyter/nbconvert>
+    
+    - nVidia Dashboard: <https://github.com/rapidsai/jupyterlab-nvdashboard>
+        <https://medium.com/rapids-ai/gpu-dashboards-in-jupyter-lab-757b17aae1d5>

@@ -1,6 +1,8 @@
 # Jupyter Hub Installation
 
 ## Documentation
+Jupyter Tricks
+<https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/>
 
 - **Instalacion Jupyter Lab**
 
@@ -159,6 +161,15 @@ sudo jupyter labextension install @krassowski/jupyterlab_go_to_definition -- jup
 sudo jupyter labextension install @lckr/jupyterlab_variableinspector
 ```
 
+- TensorBoard
+```bash
+jupyter labextension install jupyterlab_tensorboard
+```
+
+- GitHub
+```bash
+jupyter labextension install @jupyterlab/github
+```
 
 
 ## Remote SSH Kernel
@@ -183,3 +194,4 @@ ikernel profiles
 ```python
 ipython profile create sshjupyter
 ```
+

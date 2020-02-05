@@ -7,6 +7,64 @@
 
 ## Unclassified
 
+- **[2020-02-05 19:13:17]**
+> **[NVIDIA Developer]** -NVIDIA Management Library (NVML)\
+A C-based API for monitoring and managing various states of the NVIDIA GPU devices. It provides a direct access to the queries and commands exposed via nvidia-smi. The runtime version of NVML ships with the NVIDIA display driver, and the SDK provides the appropriate header, stub libraries and sample applications. Each new version of NVML is backwards compatible and is intended to be a platform for building 3rd party applications. Query-able states includes: ECC error counts: Both correctable single bit and detectable double bit errors are reported.\
+<https://developer.nvidia.com/nvidia-management-library-nvml>\
+
+
+- **[2020-02-05 19:04:21]**
+> **[Medium]** -GPU Dashboards in Jupyter Lab\
+An open-source package for the real-time visualization of NVIDIA GPU metrics in interactive Jupyter environments\
+<https://medium.com/rapids-ai/gpu-dashboards-in-jupyter-lab-757b17aae1d5>\
+![Image](https://miro.medium.com/max/1200/1*UdW99rZFmTZNZYsjxzF0VA.png)
+
+- **[2020-02-05 18:30:39]**
+> **[GitHub]** -grey-eye/talking-heads\
+Our implementation of "Few-Shot Adversarial Learning of Realistic Neural Talking Head Models" (Egor Zakharov et al.) - grey-eye/talking-heads\
+<https://github.com/grey-eye/talking-heads/blob/master/README.md>\
+![Image](https://avatars2.githubusercontent.com/u/51443353?s=400&v=4)
+
+- **[2020-02-05 18:28:41]**
+> **[GitHub]** -vincent-thevenin/Realistic-Neural-Talking-Head-Models\
+My implementation of Few-Shot Adversarial Learning of Realistic Neural Talking Head Models (Egor Zakharov et al.). - vincent-thevenin/Realistic-Neural-Talking-Head-Models\
+<https://github.com/vincent-thevenin/Realistic-Neural-Talking-Head-Models>\
+![Image](https://avatars2.githubusercontent.com/u/38472289?s=400&v=4)
+
+- **[2020-02-05 06:56:20]**
+> **[Medium]** -The Why, When, and How of Using Python Multi-threading and Multi-Processing\
+Multithreading and multiprocessing in Python, when to use one over the other, and how to use them. Without banging your head on the wall.\
+<https://medium.com/towards-artificial-intelligence/the-why-when-and-how-of-using-python-multi-threading-and-multi-processing-afd1b8a8ecca>\
+![Image](https://miro.medium.com/max/1200/1*c5m-oIHJA4WLcnUMttLgUA.png)
+
+- **[2020-02-04 22:40:57]**
+<https://course.fast.ai/>\
+<https://course.fast.ai/>\
+
+
+- **[2020-02-04 22:40:44]**
+<https://www.fast.ai/>\
+<https://www.fast.ai/>\
+
+
+- **[2020-02-04 18:43:22]**
+> **[Medium]** -How to do machine learning efficiently\
+I have just come out of a project where 80% into it I felt I had very little. I invested a lot of time and in the end it was a total…\
+<https://medium.com/hackernoon/doing-machine-learning-efficiently-8ba9d9bc679d>\
+![Image](https://miro.medium.com/max/1200/1*5cyqxNp2r5UA4bYT2qz4Hw.jpeg)
+
+- **[2020-02-04 15:33:30]**
+> **[GitHub]** -iperov/DeepFaceLab\
+DeepFaceLab is the leading software for creating deep fakes. - iperov/DeepFaceLab\
+<https://github.com/iperov/DeepFaceLab>\
+![Image](https://avatars1.githubusercontent.com/u/8076202?s=400&v=4)
+
+- **[2020-02-04 15:27:20]**
+> **[GitHub]** -deepfakes/faceswap\
+Deepfakes Software For All. Contribute to deepfakes/faceswap development by creating an account on GitHub.\
+<https://github.com/deepfakes/faceswap/blob/master/README.md>\
+![Image](https://avatars1.githubusercontent.com/u/34667098?s=400&v=4)
+
 - **[2020-02-03 09:41:57]**
 The programming guide to the CUDA model and interface.\
 <https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#compute-capabilities>\
