@@ -26,6 +26,7 @@ echo
 # Git Repositories Backup
 for gitRep in $(find $GIT_SERVER_PATH -maxdepth 2 -name '*.git' -type d) ; do
   repName=$(basename $gitRep)
+  echo "---------------------------------------------------------"
   echo " Found Git Repository : $gitRep"
   echo
 

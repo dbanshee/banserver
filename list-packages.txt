@@ -15,9 +15,11 @@
  apt-get install curl
  apt-get install devscripts equivs gdebi-core
  apt-get install disk-manager
+ apt-get install dos2unix
  apt-get install dovecot-common dovecot-imapd
  apt-get install ethtool
  apt-get install fail2ban
+ apt-get install ffmpeg
  apt-get install firefox-esr
  apt-get install firmware-iwlwifi
  apt-get install firmware-misc-nonfree
@@ -88,6 +90,7 @@
  apt-get install tidy
  apt-get install tree
  apt-get install trickle
+ apt-get install unrar
  apt-get install vim
  apt-get install virt-manager
  apt-get install vlc

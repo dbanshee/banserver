@@ -16,6 +16,7 @@ import datetime
 import logging
 from config import Config
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.error import NetworkError
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -23,6 +24,7 @@ import re
 import traceback
 import sys
 import numpy as np
+import time
 
 FILE_DELIM = "## Unclassified\n"
 
@@ -86,7 +88,13 @@ def main():
     dp.add_error_handler(errorCallback)
 
     # Start the Bot
-    updater.start_polling()
+    try:
+        updater.start_polling()
+    except NetworkError as e:
+        logger.error('NetworkError Exception Trace "%s"', traceback.format_exception(None, e, e.__traceback__))
+        logger.error('Trying in few seconds')
+        time.sleep(60)
+        
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since

@@ -7,6 +7,207 @@
 
 ## Unclassified
 
+- **[2020-02-20 08:39:19]**
+[Updated] BodyPix: Real-time Person Segmentation in the Browser with TensorFlow.js\
+<https://blog.tensorflow.org/2019/11/updated-bodypix-2.html>\
+![Image](https://storage.googleapis.com/tensorflow-blog/image_blank.png)
+
+- **[2020-02-20 08:30:33]**
+> **[Stav Shamir]** -Making your C library callable from Python by wrapping it with Cython\
+Cython is known for its ability to increase the performance of Python code. Another useful feature of Cython is making existing C functions callable from within (seemingly) pure Python modules.\
+<https://stavshamir.github.io/python/making-your-c-library-callable-from-python-by-wrapping-it-with-cython/>\
+![Image](https://stavshamir.github.io/assets/images/cython-header.jpg)
+
+- **[2020-02-19 19:08:26]**
+<https://www.openacc.org/>\
+<https://www.openacc.org/>\
+
+
+- **[2020-02-19 18:54:01]**
+Livermore Computing Training\
+<https://computing.llnl.gov/tutorials/linux_clusters/>\
+
+
+- **[2020-02-19 08:52:02]**
+<https://queue.acm.org/detail.cfm?id=2513149>\
+<https://queue.acm.org/detail.cfm?id=2513149>\
+
+
+- **[2020-02-19 08:33:40]**
+> **[Wei Bai 白巍]** -How to set processor affinity on Linux using taskset\
+Today’s computers typically adopt multiple CPU cores. A process/thread can be executed on any of those CPU cores (determined by OS scheduling). Hence, performance optimization in such multi-c…\
+<https://baiweiblog.wordpress.com/2017/11/02/how-to-set-processor-affinity-in-linux-using-taskset/>\
+![Image](https://s0.wp.com/i/blank.jpg)
+
+- **[2020-02-18 21:49:39]**
+<https://www.kernel.org/doc/html/v5.4/vm/numa.html>\
+<What is NUMA? — The Linux Kernel documentation
+https://www.kernel.org/doc/html/v5.4/vm/numa.html>\
+
+
+- **[2020-02-18 21:49:25]**
+<http://lse.sourceforge.net/numa/>\
+<Linux Scalability Effort: NUMA Group Homepage
+http://lse.sourceforge.net/numa/>\
+
+
+- **[2020-02-18 21:49:05]**
+<http://lse.sourceforge.net/numa/faq/>\
+<NUMA Frequently Asked Questions
+http://lse.sourceforge.net/numa/faq/>\
+
+
+- **[2020-02-18 21:48:42]**
+> **[MuyLinux]** -NUMA, ese gran desconocido » MuyLinux\
+Hoy en día se han puesto de moda los clusters, pero muchas veces no son la solución ideal. No es que los clusters sean una mala opción, es que muchas\
+<https://www.muylinux.com/2008/05/21/numa-es-gran-desconocido/>\
+![Image](https://www.muylinux.com/wp-content/uploads/2008/05/numa_tux.jpg)
+
+- **[2020-02-18 09:10:55]**
+<https://mpitutorial.com/tutorials/running-an-mpi-cluster-within-a-lan/>\
+<Running an MPI Cluster within a LAN · MPI Tutorial
+https://mpitutorial.com/tutorials/running-an-mpi-cluster-within-a-lan/>\
+
+
+- **[2020-02-18 06:49:02]**
+> **[PyImageSearch]** -Autoencoders with Keras, TensorFlow, and Deep Learning - PyImageSearch\
+In this tutorial, you will learn how to implement and train autoencoders using Keras, TensorFlow, and Deep Learning.\
+<https://www.pyimagesearch.com/2020/02/17/autoencoders-with-keras-tensorflow-and-deep-learning/>\
+![Image](https://www.pyimagesearch.com/wp-content/uploads/2020/02/keras_autoencoders_header.png)
+
+- **[2020-02-18 06:49:01]**
+<https://www.open-mpi.org/faq/?category=runcuda>\
+<https://www.open-mpi.org/faq/?category=runcuda>\
+
+
+- **[2020-02-18 06:49:00]**
+> **[NVIDIA Developer Blog]** -How to Build a GPU-Accelerated Research Cluster | NVIDIA Developer Blog\
+Some of the fastest computers in the world are cluster computers. A cluster is a computer system comprising two or more computers (“nodes”) connected with a high-speed network.\
+<https://devblogs.nvidia.com/how-build-gpu-accelerated-research-cluster/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/01/cuda_ai_cube-362x362.jpg)
+
+- **[2020-02-18 06:48:59]**
+> **[Medium]** -Data Visualization with Bokeh in Python, Part III: Making a Complete Dashboard\
+Creating an interactive visualization application in Bokeh\
+<https://towardsdatascience.com/data-visualization-with-bokeh-in-python-part-iii-a-complete-dashboard-dc6a86aa6e23>\
+![Image](https://miro.medium.com/max/1200/1*wWPUyFSC0LlX960L3FTeDQ.jpeg)
+
+- **[2020-02-18 06:48:57]**
+> **[Lambda Blog]** -A Gentle Introduction to Multi GPU and Multi Node Distributed Training\
+This presentation is a high-level overview of the different types of training regimes that you'll encounter as you move from single GPU to multi GPU to multi node distributed training. It briefly describes where the computation happens, how the gradients are communicated, and how the models are updated and communicated.\
+<https://lambdalabs.com/blog/introduction-multi-gpu-multi-node-distributed-training-nccl-2-0/>\
+![Image](https://lambdalabs.com/blog/content/images/2019/05/multi-gpu-multi-gpu-all_reduce-1.png)
+
+- **[2020-02-14 09:35:38]**
+> **[J on the Beach]** -J on the Beach -  Speakers \
+ Learn about all speakers giving talks and workshops at jotb2020. From creators of programming languages to code explorers. \
+<https://jonthebeach.com/speakers>\
+![Image](https://jonthebeach.com/images/share/share.jpg?5e465bc946443)
+
+- **[2020-02-13 07:00:47]**
+> **[Medium]** -A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way\
+Artificial Intelligence has been witnessing a monumental growth in bridging the gap between the capabilities of humans and machines…\
+<https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53>\
+![Image](https://miro.medium.com/max/1200/1*vkQ0hXDaQv57sALXAJquxA.jpeg)
+
+- **[2020-02-13 07:00:40]**
+> **[Medium]** -Neural Style Transfer on Real Time Video (With Full implementable code)\
+In recent few years, we have experienced the application of computer vision in almost every nook and corner of our life — thanks to the…\
+<https://towardsdatascience.com/neural-style-transfer-on-real-time-video-with-full-implementable-code-ac2dbc0e9822>\
+![Image](https://miro.medium.com/max/1200/0*RNGus6GMyNlqiFbQ)
+
+- **[2020-02-13 07:00:32]**
+> **[Medium]** -Types of Optimization Algorithms used in Neural Networks and Ways to Optimize Gradient Descent\
+Have you ever wondered which optimization algorithm to use for your Neural network Model to produce slightly better and faster results by…\
+<https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f>\
+![Image](https://miro.medium.com/freeze/max/620/1*XVFmo9NxLnwDr3SxzKy-rA.gif)
+
+- **[2020-02-12 10:14:35]**
+> **[Medium]** -Neural Style Transfer on Real Time Video (With Full implementable code)\
+In recent few years, we have experienced the application of computer vision in almost every nook and corner of our life — thanks to the…\
+<https://towardsdatascience.com/neural-style-transfer-on-real-time-video-with-full-implementable-code-ac2dbc0e9822>\
+![Image](https://miro.medium.com/max/1200/0*RNGus6GMyNlqiFbQ)
+
+- **[2020-02-12 07:43:31]**
+> **[TensorFlow]** -Neural style transfer  |  TensorFlow Core\
+<https://www.tensorflow.org/tutorials/generative/style_transfer?hl=es>\
+
+
+- **[2020-02-12 07:39:53]**
+> **[TensorFlow]** -TensorFlow Hub\
+<!--no description-->\
+<https://www.tensorflow.org/hub?hl=es>\
+
+
+- **[2020-02-12 07:11:59]**
+> **[TensorFlow]** -Eager execution  |  TensorFlow Core\
+<https://www.tensorflow.org/guide/eager>\
+
+
+- **[2020-02-12 06:10:35]**
+Neural Style Transfer: Creating Art with Deep Learning using tf.keras and eager execution\
+<https://blog.tensorflow.org/2018/08/neural-style-transfer-creating-art-with-deep-learning.html>\
+![Image](https://storage.googleapis.com/tensorflow-blog/image_blank.png)
+
+- **[2020-02-10 17:56:40]**
+Página web de la Hackers Week 7, organizada por el consejo de estudiantes de la Escuela Técnica Superior de Ingeniería Informática.\
+<https://www.hackersweek.es/>\
+
+
+- **[2020-02-10 08:09:16]**
+> **[Medium]** -From Zero to Deepfake\
+Exploring deepfakes with DeepFaceLab\
+<https://medium.com/@jsoverson/from-zero-to-deepfake-310551e59aa3>\
+![Image](https://miro.medium.com/max/1200/1*X8FEdL05AQchZh335BtYzA.png)
+
+- **[2020-02-09 10:03:21]**
+> **[GameFront]** -Wolfenstein: Youngblood now has ray-tracing support - Gaming Industry News - GameFront\
+Wolffenstein: Youngblood now has official support for RTX ray-tracing and DLSS, according to a new announcement from Bethesda and NVIDIA, and as you expect, it makes this already stunning game even more jaw-dropping.You'll need an RTX card (2060, 2070, 2080Ti etc.) to be able to see the RTX update, but if you do have one, it's worth enabling because the ligh...\
+<https://www.gamefront.com/games/gamingtoday/article/wolfenstein-youngblood-now-has-ray-tracing-support>\
+![Image](https://www.gamefront.com/storage/images/articles/k5LfbyYUDZ8YqoSNbz6dEW7qczfJ0B6qJZ5tNlSj.jpeg)
+
+- **[2020-02-07 12:46:08]**
+NVIDIA no da «puntada sin hilo»: así funciona el ‘ray tracing’ de sus GeForce RTX que nos coloca en las puertas del fotorrealismo \
+El ray tracing está de moda. NVIDIA y Microsoft han puesto definitivamente el foco de atención sobre esta tecnología de renderizado con el objetivo de...\
+<https://www.xataka.com/componentes/nvidia-no-da-puntada-hilo-asi-funciona-ray-tracing-sus-geforce-rtx-que-nos-coloca-puertas-fotorrealismo>\
+![Image](https://i.blogs.es/36b096/raytracingap/840_560.jpg)
+
+- **[2020-02-07 11:55:13]**
+"Tenemos 7 nm para rato": entrevista a Manuel Ujaldón, que le da un sobresaliente a los Tensor Core y un bien a los RT Cores\
+Manuel Ujaldón, CUDA fellow desde 2012, Deep Learning Ambassador de NVIDIA y profesor de la Universidad de Málaga, ya es un habitual en Xataka. Tras...\
+<https://www.xataka.com/robotica-e-ia/tenemos-7-nm-para-rato-entrevista-a-manuel-ujaldon-que-le-da-sobresaliente-a-tensor-core-bien-a-rt-cores>\
+![Image](https://i.blogs.es/3fe69d/tensorcores/840_560.jpg)
+
+- **[2020-02-07 08:08:21]**
+> **[Medium]** -Real Time Video Neural Style Transfer\
+Optimizing the artistic stylization of videos in a constrained mobile environment\
+<https://towardsdatascience.com/real-time-video-neural-style-transfer-9f6f84590832>\
+![Image](https://miro.medium.com/freeze/max/480/1*Sj_QXxT5X5NE3Qml7yN5VA.gif)
+
+- **[2020-02-07 08:08:18]**
+> **[GitHub]** -jsigee87/real-time-style-transfer\
+Contribute to jsigee87/real-time-style-transfer development by creating an account on GitHub.\
+<https://github.com/jsigee87/real-time-style-transfer>\
+![Image](https://avatars0.githubusercontent.com/u/22483938?s=400&v=4)
+
+- **[2020-02-07 08:08:11]**
+> **[Medium]** -Neural Style Transfer on Real Time Video (With Full implementable code)\
+In recent few years, we have experienced the application of computer vision in almost every nook and corner of our life — thanks to the…\
+<https://towardsdatascience.com/neural-style-transfer-on-real-time-video-with-full-implementable-code-ac2dbc0e9822>\
+![Image](https://miro.medium.com/max/1200/0*RNGus6GMyNlqiFbQ)
+
+- **[2020-02-07 08:08:04]**
+> **[GitHub]** -nitsourish/Neural-Style-Transfer-on-video-data\
+Neural Style Transfer-Real Time Video Augmentation - nitsourish/Neural-Style-Transfer-on-video-data\
+<https://github.com/nitsourish/Neural-Style-Transfer-on-video-data>\
+![Image](https://avatars2.githubusercontent.com/u/11828049?s=400&v=4)
+
+- **[2020-02-06 18:35:31]**
+> **[Blog BricoGeek.com]** -Todo lo que necesitas saber sobre Jetson Nano de NVIDIA | BricoGeek.com\
+Te hemos preparado una completa guía sobre la NVIDIA Jetson Nano para que conozcas más en detalle qué es la Jetson Nano, cómo funciona y sobre todo qué es lo que puedes hacer con ella\
+<https://blog.bricogeek.com/noticias/robotica/todo-lo-que-necesitas-saber-sobre-jetson-nano-de-nvidia/>\
+![Image](https://cdn-blog.bricogeek.com/img_cms/3177-crear-tu-propio-coche-autonomo-con-ia-con-jetson-nano.jpg)
+
 - **[2020-02-05 19:13:17]**
 > **[NVIDIA Developer]** -NVIDIA Management Library (NVML)\
 A C-based API for monitoring and managing various states of the NVIDIA GPU devices. It provides a direct access to the queries and commands exposed via nvidia-smi. The runtime version of NVML ships with the NVIDIA display driver, and the SDK provides the appropriate header, stub libraries and sample applications. Each new version of NVML is backwards compatible and is intended to be a platform for building 3rd party applications. Query-able states includes: ECC error counts: Both correctable single bit and detectable double bit errors are reported.\
