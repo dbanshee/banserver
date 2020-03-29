@@ -171,6 +171,13 @@ jupyter labextension install jupyterlab_tensorboard
 jupyter labextension install @jupyterlab/github
 ```
 
+- Code Pretty
+```bash
+pip3 install yapf 
+jupyter nbextension install https://github.com/jfbercher/code_prettify/archive/master.zip
+jupyter nbextension enable code_prettify-master/code_prettify
+```
+
 
 ## Remote SSH Kernel
 <https://stackoverflow.com/questions/29037211/how-do-i-add-a-kernel-on-a-remote-machine-in-ipython-jupyter-notebook>
