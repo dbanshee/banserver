@@ -7,6 +7,267 @@
 
 ## Unclassified
 
+- **[2020-04-02 16:46:35]**
+> **[Linux Systems Analyst Blog - haydenjames.io]** -Linux top: Here's how to customize it\
+The top command (or Linux top) can display system summary info. Here's how the types of system summary, order and size of top info can by custom configured.\
+<https://haydenjames.io/linux-top-customize-it/>\
+![Image](https://haydenjames.io/wp-content/uploads/2017/09/top_after_with_color-1.png)
+
+- **[2020-04-02 15:26:10]**
+Recientemente me di cuenta de mi servidor en casa para obtener dolorosamente lento. Todos los recursos fueron devorados por dos procesos: servidores malware
+\
+<https://www.enmimaquinafunciona.com/pregunta/165177/virus-crond64--tsm-en-ubuntu>\
+
+
+- **[2020-03-30 14:06:59]**
+> **[YouTube]** -Hoy Charlamos con Martín Gamero (Kaiser77) sobre El Legado de 3DFX\
+https://www.kickstarter.com/projects/mgp1982/the-legacy-of-3dfx-el-legado-de-3dfx Hoy hablamos con Martin sobre su libro, crowdfunding, etc... sobre 3DFX jun...\
+<https://www.youtube.com/watch?v=h0AfsGVZvtE>\
+![Image](https://i.ytimg.com/vi/h0AfsGVZvtE/hqdefault.jpg)
+
+- **[2020-03-30 14:06:39]**
+> **[YouTube]** -🎥Conferencia de Martín Gamero: El libro "El Legado de 3dfx" 🕹️🎮\
+Martín Gamero nos presenta "El legado de 3dfx", un libro que habla de la historia del 3D en los ordenadores. Este libro se ha publicado, gracias a la campaña...\
+<https://www.youtube.com/watch?v=OACRrdPeBd0>\
+![Image](https://i.ytimg.com/vi/OACRrdPeBd0/hqdefault.jpg)
+
+- **[2020-03-23 18:36:25]**
+> **[NVIDIA Developer Blog]** -Numba: High-Performance Python with CUDA Acceleration | NVIDIA Developer Blog\
+Numba is an open-source Python compiler from Anaconda that can compile Python code for high-performance execution on CUDA-capable GPUs or multicore CPUs.\
+<https://devblogs.nvidia.com/numba-python-cuda-acceleration/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/10/numba_blue_icon_rgb-362x362.png)
+
+- **[2020-03-23 18:33:34]**
+<https://dzhelil.info/2019/07/17/cbench.html>\
+<https://dzhelil.info/2019/07/17/cbench.html>\
+
+
+- **[2020-03-23 08:37:32]**
+Running Numba Example of Matrix Multiplication\
+Quoted from  Numba's Documentation :   "Numba works by generating optimized machine code using the LLVM compiler infrastructure at import ti...\
+<http://jiajiamomomo.blogspot.com/2017/04/running-numba-example-of-matrix.html>\
+
+
+- **[2020-03-21 16:38:18]**
+> **[NVIDIA Developer Blog]** -An Efficient Matrix Transpose in CUDA C/C++ | NVIDIA Developer Blog\
+My last CUDA C++ post covered the mechanics of using shared memory, including static and dynamic allocation. In this post I will show some of the performance gains achievable using shared memory.\
+<https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2012/10/CUDA_Cube_1K-362x359.jpg)
+
+- **[2020-03-21 16:24:01]**
+<https://courses.nvidia.com/certificates/13369ad844694907a10bdb0e9d2ff6f5>\
+<https://courses.nvidia.com/certificates/13369ad844694907a10bdb0e9d2ff6f5>\
+
+
+- **[2020-03-21 15:11:38]**
+> **[NVIDIA Developer Blog]** -An Efficient Matrix Transpose in CUDA C/C++ | NVIDIA Developer Blog\
+My last CUDA C++ post covered the mechanics of using shared memory, including static and dynamic allocation. In this post I will show some of the performance gains achievable using shared memory.\
+<https://devblogs.nvidia.com/efficient-matrix-transpose-cuda-cc/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2012/10/CUDA_Cube_1K-362x359.jpg)
+
+- **[2020-03-20 23:09:10]**
+Deep learning\
+<https://jhui.github.io/2017/03/06/CUDA/>\
+
+
+- **[2020-03-20 21:12:38]**
+The user manual for CUDA-MEMCHECK.\
+<https://docs.nvidia.com/cuda/cuda-memcheck/>\
+
+
+- **[2020-03-20 15:09:02]**
+> **[YouTube]** -NO creerás lo que le pasa a esta GRÁFICA 👀🔥\
+Yo intercambio mis skins de CSGO y forma segura en ; https://csgoexo.com/ En el vídeo podemos ver una de las gráficas mas raras del mundo! la gigabyte Super ...\
+<https://www.youtube.com/watch?v=Wj1szD3hUWE>\
+![Image](https://i.ytimg.com/vi/Wj1szD3hUWE/maxresdefault.jpg)
+
+- **[2020-03-19 18:46:45]**
+> **[NVIDIA Developer Blog]** -Programming Tensor Cores in CUDA 9 | NVIDIA Developer Blog\
+How-to post shows how to program Tensor Cores in CUDA to get up to 12x higher floating point throughput on Volta GPUs for deep learning and linear algebra.\
+<https://devblogs.nvidia.com/programming-tensor-cores-cuda-9/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/12/tensor_cube_white-624x934-362x542.png)
+
+- **[2020-03-19 15:00:11]**
+> **[GitHub]** -NaoyukiIchimura/cuda_image_filtering_global\
+Contribute to NaoyukiIchimura/cuda_image_filtering_global development by creating an account on GitHub.\
+<https://github.com/NaoyukiIchimura/cuda_image_filtering_global>\
+![Image](https://avatars2.githubusercontent.com/u/41771675?s=400&v=4)
+
+- **[2020-03-19 14:57:58]**
+> **[Qiita]** -Accelerating Convolution Operations by GPU (CUDA), Part 1: Fundamentals with Example Code Using Only Global Memory - Qiita\
+This article shows the fundamentals of using CUDA for accelerating convolution operations. Since convolution is the i...\
+<https://qiita.com/naoyuki_ichimura/items/8c80e67a10d99c2fb53c>\
+![Image](https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-1.2.2&w=1200&mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D380%26txt%3DAccelerating%2520Convolution%2520Operations%2520by%2520GPU%2520%2528CUDA%2529%252C%2520Part%25201%253A%2520Fundamentals%2520with%2520Example%2520Code%2520Using%2520Only%2520Global%2520Me%25E2%2580%25A6%26txt-color%3D%2523333%26txt-font%3DAvenir-Black%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3Daa319dea3dcf9ba63be2a9791dcab0fe&mark-align=center%2Cmiddle&blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-1.2.2%26w%3D840%26h%3D500%26txt%3D%2540naoyuki_ichimura%26txt-color%3D%2523333%26txt-font%3DAvenir-Black%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D0be0e7c619d152a69d81581a2fd0c2de&blend-align=center%2Cmiddle&blend-mode=normal&s=692160c9136b7cfe668bbc63d3a2a02e)
+
+- **[2020-03-19 14:57:31]**
+Two Dimensional (2D) Image Convolution in CUDA by Shared & Constant Memory: An Optimized way\
+Convolution in CUDA by using Shared and Constant Memory, How to Optimize Convolution in CUDA?\
+<https://www.cstechera.com/2015/07/two-dimensional-2d-image-convolution-in-CUDA.html>\
+![Image](https://lh4.googleusercontent.com/proxy/6A-j1c4D1ic3QQO1tDURr6xNGYf10RGYmW4jQ9M2OSS1bFmQRwB15meEV5V7-7pRGuLQWcGIPw4VRKTfpznFJg=w1200-h630-p-k-no-nu)
+
+- **[2020-03-19 14:57:26]**
+<https://www.evl.uic.edu/sjames/cs525/final.html>\
+<https://www.evl.uic.edu/sjames/cs525/final.html>\
+
+
+- **[2020-03-19 10:45:32]**
+> **[NVIDIA Developer Blog]** -Unified Memory in CUDA 6 | NVIDIA Developer Blog\
+Unified Memory enhances programmer productivity by enabling data access by either the CPU or GPU from a single pointer, migrating data on demand.\
+<https://devblogs.nvidia.com/unified-memory-in-cuda-6/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/11/Unified-Memory-MultiGPU-FI-362x272.png)
+
+- **[2020-03-19 00:18:02]**
+> **[Medium]** -Nvidia gave me a $15K Data Science Workstation — here’s what I did with it\
+Recreating a massive Pubmed literature search project on a Data Science WhisperStation in hours versus weeks\
+<https://towardsdatascience.com/nvidia-gave-me-a-15k-data-science-workstation-heres-what-i-did-with-it-70cfb069fc35>\
+![Image](https://miro.medium.com/max/1200/0*6WcFEzEcghiNg-1I.jpg)
+
+- **[2020-03-18 21:17:01]**
+> **[Stack Overflow]** -Passing a class object to a kernel\
+Can we pass an object to a kernel function ?
+
+Consider I have a class 
+
+class MyClass
+{
+    public:
+        int value;
+        float rate;
+        MyClass()
+        {
+            value = 0; rate = ...\
+<https://stackoverflow.com/questions/14119088/passing-a-class-object-to-a-kernel>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-03-17 17:55:25]**
+> **[Medium]** -A Guide to Neural Network Loss Functions with Applications in Keras\
+Binary Cross Entropy, Cosine Proximity, Hinge Loss, and 6 More\
+<https://towardsdatascience.com/a-guide-to-neural-network-loss-functions-with-applications-in-keras-3a3baa9f71c5>\
+![Image](https://miro.medium.com/max/1070/0*A1JmEFw_oBzVpCmV.png)
+
+- **[2020-03-14 10:18:57]**
+> **[gamesradar]** -Nvidia's calling on gaming PC owners to put their systems to work fighting COVID-19\
+Folding@home has new projects for the study of coronavirus\
+<https://www.gamesradar.com/nvidias-calling-on-gaming-pc-owners-to-put-their-systems-to-work-fighting-covid-19/>\
+![Image](https://cdn.mos.cms.futurecdn.net/ZhKwZC4jFqSfNYbw4AerZm-1200-80.jpg)
+
+- **[2020-03-13 17:52:27]**
+> **[DeepGrid]** -Backpropagation In Convolutional Neural Networks\
+Backpropagation in convolutional neural networks. A closer look at the concept of weights sharing in convolutional neural networks (CNNs) and an insight on how this affects the forward and backward propagation while computing the gradients during training.\
+<https://www.jefkine.com/general/2016/09/05/backpropagation-in-convolutional-neural-networks/>\
+
+
+- **[2020-03-13 17:47:28]**
+<https://missinglink.ai/guides/convolutional-neural-networks/python-convolutional-neural-network-creating-cnn-keras-tensorflow-plain-python/>\
+<https://missinglink.ai/guides/convolutional-neural-networks/python-convolutional-neural-network-creating-cnn-keras-tensorflow-plain-python/>\
+
+
+- **[2020-03-12 22:59:16]**
+> **[TensorFlow]** -Receive the TensorFlow Developer Certificate - TensorFlow\
+Demonstrate your level of proficiency in using TensorFlow to solve deep learning and ML problems by passing the TensorFlow Certificate program.\
+<https://www.tensorflow.org/certificate?hl=es>\
+![Image](https://www.tensorflow.org/images/tf_logo_social.png)
+
+- **[2020-03-11 14:57:20]**
+> **[InfoWorld]** -Nvidia’s Rapids: Python analytics on the GPU\
+An end-to-end data science ecosystem, open source Rapids brings Python dataframes, graphs, and machine learning to Nvidia GPU hardware\
+<https://www.infoworld.com/article/3532009/nvidias-rapids-python-analytics-on-the-gpu.html>\
+![Image](https://images.idgesg.net/images/article/2018/11/stream_river-bed_water-flow_rapids_rush-100780362-large.3x2.jpg)
+
+- **[2020-03-11 14:57:00]**
+> **[InfoWorld]** -Nvidia’s Rapids: Python analytics on the GPU\
+An end-to-end data science ecosystem, open source Rapids brings Python dataframes, graphs, and machine learning to Nvidia GPU hardware\
+<https://www.infoworld.com/article/3532009/nvidias-rapids-python-analytics-on-the-gpu.html>\
+![Image](https://images.idgesg.net/images/article/2018/11/stream_river-bed_water-flow_rapids_rush-100780362-large.3x2.jpg)
+
+- **[2020-03-10 16:53:27]**
+<https://nbconvert.readthedocs.io/en/latest/highlighting.html>\
+<https://nbconvert.readthedocs.io/en/latest/highlighting.html>\
+
+
+- **[2020-03-03 13:36:07]**
+Using the Audio Jack as Data Interface on Android* Systems\
+Overview As one of the interfaces on mobile devices and tablets, the key function of the audio jack is to play music. However, its other usage cannot be ignored—the audio jack can also be used to transmit data.\
+<https://software.intel.com/en-us/android/articles/using-the-audio-jack-as-data-interface-on-android-systems>\
+![Image](https://software.intel.com/sites/default/files/d9/e4/search_publish_icon.jpeg)
+
+- **[2020-03-03 13:17:47]**
+> **[Aprende Machine Learning]** -Sets de Entrenamiento, Test y Validación\
+Vamos a comentar las diferencias entre los conjuntos de Entrenamiento, Validación y Test utilizados en Machine Learning ya que suele haber bastante confusión en para qué es cada uno y cómo utilizar…\
+<https://www.aprendemachinelearning.com/sets-de-entrenamiento-test-validacion-cruzada/>\
+![Image](https://i0.wp.com/www.aprendemachinelearning.com/wp-content/uploads/2020/02/blog_validacion.png?fit=560%2C315&ssl=1)
+
+- **[2020-03-02 19:12:36]**
+> **[NVIDIA Developer Blog]** -Using Shared Memory in CUDA C/C++ | NVIDIA Developer Blog\
+This post provides a detailed introduction to Shared Memory in CUDA C/C++, including static and dynamic allocation, thread synchronization, and performance.\
+<https://devblogs.nvidia.com/using-shared-memory-cuda-cc/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2012/10/CUDA_Cube_1K-362x359.jpg)
+
+- **[2020-03-02 18:51:45]**
+> **[NVIDIA Developer Blog]** -Register Cache: Caching for Warp-Centric CUDA Programs | NVIDIA Developer Blog\
+The “register cache” is an optimization technique for CUDA programs that develops a virtual caching layer for threads in a single warp.\
+<https://devblogs.nvidia.com/register-cache-warp-cuda/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/10/thumb_547-362x228.png)
+
+- **[2020-03-02 16:14:18]**
+> **[Medium]** -Set up your own GPU-based Jupyterlab\
+In some very small steps, you will be guided to set up your own instance of GPU-leveraged Juypyterlab including all the machine learning…\
+<https://medium.com/@christoph.schranz/set-up-your-own-gpu-based-jupyterlab-e0d45fcacf43>\
+![Image](https://miro.medium.com/max/1142/1*B34G73-MQvDcDOL0Vbk3QA.png)
+
+- **[2020-03-02 07:58:38]**
+> **[Stack Overflow]** -How do CUDA blocks/warps/threads map onto CUDA cores?\
+I have been using CUDA for a few weeks, but I have some doubts about the allocation of blocks/warps/thread.
+I am studying the architecture from a didactic point of view (university project), so rea...\
+<https://stackoverflow.com/questions/10460742/how-do-cuda-blocks-warps-threads-map-onto-cuda-cores>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-03-02 07:47:29]**
+> **[NVIDIA Developer Blog]** -Programming Tensor Cores in CUDA 9 | NVIDIA Developer Blog\
+How-to post shows how to program Tensor Cores in CUDA to get up to 12x higher floating point throughput on Volta GPUs for deep learning and linear algebra.\
+<https://devblogs.nvidia.com/programming-tensor-cores-cuda-9/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2017/12/tensor_cube_white-624x934-362x542.png)
+
+- **[2020-02-29 21:49:10]**
+> **[NVIDIA Developer Blog]** -Unified Memory for CUDA Beginners | NVIDIA Developer Blog\
+My previous introductory post, “An Even Easier Introduction to CUDA C++”, introduced the basics of CUDA programming by showing how to write a simple program that allocated two arrays of numbers in…\
+<https://devblogs.nvidia.com/unified-memory-cuda-beginners/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2012/10/CUDA_Cube_1K-362x359.jpg)
+
+- **[2020-02-29 19:52:32]**
+> **[MuyComputer]** -Descubre la regla especial de NVIDIA para sus ingenieros - MuyComputer\
+Lo que vemos en la imagen adjunta es una regla que fue diseñada por Andrew Bell, vicepresidente de ingeniería de hardware de NVIDIA en 2016, una herramienta pen\
+<https://www.muycomputer.com/2017/12/26/regla-especial-nvidia-ingenieros/>\
+![Image](https://www.muycomputer.com/wp-content/uploads/2017/12/regla-1.jpg)
+
+- **[2020-02-29 19:22:09]**
+The programming guide to the CUDA model and interface.\
+<https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#hardware-implementation>\
+
+
+- **[2020-02-29 18:23:05]**
+> **[GitHub]** -fastai/fastbook\
+Draft of the fastai book. Contribute to fastai/fastbook development by creating an account on GitHub.\
+<https://github.com/fastai/fastbook>\
+![Image](https://avatars2.githubusercontent.com/u/20547620?s=400&v=4)
+
+- **[2020-02-29 18:17:40]**
+The programming guide to using the CUDA Toolkit to obtain the best performance from NVIDIA GPUs.\
+<https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#memory-optimizations>\
+
+
+- **[2020-02-29 10:41:17]**
+> **[NVIDIA Developer Blog]** -How to Implement Performance Metrics in CUDA C/C++ | NVIDIA Developer Blog\
+In the first post of this series we looked at the basic elements of CUDA C/C++ by examining a CUDA C/C++ implementation of SAXPY. In this second post we discuss how to analyze the performance of this…\
+<https://devblogs.nvidia.com/how-implement-performance-metrics-cuda-cc/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2012/10/CUDA_Cube_1K-362x359.jpg)
+
+- **[2020-02-29 10:40:21]**
+> **[NVIDIA Developer Blog]** -Beyond GPU Memory Limits with Unified Memory on Pascal | NVIDIA Developer Blog\
+Unified Memory on NVIDIA Pascal GPUs enables applications to run out-of-the-box with larger memory footprints and achieve great baseline performance.\
+<https://devblogs.nvidia.com/beyond-gpu-memory-limits-unified-memory-pascal/>\
+![Image](https://devblogs.nvidia.com/wp-content/uploads/2016/12/dme_jet_300px.gif)
+
 - **[2020-02-20 08:39:19]**
 [Updated] BodyPix: Real-time Person Segmentation in the Browser with TensorFlow.js\
 <https://blog.tensorflow.org/2019/11/updated-bodypix-2.html>\

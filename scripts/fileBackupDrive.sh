@@ -79,15 +79,15 @@ if [ ! -z "${lastBackupFileId}" ] ; then
    echo " MD5 Last    Backup : $md5LastBackup"
 
    if [ "$md5Backup" != "$md5LastBackup" ] ; then
-     echo -e "\n Backup has changes. [UPDATE-BACKUP].\n"
+     echo -e "\n Backup has changes. ==[UPDATE-BACKUP]==.\n"
      updateBackupCmd="${GDRIVE_CMD} update --no-progress $lastBackupFileId $backupPath"
      echo " Update Backup Cmd : $updateBackupCmd"
      eval $updateBackupCmd
    else
-     echo -e "\n Backup has not changes. [SKIPPED-BACKUP].\n"
+     echo -e "\n Backup has not changes. ==[SKIPPED-BACKUP]==.\n"
    fi
 else 
-  echo -e "\n Not exists previous Backup [CREATE-BACKUP].\n" 
+  echo -e "\n Not exists previous Backup ==[CREATE-BACKUP]==.\n" 
   uploadBackupCmd="${GDRIVE_CMD} upload --no-progress -p ${gDriveGitFolderId} $backupPath"
   echo " Upload Backup Cmd : $uploadBackupCmd"
   eval $uploadBackupCmd

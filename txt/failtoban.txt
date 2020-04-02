@@ -1,0 +1,8 @@
+# Listar iptables
+sudo iptables -S
+
+# Status
+sudo fail2ban-client status
+
+# Unban ip
+sudo fail2ban-client set sshd unbanip 217.127.14.2

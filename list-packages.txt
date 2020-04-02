@@ -10,6 +10,7 @@
  apt-get install atop clinfo cockpit
  apt-get install bash-completion
  apt-get install bazel
+ apt-get install blueman
  apt-get install cgit
  apt-get install chm2pdf
  apt-get install curl
@@ -40,6 +41,7 @@
  apt-get install java-package
  apt-get install kate
  apt-get install libapache2-mod-wsgi
+ apt-get install libfreeimage-dev
  apt-get install libkrb5-dev
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
  apt-get install libreoffice
@@ -66,6 +68,7 @@
  apt-get install --no-install-recommends xinit
  apt-get install --no-install-recommends xserver-xorg
  apt-get install npm
+ apt-get install numactl
  apt-get install openjdk-11-jdk
  apt-get install openssh-server
  apt-get install pandoc
