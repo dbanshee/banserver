@@ -13,6 +13,7 @@
  apt-get install blueman
  apt-get install cgit
  apt-get install chm2pdf
+ apt-get install clamav
  apt-get install curl
  apt-get install devscripts equivs gdebi-core
  apt-get install disk-manager

@@ -1,6 +1,16 @@
 <html>
 	<head>
 		<title>Banserver Home Page</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+        <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+        <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+        <link rel="stylesheet" type="text/css" href="css/util.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	
 
@@ -10,7 +20,112 @@
 
 		<br />
 		<h2>Services</h2>
+        
+        
+        <div class="limiter">
+            <div class="container-table100">
+                <div class="wrap-table100">
+                    
+                    <!--<div class="table100 ver1 m-b-110">-->
+                    <!--<div class="table100 ver2 m-b-110">-->
+                    <div class="table100 ver3 m-b-110">
+                        <div class="table100-head">
+                            <table>
+                                <thead>
+                                    <tr class="row100 head">
+                                        <th class="cell100 column1">Service</th>
+                                        <th class="cell100 column2">Direct</th>
+                                        <th class="cell100 column3">Local</th>
+                                        <th class="cell100 column4">Remote</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
 
+                        <div class="table100-body js-pscroll">
+                            <table>
+                                <tbody>
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">Dash</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.10:2000" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="https://192.168.15.10/dash/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/dash/" target="_blank">link</a></td>
+                                    </tr>
+                                    
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">Bantower Dash</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.101:2000" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="http://192.168.15.101:2000/bantower/dash/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/bantower/dash/" target="_blank">link</a></td>
+                                    </tr>
+
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">Jupyter</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.10:8000/jupyter/" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="https://192.168.15.10/jupyter/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/jupyter/" target="_blank">link</a></td>
+                                    </tr>
+                                    
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">CGit</td>
+                                        <td class="cell100 column2"><a href="https://192.168.15.10/cgit/" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="https://192.168.15.10/cgit/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/cgit/" target="_blank">link</a></td>
+                                    </tr>
+                                    
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">MLDonkey</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.10:4080" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="https://192.168.15.10/mldonkey/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/mldonkey/" target="_blank">link</a></td>
+                                    </tr>
+                                    
+                                     <tr class="row100 body">
+                                        <td class="cell100 column1">Tensor Board</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.10:6006/" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="http://192.168.15.10/tensorboard/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="https://banserver.bansheerocks.com:9743/tensorboard/" target="_blank">link</a></td>
+                                    </tr>
+                                     
+                                    <tr class="row100 body">
+                                        <td class="cell100 column1">Boda Clau Noel</td>
+                                        <td class="cell100 column2"><a href="http://192.168.15.10/weeding/" target="_blank">link</a></td>
+                                        <td class="cell100 column3"><a href="http://192.168.15.10/weeding/" target="_blank">link</a></td>
+                                        <td class="cell100 column4"><a href="http://bodaclaunoel.cyberlove.us" target="_blank">link</a></td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+        <script src="vendor/bootstrap/js/popper.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/select2/select2.min.js"></script>
+        <script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+        <script>
+            $('.js-pscroll').each(function(){
+                var ps = new PerfectScrollbar(this);
+
+                $(window).on('resize', function(){
+                    ps.update();
+                })
+            });
+
+
+        </script>
+        <script src="js/main.js"></script>
+	</body>
+    
+    
+    
+    
+        <!--
 		<table border="1" width="200">
 			<tr>
 				<th>Mail</th>
@@ -25,24 +140,9 @@
 				<td><a href="http://192.168.15.10/roundcube" target="_blank">Direct</a></td>
 			</tr>
 		</table>
+        -->
 
-		<br/>
-
-		<table border="1" width="200">
-			<tr>
-				<th>ML Donkey</th>
-			</tr>
-			<tr>
-				<td><a href="https://192.168.15.10/mldonkey/">Local</a></td>			
-			</tr>
-			<tr>
-				<td><a href="https://banpi.bansheerocks.com:9743/mldonkey/" target="_blank">Remote</a></td>
-			</tr>
-			<tr>
-				<td><a href="http://192.168.15.10:4080" target="_blank">Direct</a></td>
-			</tr>
-		</table>
-
+        <!--
 		<br/>
 		<table border="1" width="200">
 			<tr>
@@ -58,26 +158,5 @@
 				<td><a href="http://192.168.15.10:3000/" target="_blank">Direct</a></td>
 			</tr>
 		</table>
-
-		<br/>
-
-		<table border="1" width="200">
-			<tr>
-				<th>Boda Clau Noel</th>
-			</tr>
-			<tr>
-				<td><a href="http://bodaclaunoel.localhost">Local</a></td>
-			</tr>
-			<tr>
-				<td><a href="http://bodaclaunoel.cyberlove.us" target="_blank">Remote</a></td>
-			</tr>
-			<tr>
-				<!-- Direct Serve Python 
-				<td><a href="http://192.168.15.10:5000/" target="_blank">Direct</a></td>
-				-->
-				<td><a href="http://192.168.15.10/weeding/" target="_blank">Direct</a></td>
-
-			</tr>
-		</table>
-	</body>
+        -->
 </html>

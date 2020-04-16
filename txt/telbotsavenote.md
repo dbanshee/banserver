@@ -7,6 +7,47 @@
 
 ## Unclassified
 
+- **[2020-04-13 20:06:37]**
+> **[YouTube]** -Esto no es lo que parece! (Tarjeta gráfica externa para portátil)\
+En el vídeo intentamos hacer una box para mi 1060! para hacer una egpu en pocas palabras una Tarjeta gráfica externa para portátil Adaptador : https://amzn.t...\
+<https://youtu.be/YPUe_Ygf6es>\
+![Image](https://i.ytimg.com/vi/YPUe_Ygf6es/maxresdefault.jpg)
+
+- **[2020-04-13 17:31:03]**
+> **[YouTube]** -Todo lo que debes saber sobre las líneas PCI Express. CPU vs Chipset\
+Qué son las líneas PCI Express? Cómo afecta al rendimiento? De cuantas líneas disponemos para configurar nuestro equipo? Abordamos éstas y otras cuestiones c...\
+<https://www.youtube.com/watch?v=3psOTJt8Sgg>\
+![Image](https://i.ytimg.com/vi/3psOTJt8Sgg/maxresdefault.jpg)
+
+- **[2020-04-13 16:56:37]**
+<https://www.amazon.es/gp/product/B01MQNSXSD/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01MQNSXSD&linkCode=as2&tag=sfdxshow-21&linkId=e73cf06eebfc64dc6f72e845fe5a21bc>\
+<https://www.amazon.es/gp/product/B01MQNSXSD/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B01MQNSXSD&linkCode=as2&tag=sfdxshow-21&linkId=e73cf06eebfc64dc6f72e845fe5a21bc>\
+
+
+- **[2020-04-13 15:05:13]**
+> **[aliexpress.com]** -€24.1 16% de DESCUENTO|PC ITX MINI Gaming cajita todo aluminio maleta portátil HTPC ordenador de escritorio vacío chasis S3 C|Torres y carcasas de ordenador| |  - AliExpress\
+¡Compra fácil, vive mejor!  Aliexpress.com\
+<https://es.aliexpress.com/item/4000582944527.html>\
+![Image](https://ae01.alicdn.com/kf/H482da34e836b4fed8a2c674e2549e469t/PC-ITX-MINI-Gaming-cajita-todo-aluminio-maleta-port-til-HTPC-ordenador-de-escritorio-vac-o.jpg)
+
+- **[2020-04-13 14:06:50]**
+<https://www.amazon.es/gp/product/B07FLWLD68/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07FLWLD68&linkCode=as2&tag=sfdxshow-21&linkId=ba09210c26bafcf638d28e93c7684c4f>\
+<https://www.amazon.es/gp/product/B07FLWLD68/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=B07FLWLD68&linkCode=as2&tag=sfdxshow-21&linkId=ba09210c26bafcf638d28e93c7684c4f>\
+
+
+- **[2020-04-03 15:37:25]**
+KMQuake II is an enhanced OpenGL-only Quake II engine with level design oriented enhancements.\
+<http://www.markshan.com/knightmare/>\
+
+
+- **[2020-04-03 14:19:41]**
+Pornhub is the world’s leading free porn site. Choose from millions of hardcore videos that stream quickly and in high quality, including amazing VR Porn. The largest adult site on the Internet just keeps getting better. We have more pornstars and real amateurs than anyone else. It’s fast, it’s free, it’s Pornhub!\
+<http://www.pronhub.com>\
+
+
+- **[2020-04-03 13:58:27]**
+>Hola
+
 - **[2020-04-02 16:46:35]**
 > **[Linux Systems Analyst Blog - haydenjames.io]** -Linux top: Here's how to customize it\
 The top command (or Linux top) can display system summary info. Here's how the types of system summary, order and size of top info can by custom configured.\
