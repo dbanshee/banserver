@@ -1,0 +1,24 @@
+
+aptitude install pulseaudio-module-jack
+
+qdbus
+qdbus | grep jack
+dbus-monitor "sender='org.jackaudio.service'"
+
+
+
+pactl info
+
+~/.config/rncbc.org/QjackCtl.conf
+[Options]
+...
+StartupScript=true
+StartupScriptShell=pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 1
+PostStartupScript=true
+PostStartupScriptShell=pactl set-default-sink jack_out
+ShutdownScript=false
+ShutdownScriptShell="pactl unload-module module-jack-sink; pactl load-module module-jack-source"
+PostShutdownScript=true
+PostShutdownScriptShell="pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 0; pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo"
+
+

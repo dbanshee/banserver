@@ -7,6 +7,340 @@
 
 ## Unclassified
 
+- **[2020-07-22 13:07:21]**
+<https://w3.ual.es/~vruiz/Docencia/Apuntes/Multimedia/Sound/JACK/index.html>\
+<https://w3.ual.es/~vruiz/Docencia/Apuntes/Multimedia/Sound/JACK/index.html>\
+
+
+- **[2020-07-22 12:48:50]**
+> **[YouTube]** -UV#07 What is JACK Audio Connection Kit?\
+unfa vlog #07 I'm talking about JACK - the amazing sound system that turns your GNU/Linux system into a recording studio. This video is meant as a quick-star...\
+<https://www.youtube.com/watch?v=fEduGnD6ZKQ>\
+![Image](https://i.ytimg.com/vi/fEduGnD6ZKQ/maxresdefault.jpg)
+
+- **[2020-07-22 12:26:21]**
+> **[Ask Ubuntu]** -How to use JACK and Pulseaudio/ALSA at the same time on the same audio device?\
+Whenever I launch hydrogen it breaks my audio in all other applications which use Pulse, for example, I can no longer play videos in Chrome after having launched Hydrogen once, until I restart my P...\
+<https://askubuntu.com/questions/572120/how-to-use-jack-and-pulseaudio-alsa-at-the-same-time-on-the-same-audio-device>\
+![Image](https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955)
+
+- **[2020-07-20 17:16:30]**
+<https://blog.landr.com/es/progresiones-de-acordes/>\
+<https://blog.landr.com/es/progresiones-de-acordes/>\
+
+
+- **[2020-07-19 16:09:43]**
+Misc Soundtrack - The Hunger Games Mockingjay - The Hanging Tree (Tab)\
+TAB by Misc Soundtrack\
+<https://tabs.ultimate-guitar.com/tab/misc-soundtrack/the-hunger-games-mockingjay-the-hanging-tree-tabs-1682879>\
+![Image](https://tabs.ultimate-guitar.com/static/_img/ug-logo-fb.png)
+
+- **[2020-07-18 23:42:51]**
+Misc Soundtrack - The Hunger Games Mockingjay - The Hanging Tree (Tab)\
+TAB by Misc Soundtrack\
+<https://tabs.ultimate-guitar.com/tab/misc-soundtrack/the-hunger-games-mockingjay-the-hanging-tree-tabs-1682879>\
+![Image](https://tabs.ultimate-guitar.com/static/_img/ug-logo-fb.png)
+
+- **[2020-07-17 14:25:05]**
+> **[YouTube]** -Armonía aplicada a la guitarra #1\
+Hola! este vídeo es ideal para una buena comprensión de la armonía aplicada a la guitarra, un punto de inicio para el dominio de los acordes en cualquier par...\
+<https://youtu.be/OUHylQvYX6M>\
+![Image](https://i.ytimg.com/vi/OUHylQvYX6M/maxresdefault.jpg)
+
+- **[2020-07-17 09:09:36]**
+Alsa Opensrc Org - Independent ALSA and linux audio support site\
+<https://alsa.opensrc.org/Device>\
+
+
+- **[2020-07-17 08:51:04]**
+> **[Ikasten.IO]** -Configuración de ALSA para soporte simultáneo de varios canales\
+BasaBuru vuelve a la carga y nos regala el siguiente HowTo: «Este HowTo surge como es habitual en nuestra Comunidad, algo te pica y te rascas :) Estaba bastante frustrado por que tengo la costumbre…\
+<https://ikasten.io/2007/10/16/configuracion-de-alsa-para-soporte-simultaneo-de-varios-canales/>\
+![Image](https://s0.wp.com/i/blank.jpg)
+
+- **[2020-07-16 18:22:51]**
+> **[YouTube]** -LA VERDAD sobre la GIBSON LES PAUL ¿Es la PEOR GUITARRA? La historia que NADIE te contó\
+La guitarra single cut más famosa, la primera signature de la historia, la primera en llevar dos humbuckers, Si te pido que pienses en una Gibso seguro pensa...\
+<https://www.youtube.com/watch?v=UFk8OBJpVOw>\
+![Image](https://i.ytimg.com/vi/UFk8OBJpVOw/maxresdefault.jpg)
+
+- **[2020-07-14 22:57:25]**
+<https://www.macaco.es/wp-content/uploads/ag.png>\
+<https://www.macaco.es/wp-content/uploads/ag.png>\
+
+
+- **[2020-07-14 18:02:50]**
+> **[YouTube]** -Using Multiple Audio Interfaces With Jack Audio Connection Kit Linux\
+Patreon: Behringer UCA-202 https://amzn.to/2BPwTf3 Have you ever wanted to run more than one audio interface into your computer while using Jack? You can act...\
+<https://www.youtube.com/watch?v=cgVYDM8AXWk>\
+![Image](https://i.ytimg.com/vi/cgVYDM8AXWk/hqdefault.jpg)
+
+- **[2020-07-10 13:44:09]**
+> **[YouTube]** -Jack and PulseAudio Together as Friends - Linux\
+http://filmsbykris.com/wordpress/?p=424 Got Questions? visit http://FilmsByKris.com/forum Chat with us and learn more http://FilmsByKris.com/irc\
+<https://www.youtube.com/watch?v=6J-RQudJx30>\
+![Image](https://i.ytimg.com/vi/6J-RQudJx30/maxresdefault.jpg)
+
+- **[2020-07-10 13:36:51]**
+<https://www.learndigitalaudio.com/how-linux-audio-works-vs-windows-audio-2017>\
+<https://www.learndigitalaudio.com/how-linux-audio-works-vs-windows-audio-2017>\
+
+
+- **[2020-07-08 10:42:10]**
+> **[Musikhaus Thomann]** -Thomann Consejero-Online Interfaz de audio Home-Recording\
+Computer Recording en el estudio casero – ¡Un Cocktail, que tiene su miga!\
+<https://www.thomann.de/es/onlineexpert_page_home_recording_interfaz_de_audio.html>\
+![Image](https://www.thomann.de/thumb/opengraphnb/pics/cms/pics/cms/image/guide/es/como_escoger_un_ordenador/065_computerrecording_crop_index.png)
+
+- **[2020-07-08 10:38:00]**
+> **[Musikhaus Thomann]** -Thomann Consejero-Online\
+Aquí encuentra una lista de nuestros consejeros Online actuales. Éstos le permiten informarse sobre muchos temas importantes, efectuando tal vez una primera selección de productos interesantes.Sus consejeros competentes online en www.thomann.de\
+<https://www.thomann.de/es/onlineexpert.html>\
+![Image](https://www.thomann.de/thumb/opengraphnb/pics/images/misc/guidelines_knife.png)
+
+- **[2020-07-07 21:55:36]**
+<https://www.reaper.fm/>\
+<https://www.reaper.fm/>\
+
+
+- **[2020-07-07 21:55:15]**
+<https://ardour.org/>\
+<https://ardour.org/>\
+
+
+- **[2020-07-06 16:19:30]**
+> **[YouTube]** -Aprendemos a grabar una canción desde cero. Este es el resultado. Tutorial Reaper | Jaime Altozano\
+Este es un tutorial muy básico y facil de cómo grabar una canción. Empiezo explicando conceptos básicos y acabamos con un ejemplo real de una canción que vam...\
+<https://www.youtube.com/watch?v=BacNrKKPMsE>\
+![Image](https://i.ytimg.com/vi/BacNrKKPMsE/maxresdefault.jpg)
+
+- **[2020-07-06 15:42:41]**
+> **[YouTube]** -Aprendemos a grabar una canción desde cero. Este es el resultado. Tutorial Reaper | Jaime Altozano\
+Este es un tutorial muy básico y facil de cómo grabar una canción. Empiezo explicando conceptos básicos y acabamos con un ejemplo real de una canción que vam...\
+<https://www.youtube.com/watch?v=BacNrKKPMsE>\
+![Image](https://i.ytimg.com/vi/BacNrKKPMsE/maxresdefault.jpg)
+
+- **[2020-07-06 14:34:20]**
+Analog VS Digital Effects Pedals - Does It Really Matter?\
+Newcomers usually ask me questions related to the Digital vs Analog topic. What are the differences? Which one is better? Why? For the experienced users, this is a no-brainer: analog sound better and more natural. That's what we've been told forever... but, is this still true?\
+<https://kokonatt.com/post/analog-vs-digital-effects-pedals>\
+![Image](https://uploads-ssl.webflow.com/5d0320c393cf98446872b387/5d0f32df332f8394544cb790_c4synth-homepage_orig_c1f782e062b5b7e0f2d394a8f0a5f6e8_1000.jpeg)
+
+- **[2020-07-04 10:33:04]**
+Multitracks - 'O'\
+Warning: These links are outdated and may not work!  Visit this post  to see how much I've updated.    Normal   Mega  http:// bit.ly/16LKLzU...\
+<http://multitrackdownloads.blogspot.com/2012/03/multitracks-o.html>\
+
+
+- **[2020-07-02 12:09:31]**
+> **[Twitter]** -<https://twitter.com/porquetendencia/status/1248802217605431296>\
+<https://twitter.com/porquetendencia/status/1248802217605431296>\
+
+
+- **[2020-07-01 17:46:11]**
+> **[YouTube]** -Qué es un ACORDE. Tipos de Acordes. La Explicación Definitiva. | Jaime Altozano\
+Acordes mayores, menores, aumentados, disminuidos, con séptima de dominante, séptima mayor, séptima de limón, fresa, vainilla y chocolate. Hay tropecientosmi...\
+<https://www.youtube.com/watch?v=YDX4xULlkwc>\
+![Image](https://i.ytimg.com/vi/YDX4xULlkwc/maxresdefault.jpg)
+
+- **[2020-07-01 13:49:37]**
+<https://www.amazon.es/Hricane-23-Principiantes-Estudiante-Transporte/dp/B06XZ4GFSM/ref=asc_df_B06XZ4GFSM/?tag=googshopes-21&linkCode=df0&hvadid=301309063334&hvpos=&hvnetw=g&hvrand=9442716062072659793&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005419&hvtargid=pla-358455474648&psc=1>\
+<https://www.amazon.es/Hricane-23-Principiantes-Estudiante-Transporte/dp/B06XZ4GFSM/ref=asc_df_B06XZ4GFSM/?tag=googshopes-21&linkCode=df0&hvadid=301309063334&hvpos=&hvnetw=g&hvrand=9442716062072659793&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005419&hvtargid=pla-358455474648&psc=1>\
+
+
+- **[2020-06-30 18:22:22]**
+<https://www.amazon.com/-/es/dp/B0054QM76K/?tag=aiponsite-20&linkCode=ic5&ascsubtag=amzn1.infl.us.product&creativeASIN=B0054QM76K&ref=exp_eatmyuke_dp_vv_d&th=1>\
+<https://www.amazon.com/-/es/dp/B0054QM76K/?tag=aiponsite-20&linkCode=ic5&ascsubtag=amzn1.infl.us.product&creativeASIN=B0054QM76K&ref=exp_eatmyuke_dp_vv_d&th=1>\
+
+
+- **[2020-06-30 17:52:06]**
+>Amplitube
+
+- **[2020-06-26 00:54:17]**
+> **[Eat My Uke]** -Home\
+Vampire WeekendModern Vampires of the CityClick HereBillie EilishDont Smile At Me EPUkulele TabsRadioheadIn RainbowsUkulele TabsFinal Fantasy 7SoundtrackUkulele TabsMuseBlack Holes And RevelationsUkulele TabsPink FloydDark Side Of The MoonUkulele Tabs30 Days Of SongsInstagram ChallengeLearn More Previous Next learn to play Tabs, Articles and Lessons. Start here if you want to improve your ukulele playing. video lessons articles …  Home Read More »\
+<https://eatmyuke.com/>\
+![Image](https://eatmyuke.com/wp-content/uploads/2019/01/website-heaer-test2-1024x576.png)
+
+- **[2020-06-26 00:54:15]**
+> **[Eat My Uke]** -How to Read Ukulele Tabs\
+One of the most common (and easiest) ways of learning to play songs on the ukulele is by reading tablature. It’s a collection of lines, numbers and symbols that looks confusing at first but is actually very simple to understand. Meaning once you get the hang of it, you will be reading it like you would read a book.\
+<https://eatmyuke.com/how-to-read-ukulele-tabs/>\
+![Image](https://i2.wp.com/eatmyuke.com/wp-content/uploads/2020/06/how-to-read-ukulele-tab-header.png?fit=1526%2C462&ssl=1)
+
+- **[2020-06-22 13:05:04]**
+> **[YouTube]** -Coldplay - Yellow (TUTORIAL UKULELE)\
+Les dejo el tutorial de yellow, la verdad es que como les advertí se me acabo la bateria pero como yo me siento muy en confianza con ustedes decidí subirlo a...\
+<https://youtu.be/PrZQoUVEXuc>\
+![Image](https://i.ytimg.com/vi/PrZQoUVEXuc/maxresdefault.jpg)
+
+- **[2020-06-22 13:05:03]**
+> **[YouTube]** -Wonderwall - Ukulele Tutorial - Oasis Easy Ukulele Lesson\
+This is my ukulele tutorial for Wonderwall by Oasis. I show you how to play it in easier key (Em), the strumming patterns and we have a play a long. You can ...\
+<https://www.youtube.com/watch?v=K6tQ23KJOxg>\
+![Image](https://i.ytimg.com/vi/K6tQ23KJOxg/maxresdefault.jpg)
+
+- **[2020-05-12 09:15:29]**
+> **[sevilla]** -Coronavirus: Estas son las cinco manifestaciones del Covid-19 en la piel\
+Se ha establecido una relación entre la gravedad de la Covid-19 con los distintos patrones. El patrón con clínica semejante a los sabañones se vincula a una Covid-19 más leve\
+<https://sevilla.abc.es/salud/enfermedades/abci-cinco-patrones-cutaneos-covid-19-202004301337_noticia.html#utm_source=organico&utm_campaign=mod-taboola-p2&utm_content=andalucia&utm_medium=abcdesevilla>\
+![Image](https://static2-sevilla.abc.es/media/salud/2020/04/30/lesionesacrales-kd4G--1024x512@abc.JPG)
+
+- **[2020-05-11 09:20:08]**
+Home page of TensorSpace.js\
+<https://tensorspace.org/index.html>\
+
+
+- **[2020-05-05 17:42:10]**
+> **[YouTube]** -Crítica THE WITCHER CON SPOILERS de Netflix • Análisis • Opinión • Review\
+Crítica THE WITCHER CON SPOILERS Por Jesús Usero Puedes encontrar ACCIÓN todos los meses en tu quiosco sino la encuentras aquí puedes adquirir el número de e...\
+<https://www.youtube.com/watch?v=cD2-7rf2YUY>\
+![Image](https://i.ytimg.com/vi/cD2-7rf2YUY/hqdefault.jpg)
+
+- **[2020-04-30 12:05:49]**
+<https://www.amazon.es/Ultra-compacto-RS232-convertidor-macho/dp/B00OPU2QJ4>\
+<https://www.amazon.es/Ultra-compacto-RS232-convertidor-macho/dp/B00OPU2QJ4>\
+
+
+- **[2020-04-28 20:08:57]**
+> **[YouTube]** -Prolific PL2303 not supporting Windows 10, isn't actually true\
+PL2303HXA PHASED OUT SINCE 2012. PLEASE CONTACT YOU SUPPLIER This isn't actually true http://wp.brodzinski.net/hardware/fake-pl2303-how-to-install/ =-=-=-=-=...\
+<https://youtu.be/Y7JmCKCovMI>\
+![Image](https://i.ytimg.com/vi/Y7JmCKCovMI/maxresdefault.jpg)
+
+- **[2020-04-27 21:24:02]**
+How to Get Hardware and System Information in Python - Python Code\
+Extracting and Fetching all system and hardware information such as os details, cpu, memory, disk and network usage in Python using psutil and platform library in all platforms.\
+<https://www.thepythoncode.com/article/get-hardware-system-information-python>\
+![Image](https://www.thepythoncode.com/media/articles/sys-info.jpg)
+
+- **[2020-04-27 17:32:57]**
+> **[Geek Factory]** -LCD 16x2 por I2C con Arduino usando solo dos pines - Geek Factory\
+Tutorial para aprender a utilizar el adaptador de pantalla serial con PCF8574. Conectar LCD 16x2 por I2C con Arduino usando solo dos pines de IO.\
+<https://www.geekfactory.mx/tutoriales/tutoriales-arduino/lcd-16x2-por-i2c-con-arduino/>\
+![Image](https://www.geekfactory.mx/wp-content/uploads/2017/05/LCD_16x2_por_I2C_con_Arduino.jpg)
+
+- **[2020-04-27 17:32:53]**
+> **[Luis Llamas]** -Conectar un display LCD Hitachi a Arduino por bus I2C\
+¿Qué es un controlador LCD I2C? El controlador de LCD I2C es un dispositivo que nos permite controlar una pantalla a través del bus I2C, usando únicamente dos cables. En esta entrada aprendimos a manejar un display LCD Hitachi con controlador HD44780, una familia de pantallas barata y sencillas de emplear. Pero usar esta pantalla ...\
+<https://www.luisllamas.es/arduino-lcd-i2c/>\
+![Image](https://www.luisllamas.es/wp-content/uploads/2016/05/arduino-lcd-i2c.png)
+
+- **[2020-04-26 12:17:02]**
+> **[YouTube]** -DESCARGAR THE WITCHER 3 + TODOS LOS DLCs / ESPAÑOL / TORRENT\
+COMO DESCARGAR Y SALTAR LA PUBLICIDAD EN MIS LINKS: https://www.youtube.com/watch?v=jtgOvFt2Chg Comprar The Witcher 3 en Steam: http://store.steampowered.com...\
+<https://www.youtube.com/watch?v=npKQF4hHS9k>\
+![Image](https://i.ytimg.com/vi/npKQF4hHS9k/hqdefault.jpg)
+
+- **[2020-04-26 12:13:46]**
+> **[YouTube]** -DESCARGAR THE WITCHER 3 + TODOS LOS DLCs / ESPAÑOL / TORRENT\
+COMO DESCARGAR Y SALTAR LA PUBLICIDAD EN MIS LINKS: https://www.youtube.com/watch?v=jtgOvFt2Chg Comprar The Witcher 3 en Steam: http://store.steampowered.com...\
+<https://www.youtube.com/watch?v=npKQF4hHS9k>\
+![Image](https://i.ytimg.com/vi/npKQF4hHS9k/hqdefault.jpg)
+
+- **[2020-04-25 17:32:45]**
+> **[GitHub]** -openhardwaremonitor/openhardwaremonitor\
+Open Hardware Monitor. Contribute to openhardwaremonitor/openhardwaremonitor development by creating an account on GitHub.\
+<https://github.com/openhardwaremonitor/openhardwaremonitor/>\
+![Image](https://avatars1.githubusercontent.com/u/13933781?s=400&v=4)
+
+- **[2020-04-25 17:23:30]**
+> **[Stack Overflow]** -Accessing CPU temperature in python\
+I need an example code for accessing CPU temperature in python. 
+
+I'm running windows 7, BTW.\
+<https://stackoverflow.com/questions/3262603/accessing-cpu-temperature-in-python>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-04-25 16:54:17]**
+CPU Temperature & System Information\
+Two classes for easy access to system information using OpenHardWareMonitor and Windows System.Management.\
+<https://www.codeproject.com/Articles/1115618/CPU-Temperature-System-Information>\
+![Image](https://www.codeproject.com/KB/gadgets/1115618/Thumbnail.png)
+
+- **[2020-04-22 14:03:38]**
+> **[YouTube]** -Arduino Temperature Controlled Fan Speed\
+Here is the code: https://drive.google.com/file/d/0B7I6caxkZJXMT1N6U3J1aVZlaXc/view?usp=sharing\
+<https://www.youtube.com/watch?v=DAn4UguyzfE>\
+![Image](https://i.ytimg.com/vi/DAn4UguyzfE/maxresdefault.jpg)
+
+- **[2020-04-22 11:06:54]**
+> **[Luis Llamas]** -Regular temperatura con ventilador y Arduino\
+¿Qué es un ventilador? Un ventilador es una máquina hidráulica que incrementa la energía cinética de un gas, normalmente aire. Los ventiladores son objetos comunes en nuestra vida cotidiana y, al igual que otros muchos dispositivos, podemos controlarlos desde un procesador como Arduino. Un ventilador dispone de un rotor con alabes (o aspas) accionado, habitualmente, ...\
+<https://www.luisllamas.es/controlar-un-ventilador-con-arduino/>\
+![Image](https://www.luisllamas.es/wp-content/uploads/2016/12/arduino-ventilador.png)
+
+- **[2020-04-21 13:51:37]**
+> **[Wikiwand]** -Ivy Bridge (microarchitecture) | Wikiwand\
+Ivy Bridge is the codename for the "third generation" of the Intel Core processors . Ivy Bridge is a die shrink to 22 nanometer manufacturing process based on the 32 nanometer SandyÂ Bridge - see tickâtock model. The name is also applied more broadly to the 22Â nm die shrink of the Sandy Bridge microarchitecture based on FinFET Tri-Gate transistors, which is also used in the Xeon and Core i7 Ivy Bridge-EX , Ivy Bridge-EP and Ivy Bridge-E microprocessors released in 2013.\
+<https://www.wikiwand.com/en/Ivy_Bridge_(microarchitecture)>\
+![Image](//assets.wikiwand.com/img/wikiwand_icon.png)
+
+- **[2020-04-20 18:00:10]**
+Guía básica de overclock de GPU para principiantes\
+Después de la guía básica de overclock para CPU, os traemos otra guía de overclock de tarjetas gráficas para principiantes.\
+<https://www.adslzone.net/2016/12/19/guia-basica-overclock-gpu-principiantes/>\
+![Image](https://www.adslzone.net/app/uploads-adslzone.net/2016/12/nvidia-msi-gtx-1080-overclock.jpg)
+
+- **[2020-04-20 18:00:09]**
+Guía básica de overclock de CPU para principiantes\
+Te explicamos los conceptos básicos de overclock para tu CPU, la cual puede tener una nueva vida y aumentar su rendimiento un 20 o 30%.\
+<https://www.adslzone.net/2016/11/18/guia-basica-overclock-cpu-principiantes/>\
+![Image](https://www.adslzone.net/app/uploads-adslzone.net/2016/11/intel-i7-6700k-review-6-1500x1000.jpg)
+
+- **[2020-04-20 18:00:06]**
+Guía básica de overclock de memoria RAM para principiantes\
+Guía de conceptos básicos sobre overclock de memoria RAM para iniciarse y entender cómo subir la frecuencia y mejorar el rendimiento.\
+<https://www.adslzone.net/2017/01/18/guia-basica-overclock-memoria-ram-principiantes/>\
+![Image](https://www.adslzone.net/app/uploads-adslzone.net/2017/01/memoria-ram-overclock.jpg)
+
+- **[2020-04-20 11:21:51]**
+> **[Ask Ubuntu]** -Why does my NTFS partition mount as read only?\
+Until recently both my Windows Partition (C:) and my Data Partition (E:) would mount as read/write. Now both seem to only mount as read-only.  
+
+GParted Resize (Error)
+
+ntfsresize v2.0.0 (libntfs 1...\
+<https://askubuntu.com/questions/70281/why-does-my-ntfs-partition-mount-as-read-only>\
+![Image](https://cdn.sstatic.net/Sites/askubuntu/img/apple-touch-icon@2.png?v=c492c9229955)
+
+- **[2020-04-18 22:10:52]**
+> **[Un lugar en el mundo...]** -Instalación y configuración básica de Cacti en Debian para monitorizar un host\
+La instalación más sencilla (y, me atrevería a decir, más frecuente que he tenido que realizar) que suele hacerse con Cacti es aquella que se se usa para monitorizar los recursos de un único host (…\
+<https://blog.unlugarenelmundo.es/2013/01/13/instalacion-y-configuracion-basica-de-cacti-en-debian-para-monitorizar-un-host/>\
+![Image](https://i0.wp.com/blog.unlugarenelmundo.es/wp-content/uploads/2018/04/cropped-header-1.jpg?fit=512%2C512&ssl=1)
+
+- **[2020-04-18 19:26:49]**
+> **[BinaryTides]** -18 commands to monitor network bandwidth on Linux server\
+Here are some command line tools that can be used to analyse and monitor network bandwidth usage on your Linux server.\
+<https://www.binarytides.com/linux-commands-monitor-network/>\
+![Image](https://www.binarytides.com/blog/wp-content/uploads/2014/03/iptraf.png)
+
+- **[2020-04-17 14:12:48]**
+<https://www.tecmint.com/install-observium-in-centos/ç>\
+<https://www.tecmint.com/install-observium-in-centos/ç>\
+
+
+- **[2020-04-17 14:12:43]**
+In this how-to we are going to show you how to install and setup complete network monitoring application called Cacti using Net-SNMP tool on RHEL/CentOS/Fedora.\
+<https://www.tecmint.com/install-cacti-network-monitoring-on-rhel-centos-fedora/>\
+![Image](https://www.tecmint.com/wp-content/uploads/2012/09/Install-Cacti.jpg)
+
+- **[2020-04-17 14:12:38]**
+Monitorix is an open source, free and most powerful lightweight tool designed to monitor system and network resources in Linux.\
+<https://www.tecmint.com/monitorix-a-lightweight-system-and-network-monitoring-tool-for-linux/>\
+![Image](https://www.tecmint.com/wp-content/uploads/2013/12/Linux-and-Network-Monitoring.png)
+
+- **[2020-04-17 14:12:35]**
+SARG is an open source tool that analyses the squid log files and generates reports in HTML format with fields about users, IP addresses, total bandwidth usage.\
+<https://www.tecmint.com/sarg-squid-analysis-report-generator-and-internet-bandwidth-monitoring-tool/>\
+![Image](https://www.tecmint.com/wp-content/uploads/2014/01/Sarg-Squid-Log-Analyzer.png)
+
+- **[2020-04-17 14:12:34]**
+In this article, we will review 16 useful system and network bandwidth monitoring tools to analyze network traffic usage on a Linux system.\
+<https://www.tecmint.com/linux-network-bandwidth-monitoring-tools/>\
+![Image](https://www.tecmint.com/wp-content/uploads/2018/09/Linux-Network-Bandwidth-Monitor-Tools.png)
+
 - **[2020-04-13 20:06:37]**
 > **[YouTube]** -Esto no es lo que parece! (Tarjeta gráfica externa para portátil)\
 En el vídeo intentamos hacer una box para mi 1060! para hacer una egpu en pocas palabras una Tarjeta gráfica externa para portátil Adaptador : https://amzn.t...\

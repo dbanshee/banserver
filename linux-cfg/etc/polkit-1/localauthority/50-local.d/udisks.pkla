@@ -1,0 +1,6 @@
+[Allow normal users to access removable media]
+Identity=unix-group:plugdev
+Action=org.freedesktop.udisks.filesystem-mount;org.freedesktop.udisks.drive-eject
+ResultAny=yes
+ResultActive=yes
+ResultInactive=yes

@@ -1,16 +1,27 @@
  apt autoremove
+ apt --fix-broken install
  apt install ristretto
  apt install snapd
+ apt install virtualbox-6.1
  apt-get autoremove
+ apt-get install alsaplayer
+ apt-get install alsa-utils
  apt-get install apache2
  apt-get install apache2-suexec-custom
  apt-get install apachetop
  apt-get install apt-file
+ apt-get install apt-transport-https gpgv
  apt-get install arduino
  apt-get install atop clinfo cockpit
+ apt-get install audacity
  apt-get install bash-completion
  apt-get install bazel
  apt-get install blueman
+ apt-get install cacti snmp snmpd rrdtool
+ apt-get install cadence
+ apt-get install carla
+ apt-get install catia
+ apt-get install cbm
  apt-get install cgit
  apt-get install chm2pdf
  apt-get install clamav
@@ -25,28 +36,41 @@
  apt-get install firefox-esr
  apt-get install firmware-iwlwifi
  apt-get install firmware-misc-nonfree
+ apt-get install fping
  apt-get install galculator
  apt-get install gedit
+ apt-get install geeqie
  apt-get install git
  apt-get install gitolite3
  apt-get install glew-utils
+ apt-get install gpart
  apt-get install gparted
  apt-get install gradle
+ apt-get install graphviz
  apt-get install hardinfo
  apt-get install html2ps
  apt-get install htop
  apt-get install hwinfo
+ apt-get install iat
  apt-get install iftop
+ apt-get install imagemagick
  apt-get install iotop
+ apt-get install ipmitool
+ apt-get install iptraf
+ apt-get install jamin
+ apt-get install japa
  apt-get install java-common
  apt-get install java-package
  apt-get install kate
+ apt-get install latencytop
  apt-get install libapache2-mod-wsgi
  apt-get install libfreeimage-dev
  apt-get install libkrb5-dev
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
  apt-get install libreoffice
  apt-get install libssl-dev
+ apt-get install linux-headers-4.19.0-6-amd64
+ apt-get install linux-headers-amd64
  apt-get install linux-source-4.19
  apt-get install lshw
  apt-get install lsof
@@ -60,12 +84,17 @@
  apt-get install mailutils
  apt-get install mariadb-common
  apt-get install mariadb-server
+ apt-get install mbr
+ apt-get install mdf2iso
  apt-get install meld
  apt-get install mesa-utils
  apt-get install mldonkey-server
  apt-get install mousepad
+ apt-get install mtr-tiny
  apt-get install nethogs
  apt-get install net-tools
+ apt-get install nload
+ apt-get install nmap
  apt-get install --no-install-recommends xinit
  apt-get install --no-install-recommends xserver-xorg
  apt-get install npm
@@ -73,27 +102,41 @@
  apt-get install openjdk-11-jdk
  apt-get install openssh-server
  apt-get install pandoc
+ apt-get install php-cli
+ apt-get install php-json
+ apt-get install php-mysql
  apt-get install postfix
  apt-get install psmisc
  apt-get install python3-dev
  apt-get install python3-pip
  apt-get install python3-venv
+ apt-get install python-mysqldb
  apt-get install python-pip
+ apt-get install qbittorrent
+ apt-get install rakarrack
  apt-get install rar
  apt-get install remmina
  apt-get install roundcube roundcube-plugins
+ apt-get install rrdtool
  apt-get install samba
  apt-get install screen
+ apt-get install snmp
+ apt-get install snmpd
  apt-get install software-properties-common
+ apt-get install sox
+ apt-get install subversion
  apt-get install sudo
  apt-get install synaptic
+ apt-get install syslinux
  apt-get install tcpdump
  apt-get install telnet
  apt-get install tensorflow-model-server
  apt-get install tensorflow-model-server-universal
  apt-get install tidy
+ apt-get install traceroute
  apt-get install tree
  apt-get install trickle
+ apt-get install uget
  apt-get install unrar
  apt-get install vim
  apt-get install virt-manager
@@ -113,6 +156,7 @@
  apt-get purge arduino
  apt-get purge atop clinfo cockpit
  apt-get purge bazel
+ apt-get purge cacti
  apt-get purge gitolite3
  apt-get purge kate
  apt-get purge mariadb-common
@@ -120,8 +164,12 @@
  apt-get purge mariadb-server-10.3 mariadb-server-core-10.3
  apt-get purge roundcube roundcube-plugins
  apt-get purge snapd
+ apt-get purge snmp
+ apt-get purge snmpd
  apt-get reinstall postfix
  apt-get remove mariadb-server
+ apt-get remove openipmi
  apt-get remove roundcube-mysql
  apt-get remove tensorflow-model-server
  apt-get upgrade
+ /usr/sbin/synaptic
