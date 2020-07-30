@@ -1,0 +1,92 @@
+modprobe snd-aloop 
+#modprobe snd-aloop index=1 pcm_substreams=1
+
+banshee@banserver:~/Documents/test$ aplay -l
+**** List of PLAYBACK Hardware Devices ****
+card 0: Intel [HDA Intel], device 0: ALC662 rev1 Analog [ALC662 rev1 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: CODEC [USB Audio CODEC], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 2: Loopback [Loopback], device 0: Loopback PCM [Loopback PCM]
+  Subdevices: 8/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+card 2: Loopback [Loopback], device 1: Loopback PCM [Loopback PCM]
+  Subdevices: 8/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+banshee@banserver:~/Documents/test$ arecord -l
+**** List of CAPTURE Hardware Devices ****
+card 0: Intel [HDA Intel], device 0: ALC662 rev1 Analog [ALC662 rev1 Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: Intel [HDA Intel], device 2: ALC662 rev1 Alt Analog [ALC662 rev1 Alt Analog]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 1: CODEC [USB Audio CODEC], device 0: USB Audio [USB Audio]
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 2: Loopback [Loopback], device 0: Loopback PCM [Loopback PCM]
+  Subdevices: 7/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+card 2: Loopback [Loopback], device 1: Loopback PCM [Loopback PCM]
+  Subdevices: 8/8
+  Subdevice #0: subdevice #0
+  Subdevice #1: subdevice #1
+  Subdevice #2: subdevice #2
+  Subdevice #3: subdevice #3
+  Subdevice #4: subdevice #4
+  Subdevice #5: subdevice #5
+  Subdevice #6: subdevice #6
+  Subdevice #7: subdevice #7
+
+
+
+En host:
+~/.asoundrc
+banshee@banserver:~$ cat .asoundrc 
+pcm.outloop {
+  type plug
+  slave.pcm "hw:Loopback,0,0"
+}
+
+
+pcm.inloop {
+  type plug
+  slave.pcm "hw:Loopback,1,0"
+}
+
+# Crear puertos jack a dispositivos alsa
+alsa_in -j outloop -doutloop
+alsa_out -j inloop -dinloop
+
+En cliente, leer de dispositivo de entrada
+ssh -p 9722  banshee@banserver.bansheerocks.com sox -q -t alsa outloop -t wav -b 16 -r48k - | aplay -q -
+
+
+En host, reproducir y volcar el loopback.
+aplay -vv -D hw:Loopback,1 file_example_WAV_1MG.wav
+#aplay -vv -D hw:Loopback,0 file_example_WAV_1MG.wav
+
+
