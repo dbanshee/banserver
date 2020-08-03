@@ -7,6 +7,21 @@
 
 ## Unclassified
 
+- **[2020-08-03 17:50:31]**
+> **[YouTube]** -Ruben Zarate\
+ \
+<https://www.youtube.com/c/RubenZarate/videos>\
+![Image](https://yt3.ggpht.com/a/AATXAJwWWB3-4nbX-HEs1Z5paf-3DGk2crymig6WD6B-DP0=s900-c-k-c0xffffffff-no-rj-mo)
+
+- **[2020-07-31 00:53:43]**
+> **[Unix & Linux Stack Exchange]** -How can I use ALSA dmix and multi plugins together?\
+I'm playing with a console sound visualiser which wants its own ALSA device to listen on. I'm editing ~/.asoundrc. I know I'll need the multi plugin to split the sound data onto separate devices. H...\
+<https://unix.stackexchange.com/questions/194547/how-can-i-use-alsa-dmix-and-multi-plugins-together>\
+![Image](https://cdn.sstatic.net/Sites/unix/Img/apple-touch-icon@2.png?v=32fb07f7ce26)
+
+- **[2020-07-31 00:53:34]**
+>ssh banshee@localhost sox -q -t alsa dmix0 -t wav -b 16 -r48k -
+
 - **[2020-07-30 16:16:15]**
 >Message Saved!
 

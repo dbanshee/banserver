@@ -167,9 +167,16 @@
  apt-get purge snmp
  apt-get purge snmpd
  apt-get reinstall postfix
+ apt-get remove audacious
+ apt-get remove catia alsaplayer-gtk
+ apt-get remove claudia carla ardour meterbridge japa
+ apt-get remove guitarix
+ apt-get remove jamin
  apt-get remove mariadb-server
  apt-get remove openipmi
+ apt-get remove rakarrack
  apt-get remove roundcube-mysql
  apt-get remove tensorflow-model-server
+ apt-get remove xjadeo
  apt-get upgrade
  /usr/sbin/synaptic

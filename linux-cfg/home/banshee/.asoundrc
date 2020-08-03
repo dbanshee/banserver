@@ -1,10 +1,10 @@
-pcm.dloop {
+pcm.outloop {
   type plug
   slave.pcm "hw:Loopback,0,0"
 }
 
 
-pcm.cloop {
+pcm.inloop {
   type plug
   slave.pcm "hw:Loopback,1,0"
 }
