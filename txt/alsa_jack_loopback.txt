@@ -77,13 +77,24 @@ pcm.inloop {
   slave.pcm "hw:Loopback,1,0"
 }
 
+# Para varias lecturas concurrentes
+pcm.dsnooped {
+    type dsnoop
+    ipc_key 234884
+    slave {
+        pcm "hw:Loopback,0,0"
+        channels 2
+    }
+}
+
+
 # Crear puertos jack a dispositivos alsa
 alsa_in -j outloop -doutloop
 alsa_out -j inloop -dinloop
 
 En cliente, leer de dispositivo de entrada
 ssh -p 9722  banshee@banserver.bansheerocks.com sox -q -t alsa outloop -t wav -b 16 -r48k - | aplay -q -
-
+# usar dsnooped en lugar de outlooped para lecturas concurrentes
 
 En host, reproducir y volcar el loopback.
 aplay -vv -D hw:Loopback,1 file_example_WAV_1MG.wav

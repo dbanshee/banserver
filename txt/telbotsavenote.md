@@ -7,6 +7,24 @@
 
 ## Unclassified
 
+- **[2020-08-04 15:52:52]**
+> **[Stack Overflow]** -FFmpeg, Icecast and metadata\
+I use FFmpeg streaming to the Icecast server on my Windows machine in the following way (sound card line in):
+
+ffmpeg -f dshow -channels 2 -i audio="Line In" -codec:a libmp3lame -b:a 128k -legacy_i...\
+<https://stackoverflow.com/questions/46375231/ffmpeg-icecast-and-metadata>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded)
+
+- **[2020-08-04 12:16:37]**
+> **[Stack Overflow]** -How can I use ffmpeg to stream over http\
+I am using the follow commands to stream to my localhost
+
+ffmpeg -i b.mp4 -r 60 -bufsize 1024k -vcode libtheora -qscale:v 1 -f ogg "udp://@127.0.0.1/video.ogg"
+
+ffmpeg -i b.mp4 -r 60 -bufsize 1024k -\
+<https://stackoverflow.com/questions/24298319/how-can-i-use-ffmpeg-to-stream-over-http>\
+![Image](https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded)
+
 - **[2020-08-03 17:50:31]**
 > **[YouTube]** -Ruben Zarate\
  \

@@ -1,0 +1,5 @@
+# Lame
+lame --decode Drum\ And\ Bass\ 2012\ \(1-.mp3 - | aplay -vv -D hw:Loopback,1
+
+# Sox
+sox -q /home/banshee/Música/Drum\ And\ Bass\ 2012\ \(1-.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,1

@@ -1,3 +1,0 @@
-VBoxManage startvm 'WIn7_Print' --type headless
-VBoxManage list vms -l
-VBoxManage controlvm 'WIn7_Print' acpipowerbutton

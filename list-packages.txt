@@ -52,6 +52,7 @@
  apt-get install htop
  apt-get install hwinfo
  apt-get install iat
+ apt-get install icecast2
  apt-get install iftop
  apt-get install imagemagick
  apt-get install iotop
@@ -90,6 +91,8 @@
  apt-get install mesa-utils
  apt-get install mldonkey-server
  apt-get install mousepad
+ apt-get install mpc
+ apt-get install mpd
  apt-get install mtr-tiny
  apt-get install nethogs
  apt-get install net-tools
@@ -167,12 +170,15 @@
  apt-get purge snmp
  apt-get purge snmpd
  apt-get reinstall postfix
+ apt-get remove at
  apt-get remove audacious
  apt-get remove catia alsaplayer-gtk
  apt-get remove claudia carla ardour meterbridge japa
  apt-get remove guitarix
  apt-get remove jamin
  apt-get remove mariadb-server
+ apt-get remove mpc
+ apt-get remove mpd
  apt-get remove openipmi
  apt-get remove rakarrack
  apt-get remove roundcube-mysql
