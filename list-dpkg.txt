@@ -6,6 +6,10 @@ Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
 ii  adduser                               3.118                                        all          add and remove users and groups
 ii  adwaita-icon-theme                    3.30.1-1                                     all          default icon theme of GNOME
 ii  alsa-utils                            1.1.8-2                                      amd64        Utilities for configuring and using ALSA
+ii  alsaplayer-alsa                       0.99.81-2                                    amd64        alsaplayer output module for ALSA
+ii  alsaplayer-common                     0.99.81-2                                    amd64        audio player (common files)
+ii  alsaplayer-gtk                        0.99.81-2                                    amd64        alsaplayer gtk interface
+ii  alsaplayer-jack                       0.99.81-2                                    amd64        alsaplayer output module for JACK
 ii  ant                                   1.10.5-2                                     all          Java based build tool like make
 ii  ant-contrib                           1.0~b3+svn177-10                             all          collection of tasks, types and other tools for Apache Ant
 ii  ant-optional                          1.10.5-2                                     all          Java based build tool like make - optional libraries
@@ -174,6 +178,8 @@ ii  fonts-noto-mono                       20181227-1                            
 ii  fonts-noto-ui-core                    20181227-1                                   all          "No Tofu" font families with large Unicode coverage (UI core)
 ii  fonts-opensymbol                      2:102.10+LibO6.1.5-3+deb10u6                 all          OpenSymbol TrueType font
 ii  fonts-quicksand                       0.2016-2                                     all          sans-serif font with round attributes
+ii  fonts-roboto                          2:0~20170802-3                               all          metapackage to pull in Roboto fonts
+ii  fonts-roboto-unhinted                 2:0~20170802-3                               all          Google's signature family of fonts (unhinted)
 ii  fonts-sil-gentium                     20081126:1.03-2                              all          extended Unicode Latin font ("a typeface for the nations")
 ii  fonts-sil-gentium-basic               1.102-1                                      all          smart Unicode font families (Basic and Book Basic) based on Gentium
 ii  fping                                 4.2-1                                        amd64        sends ICMP ECHO_REQUEST packets to network hosts
@@ -271,7 +277,10 @@ ii  gstreamer1.0-x:amd64                  1.14.4-2                              
 ii  gtk-update-icon-cache                 3.24.5-1                                     amd64        icon theme caching utility
 ii  gtk2-engines:amd64                    1:2.20.2-5                                   amd64        theme engines for GTK+ 2.x
 ii  gtk2-engines-pixbuf:amd64             2.24.32-3                                    amd64        pixbuf-based theme for GTK+ 2.x
+ii  guitarix                              0.36.1-1+b1                                  amd64        Rock guitar amplifier for Jack
+ii  guitarix-common                       0.36.1-1                                     all          Guitarix - Common files
 ii  guitarix-ladspa                       0.36.1-1+b1                                  amd64        Guitarix - ladspa plugins
+ii  guitarix-lv2                          0.36.1-1+b1                                  amd64        Guitarix - LV2 plugins
 ii  gvfs:amd64                            1.38.1-5                                     amd64        userspace virtual filesystem - GIO module
 ii  gvfs-backends                         1.38.1-5                                     amd64        userspace virtual filesystem - backends
 ii  gvfs-common                           1.38.1-5                                     all          userspace virtual filesystem - common data files
@@ -324,6 +333,7 @@ ii  iso-codes                             4.2-1                                 
 ii  ispanish                              1.11-15                                      all          Spanish dictionary for ispell
 ii  ispell                                3.4.00-6+b1                                  amd64        International Ispell (an interactive spelling corrector)
 ii  ivy                                   2.4.0-5                                      all          agile dependency manager
+ii  jack-capture                          0.9.73-3                                     amd64        program for recording soundfiles with jack
 ii  jack-delay                            0.4.2-1                                      amd64        JACK latency meter
 ii  jack-mixer                            10-1+b1                                      amd64        JACK Audio Mixer
 ii  jackd                                 5+nmu1                                       all          JACK Audio Connection Kit (default server package)
@@ -346,6 +356,7 @@ rc  ktexteditor-data                      5.54.0-1                              
 ii  kwayland-data                         4:5.54.0-1                                   all          Qt library wrapper for Wayland libraries - data files
 ii  kwayland-integration:amd64            5.14.5-1                                     amd64        kwayland runtime integration plugins
 ii  kxstudio-repos                        10.0.3                                       all          KXStudio repositories
+ii  lame                                  3.100-2+b1                                   amd64        MP3 encoding library (frontend)
 ii  laptop-detect                         0.16                                         all          system chassis type checker
 ii  latencytop                            0.5+b4                                       amd64        A tool for developers to visualize system latencies
 ii  less                                  487-0.1+b1                                   amd64        pager program similar to more
@@ -420,6 +431,7 @@ ii  libavahi-common-data:amd64            0.7-4+b1                              
 ii  libavahi-common3:amd64                0.7-4+b1                                     amd64        Avahi common library
 ii  libavahi-core7:amd64                  0.7-4+b1                                     amd64        Avahi's embeddable mDNS/DNS-SD library
 ii  libavahi-glib1:amd64                  0.7-4+b1                                     amd64        Avahi GLib integration library
+ii  libavahi-gobject0:amd64               0.7-4+b1                                     amd64        Avahi GObject library
 ii  libavahi-ui-gtk3-0:amd64              0.7-4+b1                                     amd64        Avahi GTK+ User interface library for GTK3
 ii  libavc1394-0:amd64                    0.5.4-5                                      amd64        control IEEE 1394 audio/video devices
 ii  libavcodec58:amd64                    7:4.1.6-1~deb10u1                            amd64        FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -800,6 +812,8 @@ ii  libgupnp-igd-1.0-4:amd64              0.2.5-3                               
 ii  libgvc6                               2.40.1-6                                     amd64        rich set of graph drawing tools - gvc library
 ii  libgvnc-1.0-0:amd64                   0.9.0-1.1                                    amd64        VNC GObject wrapper (runtime libraries)
 ii  libgvpr2                              2.40.1-6                                     amd64        rich set of graph drawing tools - gvpr library
+ii  libgxw0                               0.36.1-1+b1                                  amd64        Guitarix - GTK+ library
+ii  libgxwmm0                             0.36.1-1+b1                                  amd64        Guitarix - GTK+ C++ widget library
 ii  libhamcrest-java                      1.3-9                                        all          library of matchers for building test expressions
 ii  libharfbuzz-icu0:amd64                2.3.1-1                                      amd64        OpenType text shaping engine ICU backend
 ii  libharfbuzz0b:amd64                   2.3.1-1                                      amd64        OpenType text shaping engine (shared library)
@@ -1007,6 +1021,7 @@ ii  liblist-moreutils-perl                0.416-1+b4                            
 ii  liblivemedia64:amd64                  2018.11.26-1.1                               amd64        multimedia RTSP streaming library
 ii  libllvm7:amd64                        1:7.0.1-8                                    amd64        Modular compiler and toolchain technologies, runtime library
 ii  liblmdb0:amd64                        0.9.22-1                                     amd64        Lightning Memory-Mapped Database shared library
+ii  liblo7:amd64                          0.29-1+b11                                   amd64        Lightweight OSC library
 ii  libloader-java                        1.1.6.dfsg-4                                 all          Java general purpose resource loading framework
 ii  liblocale-gettext-perl                1.07-3+b4                                    amd64        module using libc functions for internationalization in Perl
 ii  liblog-any-adapter-screen-perl        0.140-1                                      all          send logs to screen, with colors and some other features
@@ -1015,6 +1030,7 @@ ii  liblog4j1.2-java                      1.2.17-8+deb10u1                      
 ii  liblogback-java                       1:1.2.3-5                                    all          flexible logging library for Java
 ii  liblognorm5:amd64                     2.0.5-1                                      amd64        log normalizing library
 ii  liblqr-1-0:amd64                      0.4.2-2.1                                    amd64        converts plain array images into multi-size representation
+ii  liblrdf0                              0.6.1-1                                      amd64        library to manipulate RDF files describing LADSPA plugins
 ii  liblsan0:amd64                        8.3.0-6                                      amd64        LeakSanitizer -- a memory leak detector (runtime)
 ii  libltdl-dev:amd64                     2.4.6-9                                      amd64        System independent dlopen wrapper for GNU libtool
 ii  libltdl7:amd64                        2.4.6-9                                      amd64        System independent dlopen wrapper for GNU libtool
@@ -1417,6 +1433,7 @@ ii  libsoup-gnome2.4-1:amd64              2.64.2-2                              
 ii  libsoup2.4-1:amd64                    2.64.2-2                                     amd64        HTTP library implementation in C -- Shared library
 ii  libsox-fmt-alsa:amd64                 14.4.2+git20190427-1                         amd64        SoX alsa format I/O library
 ii  libsox-fmt-base:amd64                 14.4.2+git20190427-1                         amd64        Minimal set of SoX format libraries
+ii  libsox-fmt-mp3:amd64                  14.4.2+git20190427-1                         amd64        SoX MP2 and MP3 format library
 ii  libsox3:amd64                         14.4.2+git20190427-1                         amd64        SoX library of audio effects and processing
 ii  libsoxr0:amd64                        0.1.2-3                                      amd64        High quality 1D sample-rate conversion library
 ii  libspandsp2:amd64                     0.0.6+dfsg-2                                 amd64        Telephony signal processing library
@@ -1811,7 +1828,7 @@ ii  mesa-common-dev:amd64                 18.3.6-2+deb10u1                      
 ii  mesa-utils                            8.4.0-1+b1                                   amd64        Miscellaneous Mesa GL utilities
 ii  mesa-va-drivers:amd64                 18.3.6-2+deb10u1                             amd64        Mesa VA-API video acceleration drivers
 ii  mesa-vdpau-drivers:amd64              18.3.6-2+deb10u1                             amd64        Mesa VDPAU video acceleration drivers
-rc  meterbridge                           0.9.2-13                                     amd64        Collection of Audio meters for the JACK audio server
+ii  meterbridge                           0.9.2-13                                     amd64        Collection of Audio meters for the JACK audio server
 ii  mime-support                          3.62                                         all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  mldonkey-server                       3.1.6-1+b1                                   amd64        Door to the 'donkey' network
 ii  modemmanager                          1.10.0-1                                     amd64        D-Bus service for managing modems
@@ -2395,6 +2412,7 @@ ii  vlc-plugin-video-output:amd64         3.0.11-0+deb10u1                      
 ii  vlc-plugin-video-splitter:amd64       3.0.11-0+deb10u1                             amd64        multimedia player and streamer (video splitter plugins)
 ii  vlc-plugin-visualization:amd64        3.0.11-0+deb10u1                             amd64        multimedia player and streamer (visualization plugins)
 ii  vnstat                                1.18-2                                       amd64        console-based network traffic monitor
+ii  vorbis-tools                          1.4.0-11                                     amd64        several Ogg Vorbis tools
 ii  wamerican                             2018.04.16-1                                 all          American English dictionary words for /usr/share/dict
 ii  wdiff                                 1.2.2-2+b1                                   amd64        Compares two files word by word
 ii  wget                                  1.20.1-1.1                                   amd64        retrieves files from the web

@@ -4,6 +4,8 @@ DEFAULT_STREAM_NAME="channel1"
 
 ALSA_DEVICE=outloopdsnoop
 #ALSA_DEVICE=outloop
+#ALSA_DEVICE="hw:Loopback,1,0" # Device 1, Subdevice 0
+#ALSA_DEVICE="hw:Loopback,1,1" # Device 1, Subdevice 1
 
 ICECAST_DIRECT="icecast://source:sourcepass@localhost:3000"
 ICECAST_LOCAL="icecast://source:sourcepass@192.168.15.10:3000"
@@ -28,19 +30,38 @@ CTYPE=$PRESET1_MP3_CTYPE
 HEADER_FORMAT=$PRESET1_MP3_HEADER
 
 
+function usage () {
+  echo -e "Usage : streamIcecast.sh [<direct|local|remote>] [stream_name] [alsa_device]\n"
+
+  echo -e " Play examples:\n"
+  echo -e "  lame --decode file.mp3 - | aplay -vv -D hw:Loopback,1"
+  echo -e "  sox -q file.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,1"
+  echo -e "\n"
+}
+
 function badArgs () {
   echo "Invalid arguments"
-  echo "Usage : streamIcecast.sh [<direct|local|remote>] [stream_name]"
+  usage
   exit 1
 }
 
+function abort () {
+  pkill -P $$
+}
+
+trap abort SIGTERM SIGKILL SIGINT
+
+
 nArgs=$#
 
-if [ $nArgs -gt 2 ] ; then
+if [ $nArgs -gt 3 ] ; then
   badArgs  
 else
   if [ $nArgs -ge 1 ] ; then
-    if [ "$1" = "direct" ] ; then
+    if [ "$1" = "-h" ] ; then
+     usage
+     exit 0
+    elif [ "$1" = "direct" ] ; then
       ICECAST_URL=$ICECAST_DIRECT
     elif  [ "$1" = "local" ] ; then
       ICECAST_URL=$ICECAST_LOCAL
@@ -53,6 +74,10 @@ else
     if [ $nArgs -ge 2 ] ; then
       STREAM_NAME="$2"
     fi
+
+    if [ $nArgs -ge 3 ] ; then
+      ALSA_DEVICE="$3"
+    fi
   fi
 fi
 
@@ -62,7 +87,6 @@ HTTP_URL=`echo $ICECAST_URL | cut -d'@' -f2`
 echo -e "Stream Alsa to Icecast"
 echo -e "  Alsa Device : $ALSA_DEVICE"
 echo -e "  Publishing into URL : http://${HTTP_URL}\n"
-echo -e " Play example : 'aplay -vv -D hw:Loopback,1 file_example_WAV_2MG.wav'\n\n"
 
 ffmpeg -f alsa -i $ALSA_DEVICE -acodec $CODEC -content_type $CTYPE -vn -f $HEADER_FORMAT "$ICECAST_URL"
 

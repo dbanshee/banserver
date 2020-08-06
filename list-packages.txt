@@ -5,6 +5,8 @@
  apt install virtualbox-6.1
  apt-get autoremove
  apt-get install alsaplayer
+ apt-get install alsaplayer-gtk
+ apt-get install alsaplayer-jack
  apt-get install alsa-utils
  apt-get install apache2
  apt-get install apache2-suexec-custom
@@ -47,6 +49,7 @@
  apt-get install gparted
  apt-get install gradle
  apt-get install graphviz
+ apt-get install guitarix
  apt-get install hardinfo
  apt-get install html2ps
  apt-get install htop
@@ -63,12 +66,14 @@
  apt-get install java-common
  apt-get install java-package
  apt-get install kate
+ apt-get install lame
  apt-get install latencytop
  apt-get install libapache2-mod-wsgi
  apt-get install libfreeimage-dev
  apt-get install libkrb5-dev
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
  apt-get install libreoffice
+ apt-get install libsox-fmt-mp3
  apt-get install libssl-dev
  apt-get install linux-headers-4.19.0-6-amd64
  apt-get install linux-headers-amd64
