@@ -7,6 +7,25 @@
 
 ## Unclassified
 
+- **[2020-08-07 14:42:44]**
+get haproxy stats/informations via socat\
+You can configure a stat socket for haproxy in the global section of the configuration file:
+global
+  daemon
+  maxconn 999
+  user foobar
+  stats socket /var/run/haproxy.stat  # this is the line you want to configure
+
+You need socat to query data from this socket.
+After installing socat and reconf...\
+<https://makandracards.com/makandra/36727-get-haproxy-stats-informations-via-socat>\
+![Image](https://makandracards.com/assets/og_image-d4472399c1db07aee4e6140ca778e129.png)
+
+- **[2020-08-07 11:40:07]**
+<http://manpages.ubuntu.com/manpages/bionic/man7/pipe.7.html>\
+<http://manpages.ubuntu.com/manpages/bionic/man7/pipe.7.html>\
+
+
 - **[2020-08-04 15:52:52]**
 > **[Stack Overflow]** -FFmpeg, Icecast and metadata\
 I use FFmpeg streaming to the Icecast server on my Windows machine in the following way (sound card line in):

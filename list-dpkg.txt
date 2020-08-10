@@ -170,6 +170,7 @@ ii  fonts-dejavu-core                     2.37-1                                
 ii  fonts-dejavu-extra                    2.37-1                                       all          Vera font family derivate with additional characters (extra variants)
 ii  fonts-droid-fallback                  1:6.0.1r16-1.1                               all          handheld device font with extensive style and language support (fallback)
 ii  fonts-freefont-ttf                    20120503-9                                   all          Freefont Serif, Sans and Mono Truetype fonts
+ii  fonts-lato                            2.0-2                                        all          sans-serif typeface family font
 ii  fonts-liberation                      1:1.07.4-9                                   all          Fonts with the same metrics as Times, Arial and Courier
 ii  fonts-liberation2                     2.00.5-1                                     all          Fonts with the same metrics as Times, Arial and Courier (v2)
 ii  fonts-linuxlibertine                  5.3.0-4                                      all          Linux Libertine family of fonts
@@ -289,6 +290,8 @@ ii  gvfs-fuse                             1.38.1-5                              
 ii  gvfs-libs:amd64                       1.38.1-5                                     amd64        userspace virtual filesystem - private libraries
 ii  gyp                                   0.1+20180428git4d467626-3                    all          Cross-platform build script generator
 ii  gzip                                  1.9-3                                        amd64        GNU compression utilities
+ii  haproxy                               1.8.19-1+deb10u2                             amd64        fast and reliable load balancing reverse proxy
+ii  haproxyctl                            1.3.0-3                                      all          Utility to manage HAProxy
 ii  hardinfo                              0.5.1+git20180227-2                          amd64        Displays system information
 ii  hicolor-icon-theme                    0.17-2                                       all          default fallback theme for FreeDesktop.org icon themes
 ii  hostname                              3.21                                         amd64        utility to set/show the host name or domain name
@@ -1368,6 +1371,7 @@ ii  librsvg2-2:amd64                      2.44.10-2.1                           
 ii  librsvg2-common:amd64                 2.44.10-2.1                                  amd64        SAX-based renderer library for SVG files (extra runtime)
 ii  librtmp1:amd64                        2.4+20151223.gitfa8646d.1-2                  amd64        toolkit for RTMP streams (shared library)
 ii  librubberband2:amd64                  1.8.1-7                                      amd64        audio time-stretching and pitch-shifting library
+ii  libruby2.5:amd64                      2.5.5-3+deb10u2                              amd64        Libraries necessary to run Ruby 2.5
 ii  libsac-java                           1.3+dfsg-5                                   all          Simple API for CSS Java library
 ii  libsamplerate0:amd64                  0.1.9-2                                      amd64        Audio sample rate conversion library
 ii  libsasl2-2:amd64                      2.1.27+dfsg-1+deb10u1                        amd64        Cyrus SASL - authentication abstraction library
@@ -2185,6 +2189,7 @@ ii  pulseaudio                            12.2-4+deb10u1                        
 ii  pulseaudio-module-bluetooth           12.2-4+deb10u1                               amd64        Bluetooth module for PulseAudio sound server
 ii  pulseaudio-module-jack                12.2-4+deb10u1                               amd64        jackd modules for PulseAudio sound server
 ii  pulseaudio-utils                      12.2-4+deb10u1                               amd64        Command line tools for the PulseAudio sound server
+ii  pv                                    1.6.6-1                                      amd64        Shell pipeline element to meter data passing through
 ii  python                                2.7.16-1                                     amd64        interactive high-level object-oriented language (Python2 version)
 ii  python-all                            2.7.16-1                                     amd64        package depending on all supported Python2 runtime versions
 ii  python-all-dev                        2.7.16-1                                     amd64        package depending on all supported Python2 development packages
@@ -2302,6 +2307,7 @@ ii  qtchooser                             66-2                                  
 ii  qtcore4-l10n                          4:4.8.7+dfsg-18                              all          Qt 4 core module translations
 ii  qttranslations5-l10n                  5.11.3-2                                     all          translations for Qt 5
 ii  qtwayland5:amd64                      5.11.3-2                                     amd64        QtWayland platform plugin
+ii  rake                                  12.3.1-3+deb10u1                             all          ruby make-like utility
 ii  rar                                   2:5.5.0-1                                    amd64        Archiver for .rar files
 ii  readline-common                       7.0-5                                        all          GNU readline and history libraries, common files
 ii  remmina                               1.3.3+dfsg-2                                 amd64        GTK+ Remote Desktop Client
@@ -2319,6 +2325,15 @@ ii  rsync                                 3.1.3-6                               
 ii  rsyslog                               8.1901.0-1                                   amd64        reliable system and kernel logging daemon
 ii  rtkit                                 0.11-6                                       amd64        Realtime Policy and Watchdog Daemon
 ii  rubberband-cli                        1.8.1-7                                      amd64        audio time-stretching and pitch-shifting utility
+ii  ruby                                  1:2.5.1                                      amd64        Interpreter of object-oriented scripting language Ruby (default version)
+ii  ruby-did-you-mean                     1.2.1-1                                      all          smart error messages for Ruby > 2.3
+ii  ruby-minitest                         5.11.3-1                                     all          Ruby test tools supporting TDD, BDD, mocking, and benchmarking
+ii  ruby-net-telnet                       0.1.1-2                                      all          telnet client library
+ii  ruby-power-assert                     1.1.1-1                                      all          library showing values of variables and method calls in an expression
+ii  ruby-test-unit                        3.2.8-1                                      all          unit testing framework for Ruby
+ii  ruby-xmlrpc                           0.3.0-2                                      all          XMLRPC library for Ruby
+ii  ruby2.5                               2.5.5-3+deb10u2                              amd64        Interpreter of object-oriented scripting language Ruby
+ii  rubygems-integration                  1.11+deb10u1                                 all          integration of Debian Ruby packages with Rubygems
 ii  samba                                 2:4.9.5+dfsg-5+deb10u1                       amd64        SMB/CIFS file, print, and login server for Unix
 ii  samba-common                          2:4.9.5+dfsg-5+deb10u1                       all          common files used by both the Samba server and client
 ii  samba-common-bin                      2:4.9.5+dfsg-5+deb10u1                       amd64        Samba common files used by both the server and the client

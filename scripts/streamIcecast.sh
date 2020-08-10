@@ -1,5 +1,13 @@
 #! /bin/bash
 
+#
+# Banshee - 2020
+#
+# Banserver Script for stream Alsa device to Icecast2 Server
+#
+
+
+
 DEFAULT_STREAM_NAME="channel1"
 
 ALSA_DEVICE=outloopdsnoop
@@ -32,7 +40,7 @@ HEADER_FORMAT=$PRESET1_MP3_HEADER
 
 function usage () {
   echo -e "Usage : streamIcecast.sh [<direct|local|remote>] [stream_name] [alsa_device]\n"
-
+  echo -e " example: streamIcecast.sh direct channel1 hw:Loopback,1,0\n"
   echo -e " Play examples:\n"
   echo -e "  lame --decode file.mp3 - | aplay -vv -D hw:Loopback,1"
   echo -e "  sox -q file.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,1"
@@ -47,6 +55,7 @@ function badArgs () {
 
 function abort () {
   pkill -P $$
+  exit 0
 }
 
 trap abort SIGTERM SIGKILL SIGINT
@@ -83,9 +92,19 @@ fi
 
 
 ICECAST_URL="${ICECAST_URL}/${STREAM_NAME}"
-HTTP_URL=`echo $ICECAST_URL | cut -d'@' -f2`
-echo -e "Stream Alsa to Icecast"
-echo -e "  Alsa Device : $ALSA_DEVICE"
+HTTP_URL="http://`echo $ICECAST_URL | cut -d'@' -f2`"
+
+echo "------------------------------------------------------------------------------"
+echo " Stream Icecast  - $(date)"
+echo
+echo "  Alsa Device   : ${ALSA_DEVICE}"
+echo "  Channel       : ${STREAM_NAME}"
+echo "  Icecast URL   : ${CODEC}"
+echo "  Audio Codec   : ${ICECAST_URL}"
+echo "  Stream Url    : ${HTTP_URL}"
+echo "------------------------------------------------------------------------------"
+echo
+
 echo -e "  Publishing into URL : http://${HTTP_URL}\n"
 
 ffmpeg -f alsa -i $ALSA_DEVICE -acodec $CODEC -content_type $CTYPE -vn -f $HEADER_FORMAT "$ICECAST_URL"

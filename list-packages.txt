@@ -50,6 +50,8 @@
  apt-get install gradle
  apt-get install graphviz
  apt-get install guitarix
+ apt-get install haproxy
+ apt-get install haproxyctl
  apt-get install hardinfo
  apt-get install html2ps
  apt-get install htop
@@ -115,6 +117,7 @@
  apt-get install php-mysql
  apt-get install postfix
  apt-get install psmisc
+ apt-get install pv
  apt-get install python3-dev
  apt-get install python3-pip
  apt-get install python3-venv
