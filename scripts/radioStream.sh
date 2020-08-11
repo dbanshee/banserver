@@ -20,6 +20,8 @@ function abort () {
   # Disable trap. Infinite loop if kill GID.  
   trap '' SIGTERM SIGKILL SIGINT
 
+  # Ctrl+C in bash sends signal to GID. If SIGTERM is sended to bg process only subchilds not receive signals.
+  # Send to group.
   GID=$(ps -p $$ -o pgid -h)
   kill -- "-$GID"
   deletePipe
