@@ -54,7 +54,11 @@ function badArgs () {
 }
 
 function abort () {
-  pkill -P $$
+  # Disable trap. Infinite loop if kill GID.  
+  trap '' SIGTERM SIGKILL SIGINT
+
+  GID=$(ps -p $$ -o pgid -h)
+  kill -- "-$GID"
   exit 0
 }
 

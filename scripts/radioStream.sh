@@ -16,7 +16,12 @@ NPIPE_PATH="/tmp/radioStream.pipe"
 
 function abort () {
   echo "Finishing Radio Service"
-  pkill -P $$
+ 
+  # Disable trap. Infinite loop if kill GID.  
+  trap '' SIGTERM SIGKILL SIGINT
+
+  GID=$(ps -p $$ -o pgid -h)
+  kill -- "-$GID"
   deletePipe
   exit 0
 }

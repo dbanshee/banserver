@@ -923,7 +923,7 @@ rc  libjs-jquery-ui                       1.12.1+dfsg-5                         
 ii  libjs-sphinxdoc                       1.8.4-1                                      all          JavaScript support for Sphinx documentation
 ii  libjs-underscore                      1.9.1~dfsg-1                                 all          JavaScript's functional programming helper library
 ii  libjsch-java                          0.1.55-1                                     all          Java implementation of the SSH2 protocol
-ii  libjson-c3:amd64                      0.12.1+ds-2                                  amd64        JSON manipulation library - shared library
+ii  libjson-c3:amd64                      0.12.1+ds-2+deb10u1                          amd64        JSON manipulation library - shared library
 ii  libjson-glib-1.0-0:amd64              1.4.4-2                                      amd64        GLib JSON manipulation library
 ii  libjson-glib-1.0-common               1.4.4-2                                      all          GLib JSON manipulation library (common files)
 ii  libjson-perl                          4.02000-1                                    all          module for manipulating JSON-formatted data
