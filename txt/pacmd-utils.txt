@@ -1,0 +1,5 @@
+pacmd list-cards
+pacmd list-sinks
+
+# Muestra relacion dispositivo alsa <--> aplicacion
+pacmd list-sink-inputs

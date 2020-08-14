@@ -1,6 +1,6 @@
 #! /bin/bash
 
-LOCAL_URL="http://localhost:3000/channel"
+LOCAL_URL="https://192.168.15.10/icecast2/channel"
 REMOTE_URL="https://banserver.bansheerocks.com:9743/icecast2/channel"
 
 # REQUEST PARAMS

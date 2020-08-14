@@ -7,6 +7,40 @@
 
 ## Unclassified
 
+- **[2020-08-13 22:11:28]**
+<https://wiki.archlinux.org/index.php/PulseAudio/Examples>\
+<PulseAudio/Examples - ArchWiki
+https://wiki.archlinux.org/index.php/PulseAudio/Examples>\
+
+
+- **[2020-08-13 21:09:25]**
+> **[Victor Gaydov]** -
+  
+    PulseAudio under the hood
+  
+\
+Table of contents
+ Preface About PulseAudio High-level components Key abstractions D-Bus API C API Protocols and networking Device drivers Sound processing Sample cache Stream management Time management Power saving Automatic setup and routing Desktop integrations Compatibility layers Server internals Module list GUI tools Command line tools Configuration Portability Example setups Example clients and modules Critique  Preface I’m working on the Roc Toolkit open-source project, a development kit for realtime audio streaming over the network.\
+<http://gavv.github.io/articles/pulseaudio-under-the-hood/>\
+
+
+- **[2020-08-13 21:01:19]**
+<https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/>\
+<Modules
+https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/Modules/>\
+
+
+- **[2020-08-13 20:55:40]**
+<https://wiki.archlinux.org/index.php/PulseAudio/Examples#Mixing_additional_audio_into_the_microphone's_audio>\
+<PulseAudio/Examples - ArchWiki
+https://wiki.archlinux.org/index.php/PulseAudio/Examples#Mixing_additional_audio_into_the_microphone's_audio>\
+
+
+- **[2020-08-11 22:37:48]**
+<https://mywiki.wooledge.org/SignalTrap>\
+<https://mywiki.wooledge.org/SignalTrap>\
+
+
 - **[2020-08-07 14:42:44]**
 get haproxy stats/informations via socat\
 You can configure a stat socket for haproxy in the global section of the configuration file:

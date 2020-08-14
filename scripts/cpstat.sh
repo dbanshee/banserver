@@ -1,5 +1,13 @@
 #! /bin/bash
 
+#
+# Banshee 2020
+#
+# cp with show progress bar
+#
+
+
+
 function usage () {
   echo -e "Usage : cpstat.sh <source> <destination>\n"
 }

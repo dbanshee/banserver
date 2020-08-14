@@ -76,6 +76,7 @@
  apt-get install liblua5.1-0-dev liblua50-dev liblualib50-dev
  apt-get install libreoffice
  apt-get install libsox-fmt-mp3
+ apt-get install libspotify12 libspotify-dev
  apt-get install libssl-dev
  apt-get install linux-headers-4.19.0-6-amd64
  apt-get install linux-headers-amd64
@@ -97,10 +98,13 @@
  apt-get install meld
  apt-get install mesa-utils
  apt-get install mldonkey-server
+ apt-get install mopidy
+ apt-get install mopidy-spotify
  apt-get install mousepad
  apt-get install mpc
  apt-get install mpd
  apt-get install mtr-tiny
+ apt-get install ncmpc
  apt-get install nethogs
  apt-get install net-tools
  apt-get install nload
@@ -135,6 +139,7 @@
  apt-get install snmpd
  apt-get install software-properties-common
  apt-get install sox
+ apt-get install spotify-client
  apt-get install subversion
  apt-get install sudo
  apt-get install synaptic
@@ -163,6 +168,7 @@
  apt-get install xrdp
  apt-get install xserver-xorg-video-intel
  apt-get install xterm
+ apt-get install youtube-dl
  apt-get -o APT
  apt-get purge arduino
  apt-get purge atop clinfo cockpit
@@ -190,6 +196,7 @@
  apt-get remove openipmi
  apt-get remove rakarrack
  apt-get remove roundcube-mysql
+ apt-get remove snmpd
  apt-get remove tensorflow-model-server
  apt-get remove xjadeo
  apt-get upgrade

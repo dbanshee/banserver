@@ -10,8 +10,9 @@
 
 DEFAULT_STREAM_NAME="channel1"
 
-ALSA_DEVICE=outloopdsnoop
-#ALSA_DEVICE=outloop
+# Alsa Playback Device
+ALSA_DEVICE=ploopdsnoop
+#ALSA_DEVICE=ploop
 #ALSA_DEVICE="hw:Loopback,1,0" # Device 1, Subdevice 0
 #ALSA_DEVICE="hw:Loopback,1,1" # Device 1, Subdevice 1
 
@@ -57,8 +58,9 @@ function abort () {
   # Disable trap. Infinite loop if kill GID.  
   trap '' SIGTERM SIGKILL SIGINT
 
-  GID=$(ps -p $$ -o pgid -h)
-  kill -- "-$GID"
+  #GID=$(ps -p $$ -o pgid -h)
+  #kill -- "-$GID"
+  pkill -P $$
   exit 0
 }
 

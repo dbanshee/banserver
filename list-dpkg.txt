@@ -218,6 +218,8 @@ ii  gir1.2-atk-1.0:amd64                  2.30.0-2                              
 ii  gir1.2-freedesktop:amd64              1.58.3-2                                     amd64        Introspection data for some FreeDesktop components
 ii  gir1.2-gdkpixbuf-2.0:amd64            2.38.1+dfsg-1                                amd64        GDK Pixbuf library - GObject-Introspection
 ii  gir1.2-glib-2.0:amd64                 1.58.3-2                                     amd64        Introspection data for GLib, GObject, Gio and GModule
+ii  gir1.2-gst-plugins-base-1.0:amd64     1.14.4-2                                     amd64        GObject introspection data for the GStreamer Plugins Base library
+ii  gir1.2-gstreamer-1.0:amd64            1.14.4-1                                     amd64        GObject introspection data for the GStreamer library
 ii  gir1.2-gtk-3.0:amd64                  3.24.5-1                                     amd64        GTK+ graphical user interface library -- gir bindings
 ii  gir1.2-gtk-vnc-2.0:amd64              0.9.0-1.1                                    amd64        GObject introspection data for GTK-VNC
 ii  gir1.2-gtksource-3.0:amd64            3.24.9-2                                     amd64        gir files for the GTK+ syntax highlighting widget
@@ -267,6 +269,7 @@ ii  grub2-common                          2.02+dfsg1-20+deb10u2                 
 ii  gsettings-desktop-schemas             3.28.1-1                                     all          GSettings desktop-wide schemas
 ii  gsfonts                               1:8.11+urwcyr1.0.7~pre44-4.4                 all          Fonts for the Ghostscript interpreter(s)
 ii  gsfonts-x11                           0.26                                         all          Make Ghostscript fonts available to X11
+ii  gstreamer1.0-alsa:amd64               1.14.4-2                                     amd64        GStreamer plugin for ALSA
 ii  gstreamer1.0-gl:amd64                 1.14.4-2                                     amd64        GStreamer plugins for GL
 ii  gstreamer1.0-libav:amd64              1.15.0.1+git20180723+db823502-2              amd64        libav plugin for GStreamer
 ii  gstreamer1.0-plugins-bad:amd64        1.14.4-1+b1                                  amd64        GStreamer plugins from the "bad" set
@@ -274,6 +277,7 @@ ii  gstreamer1.0-plugins-base:amd64       1.14.4-2                              
 ii  gstreamer1.0-plugins-good:amd64       1.14.4-1                                     amd64        GStreamer plugins from the "good" set
 ii  gstreamer1.0-plugins-ugly:amd64       1.14.4-1                                     amd64        GStreamer plugins from the "ugly" set
 ii  gstreamer1.0-pulseaudio:amd64         1.14.4-1                                     amd64        GStreamer plugin for PulseAudio
+ii  gstreamer1.0-tools                    1.14.4-1                                     amd64        Tools for use with GStreamer
 ii  gstreamer1.0-x:amd64                  1.14.4-2                                     amd64        GStreamer plugins for X11 and Pango
 ii  gtk-update-icon-cache                 3.24.5-1                                     amd64        icon theme caching utility
 ii  gtk2-engines:amd64                    1:2.20.2-5                                   amd64        theme engines for GTK+ 2.x
@@ -370,7 +374,6 @@ ii  libabw-0.1-1:amd64                    0.1.2-1                               
 ii  libacl1:amd64                         2.2.53-4                                     amd64        access control list - shared library
 ii  libactivation-java                    1.2.0-2                                      all          JavaBeans Activation Framework
 ii  libadns1                              1.5.0~rc1-1.1                                amd64        Asynchronous-capable DNS client library
-ii  libadplug-2.2.1-0v5                   2.2.1+dfsg3-1                                amd64        free AdLib sound library
 ii  libaio1:amd64                         0.3.112-3                                    amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl                1.19.03-2                                    all          module to find differences between files
 ii  libalgorithm-diff-xs-perl             0.04-5+b1                                    amd64        module to find differences between files (XS accelerated)
@@ -424,7 +427,6 @@ ii  libatomic1:amd64                      8.3.0-6                               
 ii  libatspi2.0-0:amd64                   2.30.0-7                                     amd64        Assistive Technology Service Provider Interface - shared library
 ii  libattr1:amd64                        1:2.4.48-4                                   amd64        extended attribute handling - shared library
 ii  libaudio2:amd64                       1.9.4-6                                      amd64        Network Audio System - shared libraries
-ii  libaudiofile1:amd64                   0.3.6-5                                      amd64        Open-source version of SGI's audiofile library
 ii  libaudit-common                       1:2.8.4-3                                    all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                       1:2.8.4-3                                    amd64        Dynamic library for security auditing
 ii  libaugeas0:amd64                      1.11.0-3                                     amd64        Augeas configuration editing library and API
@@ -458,7 +460,6 @@ ii  libbcprov-java                        1.60-1                                
 ii  libbdplus0:amd64                      0.1.2-3                                      amd64        implementation of BD+ for reading Blu-ray Discs
 ii  libbind9-161:amd64                    1:9.11.5.P4+dfsg-5.1+deb10u1                 amd64        BIND9 Shared Library used by BIND
 ii  libbindex-java                        2.2+svn101-4                                 all          OSGi BIndex reader
-ii  libbinio1v5:amd64                     1.4+dfsg1-6                                  amd64        Binary I/O stream class library
 ii  libbinutils:amd64                     2.31.1-16                                    amd64        GNU binary utilities (private shared library)
 ii  libbison-dev:amd64                    2:3.3.2.dfsg-1                               amd64        YACC-compatible parser generator - development library
 ii  libblas3:amd64                        3.8.0-2                                      amd64        Basic Linear Algebra Reference implementations, shared library
@@ -882,7 +883,6 @@ ii  libisc1100:amd64                      1:9.11.5.P4+dfsg-5.1+deb10u1          
 ii  libisccc161:amd64                     1:9.11.5.P4+dfsg-5.1+deb10u1                 amd64        Command Channel Library used by BIND
 ii  libisccfg163:amd64                    1:9.11.5.P4+dfsg-5.1+deb10u1                 amd64        Config File Handling Library used by BIND
 ii  libisl19:amd64                        0.20-2                                       amd64        manipulating sets and relations of integer points bounded by linear constraints
-ii  libiso9660-11:amd64                   2.0.0-2                                      amd64        library to work with ISO9660 filesystems
 ii  libistack-commons-java                3.0.6-3                                      all          Common code for some Glassfish projects
 ii  libitext-java                         2.1.7-12                                     all          Java Library to create and manipulate PDF on the fly
 ii  libitm1:amd64                         8.3.0-6                                      amd64        GNU Transactional Memory Library
@@ -1405,7 +1405,6 @@ ii  libshine3:amd64                       3.1.1-2                               
 ii  libshout3:amd64                       2.4.1-2                                      amd64        MP3/Ogg Vorbis broadcast streaming library
 ii  libsidplay1v5:amd64                   1.36.59-11                                   amd64        SID (MOS 6581) emulation library
 ii  libsidplay2                           2.1.1-15                                     amd64        SID (MOS 6581) emulation library
-ii  libsidplayfp4:amd64                   1.8.8-1                                      amd64        Library to play Commodore 64 music based on libsidplay2
 ii  libsigc++-2.0-0v5:amd64               2.10.1-2                                     amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                     2.12-2                                       amd64        Library for handling page faults in a portable way
 ii  libsimple-http-java                   4.1.21-1                                     all          high-performance, embeddable Java HTTP engine
@@ -1447,6 +1446,8 @@ ii  libspeexdsp1:amd64                    1.2~rc1.2-1+b2                        
 ii  libspice-client-glib-2.0-8:amd64      0.35-2                                       amd64        GObject for communicating with Spice servers (runtime library)
 ii  libspice-client-gtk-3.0-5:amd64       0.35-2                                       amd64        GTK3 widget for SPICE clients (runtime library)
 ii  libspice-server1:amd64                0.14.0-1.3                                   amd64        Implements the server side of the SPICE protocol
+ii  libspotify-dev                        12.1.51-1                                    amd64        Library for using the Spotify music streaming service
+ii  libspotify12                          12.1.51-1                                    amd64        Library for using the Spotify music streaming service
 ii  libsqlite3-0:amd64                    3.27.2-3                                     amd64        SQLite 3 shared library
 ii  libsratom-0-0:amd64                   0.6.0~dfsg0-1                                amd64        library for serialising LV2 atoms to/from Turtle
 ii  libsrtp2-1:amd64                      2.2.0-1                                      amd64        Secure RTP (SRTP) and UST Reference Implementations - shared library
@@ -1755,7 +1756,6 @@ ii  libzmq5:amd64                         4.3.1-4+deb10u1                       
 ii  libzstd1:amd64                        1.3.8+dfsg-3                                 amd64        fast lossless compression algorithm
 ii  libzvbi-common                        0.2.35-16                                    all          Vertical Blanking Interval decoder (VBI) - common files
 ii  libzvbi0:amd64                        0.2.35-16                                    amd64        Vertical Blanking Interval decoder (VBI) - runtime files
-ii  libzzip-0-13:amd64                    0.13.62-3.2                                  amd64        library providing read access on ZIP-archives - library
 ii  licensecheck                          3.0.31-3                                     all          simple license checker for source files
 ii  light-locker                          1.8.0-3                                      amd64        simple screen locker for lightDM display manager
 ii  lightdm                               1.26.0-4                                     amd64        simple display manager
@@ -1836,6 +1836,8 @@ ii  meterbridge                           0.9.2-13                              
 ii  mime-support                          3.62                                         all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  mldonkey-server                       3.1.6-1+b1                                   amd64        Door to the 'donkey' network
 ii  modemmanager                          1.10.0-1                                     amd64        D-Bus service for managing modems
+ii  mopidy                                2.2.2-1                                      all          music server with support for MPD/HTTP clients
+ii  mopidy-spotify                        3.1.0-0mopidy1                               all          Mopidy extension for playing music from Spotify
 ii  mount                                 2.33.1-0.1                                   amd64        tools for mounting and manipulating filesystems
 ii  mousepad                              0.4.1-2                                      amd64        simple Xfce oriented text editor
 rc  mpd                                   0.21.5-3                                     amd64        Music Player Daemon
@@ -1844,6 +1846,7 @@ ii  mtools                                4.0.23-1                              
 ii  mtr-tiny                              0.92-2                                       amd64        Full screen ncurses traceroute tool
 ii  mysql-common                          5.8+1.0.5                                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
 ii  nano                                  3.2-3                                        amd64        small, friendly text editor inspired by Pico
+ii  ncmpc                                 0.33-2+b10                                   amd64        ncurses-based audio player
 ii  ncurses-base                          6.1+20181013-2+deb10u2                       all          basic terminal type definitions
 ii  ncurses-bin                           6.1+20181013-2+deb10u2                       amd64        terminal-related programs and man pages
 ii  ncurses-term                          6.1+20181013-2+deb10u2                       all          additional terminal type definitions
@@ -2138,6 +2141,7 @@ ii  perl-base                             5.28.1-6+deb10u1                      
 ii  perl-modules-5.28                     5.28.1-6+deb10u1                             all          Core Perl modules
 ii  perl-openssl-defaults:amd64           3                                            amd64        version compatibility baseline for Perl OpenSSL packages
 ii  perlmagick                            8:6.9.10.23+dfsg-2.1+deb10u1                 all          Perl interface to ImageMagick -- dummy package
+ii  phantomjs                             2.1.1+dfsg-2                                 amd64        minimalistic headless WebKit-based browser with JavaScript API
 ii  phonon4qt5:amd64                      4:4.10.2-1                                   amd64        multimedia framework from KDE using Qt 5 - metapackage
 ii  phonon4qt5-backend-vlc:amd64          0.10.2-1                                     amd64        Phonon4Qt5 VLC backend
 ii  php-auth-sasl                         1.0.6-3                                      all          Abstraction of various SASL mechanism responses
@@ -2195,11 +2199,14 @@ ii  python-all                            2.7.16-1                              
 ii  python-all-dev                        2.7.16-1                                     amd64        package depending on all supported Python2 development packages
 ii  python-apt-common                     1.8.4.1                                      all          Python interface to libapt-pkg (locales)
 ii  python-asn1crypto                     0.24.0-1                                     all          Fast ASN.1 parser and serializer (Python 2)
+ii  python-backports-abc                  0.5-2                                        all          Backport of the "collections.abc" stdlib module (Python 2)
 ii  python-cairo:amd64                    1.16.2-1+b1                                  amd64        Python bindings for the Cairo vector graphics library
 ii  python-certifi                        2018.8.24-1                                  all          root certificates for validating SSL certs and verifying TLS hosts
+ii  python-cffi                           1.12.2-1                                     all          Foreign Function Interface for Python calling C code
 ii  python-cffi-backend                   1.12.2-1                                     amd64        Foreign Function Interface for Python calling C code - backend
 ii  python-chardet                        3.0.4-3                                      all          universal character encoding detector for Python2
 ii  python-chm                            0.8.4.1-2                                    amd64        Python binding for CHMLIB
+ii  python-concurrent.futures             3.2.0-2                                      all          backport of concurrent.futures package from Python 3.2
 ii  python-configparser                   3.5.0b2-1                                    all          backport of the enhanced config parser introduced in Python 3.2
 ii  python-crypto                         2.6.1-9+b1                                   amd64        cryptographic algorithms and protocols for Python
 ii  python-cryptography                   2.6.1-3+deb10u2                              amd64        Python library exposing cryptographic recipes and primitives (Python 2)
@@ -2214,6 +2221,7 @@ ii  python-glade2                         2.24.0-5.1+b1                         
 ii  python-gobject                        3.30.4-1                                     all          Python 2.x bindings for GObject - transitional package
 ii  python-gobject-2                      2.28.6-13+b1                                 amd64        deprecated static Python bindings for the GObject library
 ii  python-gpg                            1.12.0-6                                     amd64        Python interface to the GPGME GnuPG encryption library (Python 2)
+ii  python-gst-1.0                        1.14.4-1+b1                                  amd64        GStreamer GObject Introspection overrides for Python
 ii  python-gtk2                           2.24.0-5.1+b1                                amd64        Python bindings for the GTK+ widget set
 ii  python-idna                           2.6-1                                        all          Python IDNA2008 (RFC 5891) handling (Python 2)
 ii  python-ipaddress                      1.0.17-1                                     all          Backport of Python 3 ipaddress module (Python 2)
@@ -2227,13 +2235,19 @@ ii  python-openssl                        19.0.0-1                              
 ii  python-pip                            18.1-5                                       all          Python package installer
 ii  python-pip-whl                        18.1-5                                       all          Python package installer
 ii  python-pkg-resources                  40.8.0-1                                     all          Package Discovery and Resource Access using pkg_resources
+ii  python-ply                            3.11-3                                       all          Lex and Yacc implementation for Python2
+ii  python-pycparser                      2.19-1                                       all          C parser in Python
+ii  python-pykka                          1.2.1-4                                      all          Actor model library (Python 2)
 ii  python-requests                       2.21.0-1                                     all          elegant and simple HTTP library for Python2, built for human beings
 ii  python-samba                          2:4.9.5+dfsg-5+deb10u1                       amd64        Python bindings for Samba
 ii  python-secretstorage                  2.3.1-2                                      all          Python module for storing secrets - Python 2.x version
 ii  python-setuptools                     40.8.0-1                                     all          Python Distutils Enhancements
+ii  python-singledispatch                 3.4.0.3-2                                    all          single-dispatch generic functions for Python
 ii  python-six                            1.12.0-1                                     all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-spotify                        2.0.5-0mopidy1                               amd64        Python bindings for libspotify (Python 2)
 ii  python-talloc:amd64                   2.1.14-2                                     amd64        hierarchical pool based memory allocator - Python bindings
 ii  python-tdb                            1.3.16-2+b1                                  amd64        Python bindings for TDB
+ii  python-tornado                        5.1.1-4                                      amd64        scalable, non-blocking web server and tools
 ii  python-urllib3                        1.24.1-1                                     all          HTTP library with thread-safe connection pooling for Python
 ii  python-wheel                          0.32.3-2                                     all          built-package format for Python
 ii  python-xdg                            0.25-5                                       all          Python 2 library to access freedesktop.org standards
@@ -2274,6 +2288,7 @@ ii  python3-pip                           18.1-5                                
 ii  python3-pkg-resources                 40.8.0-1                                     all          Package Discovery and Resource Access using pkg_resources
 ii  python3-pycurl                        7.43.0.2-0.1                                 amd64        Python bindings to libcurl (Python 3)
 ii  python3-pyinotify                     0.9.6-1                                      all          simple Linux inotify Python bindings
+ii  python3-pyxattr                       0.6.1-1                                      amd64        module for manipulating filesystem extended attributes (Python3)
 ii  python3-requests                      2.21.0-1                                     all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-secretstorage                 2.3.1-2                                      all          Python module for storing secrets - Python 3.x version
 ii  python3-setuptools                    40.8.0-1                                     all          Python3 Distutils Enhancements
@@ -2324,6 +2339,7 @@ ii  rrdtool                               1.7.1-2                               
 ii  rsync                                 3.1.3-6                                      amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                               8.1901.0-1                                   amd64        reliable system and kernel logging daemon
 ii  rtkit                                 0.11-6                                       amd64        Realtime Policy and Watchdog Daemon
+ii  rtmpdump                              2.4+20151223.gitfa8646d.1-2                  amd64        small dumper for media content streamed over the RTMP protocol
 ii  rubberband-cli                        1.8.1-7                                      amd64        audio time-stretching and pitch-shifting utility
 ii  ruby                                  1:2.5.1                                      amd64        Interpreter of object-oriented scripting language Ruby (default version)
 ii  ruby-did-you-mean                     1.2.1-1                                      all          smart error messages for Ruby > 2.3
@@ -2347,12 +2363,13 @@ ii  sed                                   4.7-1                                 
 ii  sensible-utils                        0.0.12                                       all          Utilities for sensible alternative selection
 ii  shared-mime-info                      1.10-1                                       amd64        FreeDesktop.org shared MIME database and spec
 ic  snapd                                 2.37.4-1+b1                                  amd64        Daemon and tooling that enable snap packages
-ii  snmpd                                 5.7.3+dfsg-5                                 amd64        SNMP (Simple Network Management Protocol) agents
+rc  snmpd                                 5.7.3+dfsg-5                                 amd64        SNMP (Simple Network Management Protocol) agents
 ii  socat                                 1.7.3.2-2                                    amd64        multipurpose relay for bidirectional data transfer
 ii  software-properties-common            0.96.20.2-2                                  all          manage the repositories that you install software from (common)
 ii  sound-theme-freedesktop               0.8-2                                        all          freedesktop.org sound theme
 ii  sox                                   14.4.2+git20190427-1                         amd64        Swiss army knife of sound processing
 ii  spice-client-glib-usb-acl-helper      0.35-2                                       amd64        Helper tool to validate usb ACLs
+ii  spotify-client                        1:1.1.10.546.ge08ef575-19                    amd64        Spotify streaming music client
 ii  sqlite3                               3.27.2-3                                     amd64        Command line interface for SQLite 3
 ii  ssl-cert                              1.0.39                                       all          simple debconf wrapper for OpenSSL
 ii  strace                                4.26-0.2                                     amd64        System call tracer
@@ -2502,6 +2519,7 @@ ii  xxd                                   2:8.1.0875-5                          
 ii  xz-utils                              5.2.4-1                                      amd64        XZ-format compression utilities
 ii  yelp                                  3.31.90-1                                    amd64        Help browser for GNOME
 ii  yelp-xsl                              3.31.90-1                                    all          XSL stylesheets for the yelp help browser
+ii  youtube-dl                            2019.01.17-1.1                               all          downloader of videos from YouTube and other sites
 ii  zenity                                3.30.0-2                                     amd64        Display graphical dialog boxes from shell scripts
 ii  zenity-common                         3.30.0-2                                     all          Display graphical dialog boxes from shell scripts (common files)
 ii  zip                                   3.0-11+b1                                    amd64        Archiver for .zip files

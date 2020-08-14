@@ -1,11 +1,92 @@
-pcm.outloop {
+#
+# Banshee - 2020
+#
+# https://alsa.opensrc.org/Jack_and_Loopback_device_as_Alsa-to-Jack_bridge
+#
+# Loopback Device
+#  format : hw:Loopback,<device>,<subdevice>
+#
+#  La interfaz de Loopback se comunica a traves de pares de subdevices. 
+#
+#     record -> hw:Loopback,0,0 -> hw:Loopback,1,0 -> play (Using subdevice 0)
+#     record -> hw:Loopback,0,1 -> hw:Loopback,1,1 -> play (Using subdevice 1)
+#
+#  Para un subdevice los subdevices son intercambiables. Las siguientes configuraciones son equivalentes.
+#                            __________________
+#                           |                  |
+#     record -> hw:Loopback,0,0 -> hw:Loopback,1,0 -> play (Using subdevice 0)
+#     record -> hw:Loopback,1,0 -> hw:Loopback,0,0 -> play (Using subdevice 0)
+#                           |__________________|
+#                            
+# Ejemplos:
+#
+# Volcar fichero a loopback
+#
+#  lame --decode file.mp3 - | aplay -vv -D hw:Loopback,1,0
+#  sox -q file.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,1,0
+# 
+#
+# Ejemplo para reproducir por SSH
+#
+#   Host   : aplay -vv -D 'hw:Loopback,1,0' file_example_WAV_1MG.wav
+#   Client : ssh  banshee@banserver sox -q -t alsa 'hw:Loopback,0,0' -t wav -b 16 -r48k - | aplay -q -
+#
+
+
+
+# Playback loop
+pcm.ploop {
   type plug
   slave.pcm "hw:Loopback,0,0"
 }
 
-
-pcm.inloop {
+# Capture loop
+pcm.cloop {
   type plug
   slave.pcm "hw:Loopback,1,0"
+}
+
+# Playback loop snoop
+# Permite varias lecturas sobre el mismo Alsa Device
+pcm.ploopdsnoop {
+    type dsnoop
+    ipc_key 234884
+    slave {
+        pcm "hw:Loopback,0,0" 
+        channels 2 
+    }
+}
+
+# Capture Loop Mixer
+# Permite varias escrituras sobre el mismo Alsa Device
+pcm.cloopdmix {
+    type dmix
+    ipc_key 234885
+    slave {
+        pcm "hw:Loopback,1,0" 
+        channels 2 
+    }
+}
+
+#
+#pcm.aduplex {
+#    type asym
+#    playback.pcm "ploop"
+#    capture.pcm "cloop"
+#}
+
+# Mixing 2 Devices as Playback Device
+pcm.both {
+    type multi
+    slaves.a.pcm "hw:Loopback,0,0" 
+    slaves.b.pcm "hw:Loopback,0,1"
+    #slaves.a.pcm "hw:PCH,0"        # Mic
+    slaves.a.channels 2
+    slaves.b.channels 2
+
+    bindings.0 { slave a; channel 0; }
+    bindings.1 { slave a; channel 1; }
+    bindings.2 { slave b; channel 0; }
+    bindings.3 { slave b; channel 1; }
 }
 

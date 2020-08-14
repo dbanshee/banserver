@@ -1,5 +1,12 @@
 #! /bin/bash
 
+#
+# Banshee - 2020
+#
+# Pulse - Jack Bridge
+#
+
+
 function startBridge () {
     echo "Starting Pulse-Alsa bridge ..."
     pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 1 || exit 1

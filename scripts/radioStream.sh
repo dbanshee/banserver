@@ -17,13 +17,14 @@ NPIPE_PATH="/tmp/radioStream.pipe"
 function abort () {
   echo "Finishing Radio Service"
  
-  # Disable trap. Infinite loop if kill GID.  
+  # Disable trap. Infinite loop if kill by GID.
   trap '' SIGTERM SIGKILL SIGINT
 
   # Ctrl+C in bash sends signal to GID. If SIGTERM is sended to bg process only subchilds not receive signals.
   # Send to group.
   GID=$(ps -p $$ -o pgid -h)
-  kill -- "-$GID"
+  echo "$GID"
+  kill -- "-${GID}"
   deletePipe
   exit 0
 }
@@ -75,6 +76,8 @@ echo "  Alsa Input  Device   : ${ALSA_INPUT_DEVICE}"
 echo "  Alsa Output Device   : ${ALSA_OUTPUT_DEVICE}"
 echo "  Channel              : ${CHANNEL_NAME}"
 echo "  Media Folder         : ${REAL_FOLDER_PATH}"
+echo 
+echo "  Commands Pipe File   : ${NPIPE_PATH}"
 echo "------------------------------------------------------------------------------"
 echo
 
@@ -98,7 +101,7 @@ do
 					 -name '*.ogg'  \) \
              | sort -R --random-source=/dev/urandom | tail -n 1`
 
-  echo -e "\nPlay Song : '$SONG_PATH' ..."
+  echo -e "\nPlay File : '$SONG_PATH' ..."
 
   lame --decode "$SONG_PATH" - | aplay -vv -D $ALSA_INPUT_DEVICE &
   PLAYER_PID=$!

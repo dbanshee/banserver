@@ -5,7 +5,7 @@ echo "nArgs : $nArgs"
 
 if [ $nArgs -eq 0 ] || [ $nArgs -gt 2 ] ; then
   echo "Bad Args"
-  echo " Usage killg.sh [signal] <pid>"
+  echo " Usage killgid.sh [signal] <pid>"
   exit 1
 elif [ $nArgs -eq 2 ] ; then
   SIGNAL=$1
@@ -21,5 +21,6 @@ if [ -z  $GID ] ; then
   exit 1
 fi
 
-kill $SIGNAL -- "-$GID"
+echo "kill $GID $SIGNAL"
+kill "${SIGNAL}" "-${GID}"
 
