@@ -1,0 +1,2 @@
+pulseaudio: opción inválida -- 'f'
+E: [pulseaudio] main.c: Falló al analizar la línea de comando.

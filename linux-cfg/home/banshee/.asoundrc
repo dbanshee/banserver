@@ -76,11 +76,37 @@ pcm.cloopdmix {
 #}
 
 # Mixing 2 Devices as Playback Device
-pcm.both {
+#pcm.both {
+#    type multi
+#    slaves.a.pcm "hw:Loopback,0,0" 
+#    slaves.b.pcm "hw:Loopback,0,1"
+#    slaves.a.channels 2
+#    slaves.b.channels 2
+#
+#    bindings.0 { slave a; channel 0; }
+#    bindings.1 { slave a; channel 1; }
+#    bindings.2 { slave b; channel 0; }
+#    bindings.3 { slave b; channel 1; }
+#}
+
+# Control de volumen. Modificar el alsamixer o cualquier GUI para Alsa
+pcm.csoftvol {
+    type                softvol
+    slave {
+        #pcm             "hw:Loopback,0,4"  # Loopback Device
+        pcm             cloop
+    }
+    control {
+        name        "CSoftV"
+        card        0
+    }
+}
+
+pcm.micmixer {
     type multi
-    slaves.a.pcm "hw:Loopback,0,0" 
-    slaves.b.pcm "hw:Loopback,0,1"
-    #slaves.a.pcm "hw:PCH,0"        # Mic
+    #slaves.a.pcm "hw:..." # Mic
+    slaves.a.pcm "hw:Loopback,0,5" 
+    slaves.b.pcm csoftvol
     slaves.a.channels 2
     slaves.b.channels 2
 
@@ -89,4 +115,5 @@ pcm.both {
     bindings.2 { slave b; channel 0; }
     bindings.3 { slave b; channel 1; }
 }
+
 
