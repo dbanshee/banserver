@@ -7,6 +7,55 @@
 
 ## Unclassified
 
+- **[2020-08-18 14:58:34]**
+>insync
+
+- **[2020-08-18 13:52:46]**
+> **[Motor1.com]** -Xiaomi's Ninebot GoKart Pro Has Lamborghini Edition\
+Xiaomi has partnered with Lamborghini to create a special edition of their interesting Ninebot GoKart Pro.\
+<https://www.motor1.com/news/439330/xiaomi-lamborghini-edition-gokart-pro/>\
+![Image](https://cdn.motor1.com/images/mgl/3oon6/s1/xiaomi-lamborghini-kart.jpg)
+
+- **[2020-08-18 13:34:43]**
+> **[Thorben Janssen]** -Why, When and How to Use DTO Projections with JPA and Hibernate\
+DTO projections are the most efficient ones for read operations. Let me show you how to use them in JPQL, Criteria and native queries. You can even use them without a DTO class\
+<https://thorben-janssen.com/dto-projections/>\
+![Image](https://e5g4c4d6.rocketcdn.me/wp-content/uploads/2019/01/JPA-Hibernate-Why-When-and-How-to-Use-DTO-Projections.png)
+
+- **[2020-08-17 10:10:14]**
+>Jugando bien con ALSA
+Para permitir que los programas Alsa se reproduzcan mientras se está ejecutando el conector, debe instalar el complemento del conector para alsa con alsa-plugins.
+
+Y habilítelo editando (o creando) /etc/asound.conf (configuración de todo el sistema) para tener estas líneas:
+
+# convertir alsa API sobre jack API
+# usarlo con
+#% aplay foo.wav
+
+# usa esto como predeterminado
+pcm.!default {
+    type plug
+    slave { pcm "jack" }
+}
+
+ctl.mixer0 {
+    type hw
+    card 1
+}
+
+# pcm tipo jack
+pcm.jack {
+    type jack
+    playback_ports {
+        0 system:playback_1
+        1 system:playback_2
+    }
+    capture_ports {
+        0 system:capture_1
+        1 system:capture_2
+    }
+}
+
 - **[2020-08-13 22:11:28]**
 <https://wiki.archlinux.org/index.php/PulseAudio/Examples>\
 <PulseAudio/Examples - ArchWiki

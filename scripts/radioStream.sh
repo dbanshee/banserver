@@ -9,8 +9,8 @@
 CHANNEL_NAME="channel2"
 
 # Use Loopback Subdevice 1 
-ALSA_INPUT_DEVICE="hw:Loopback,1,1"
-ALSA_OUTPUT_DEVICE="hw:Loopback,0,1"
+ALSA_PLAYBACK_DEVICE="hw:Loopback,0,1"
+ALSA_CAPTURE_DEVICE="hw:Loopback,1,1"
 
 NPIPE_PATH="/tmp/radioStream.pipe"
 
@@ -72,22 +72,22 @@ REAL_FOLDER_PATH=$FOLDER_PATH
 echo "------------------------------------------------------------------------------"
 echo " Radio Icecast  - $(date)"
 echo
-echo "  Alsa Input  Device   : ${ALSA_INPUT_DEVICE}"
-echo "  Alsa Output Device   : ${ALSA_OUTPUT_DEVICE}"
-echo "  Channel              : ${CHANNEL_NAME}"
-echo "  Media Folder         : ${REAL_FOLDER_PATH}"
+echo "  Alsa Capture  Device   : ${ALSA_CAPTURE_DEVICE}"
+echo "  Alsa Playback Device   : ${ALSA_PLAYBACK_DEVICE}"
+echo "  Channel                : ${CHANNEL_NAME}"
+echo "  Media Folder           : ${REAL_FOLDER_PATH}"
 echo 
-echo "  Commands Pipe File   : ${NPIPE_PATH}"
+echo "  Commands Pipe File     : ${NPIPE_PATH}"
 echo "------------------------------------------------------------------------------"
 echo
 
 createPipe
 
 # Create Stream Radio Channel
-echo -e "Creating Stream Radio Channel : '$CHANNEL_NAME' on alsa device '$ALSA_OUTPUT_DEVICE'"
+echo -e "Creating Stream Radio Channel : '$CHANNEL_NAME' on alsa device '$ALSA_PLAYBACK_DEVICE'"
 
 # Icecast dump from alsa device
-streamIcecast.sh direct $CHANNEL_NAME $ALSA_OUTPUT_DEVICE &
+streamIcecast.sh direct $CHANNEL_NAME $ALSA_PLAYBACK_DEVICE &
 if [ $? -ne 0 ] ; then
   echo "Error creating Icecast channel $CHANNEL_NAME"
   exit 1
@@ -103,7 +103,7 @@ do
 
   echo -e "\nPlay File : '$SONG_PATH' ..."
 
-  lame --decode "$SONG_PATH" - | aplay -vv -D $ALSA_INPUT_DEVICE &
+  lame --decode "$SONG_PATH" - | aplay -vv -D $ALSA_CAPTURE_DEVICE &
   PLAYER_PID=$!
   echo "Player Pid : $PLAYER_PID"
 

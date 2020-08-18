@@ -31,51 +31,98 @@
 #   Host   : aplay -vv -D 'hw:Loopback,1,0' file_example_WAV_1MG.wav
 #   Client : ssh  banshee@banserver sox -q -t alsa 'hw:Loopback,0,0' -t wav -b 16 -r48k - | aplay -q -
 #
+# Ejemplo para reproducir por icecast
+#  streamIcecast.sh local channel1 'hw:Loopback,0,0'
+#
 
 
+########################################
+# Wrappers para Subdevice 0 de Loopback
+#   hw:Loopback,0,0 (Playback)
+#   hw:Loopback,1,0 (Capture)
+########################################
 
-# Playback loop
-pcm.ploop {
+# Playback Loopback Subdevice 0
+pcm.ploop0 {
   type plug
   slave.pcm "hw:Loopback,0,0"
 }
 
-# Capture loop
-pcm.cloop {
+# Capture Loopback Subdevice 0
+pcm.cloop0 {
   type plug
   slave.pcm "hw:Loopback,1,0"
 }
 
-# Playback loop snoop
-# Permite varias lecturas sobre el mismo Alsa Device
-pcm.ploopdsnoop {
+# Playback Loopback Subdevice 1
+pcm.ploop0 {
+  type plug
+  slave.pcm "hw:Loopback,0,1"
+}
+
+# Capture Loopback Subdevice 1
+pcm.cloop0 {
+  type plug
+  slave.pcm "hw:Loopback,1,1"
+}
+
+
+#################################################################################
+# dsnoop: Permite varias lecturas   sobre el mismo Alsa Device (Playback Device)
+# dmix  : Permite varias escrituras sobre el mismo Alsa Device (Capture  Device)
+################################################################################
+
+# Playback Loopback Subdevice 0 dsnoop 
+pcm.ploopdsnoop0 {
     type dsnoop
     ipc_key 234884
     slave {
-        pcm "hw:Loopback,0,0" 
+        pcm "hw:Loopback,0,0" 	# Only supports hw plugin
         channels 2 
     }
 }
 
-# Capture Loop Mixer
-# Permite varias escrituras sobre el mismo Alsa Device
-pcm.cloopdmix {
+# Capture Loopback Subdevice 0 dmixer
+pcm.cloopdmix0 {
     type dmix
     ipc_key 234885
     slave {
-        pcm "hw:Loopback,1,0" 
+        pcm "hw:Loopback,1,0" 	# Only suppors hw plugin
+	rate 48000 
         channels 2 
     }
 }
 
-#
+# Playback Loopback Subdevice 0 dsnoop 
+pcm.ploopdsnoop1 {
+    type dsnoop
+    ipc_key 234884
+    slave {
+        pcm "hw:Loopback,0,1" 	# Only supports hw plugin
+        channels 2 
+    }
+}
+
+# Capture Loopback Subdevice 0 dmixer
+pcm.cloopdmix1 {
+    type dmix
+    ipc_key 234885
+    slave {
+        pcm "hw:Loopback,1,1" 	# Only suppors hw plugin
+	rate 48000 
+        channels 2 
+    }
+}
+
+# Investigar
 #pcm.aduplex {
 #    type asym
 #    playback.pcm "ploop"
 #    capture.pcm "cloop"
 #}
 
-# Mixing 2 Devices as Playback Device
+# Mixing 2 Devices as Playback Device. 
+# Creates one device with 4 channels.
 #pcm.both {
 #    type multi
 #    slaves.a.pcm "hw:Loopback,0,0" 
@@ -89,31 +136,81 @@ pcm.cloopdmix {
 #    bindings.3 { slave b; channel 1; }
 #}
 
-# Control de volumen. Modificar el alsamixer o cualquier GUI para Alsa
-pcm.csoftvol {
-    type                softvol
+
+#######################################################################################################
+# Combine 2 Loopback devices in 1 device with 2 channels and volume control
+#
+#          . <- Mic Redirect: arecord -c 2 -f S16_LE -r 48000 -D 'hw:Intel,0' - | aplay -D cloopdmix0
+#          . <- Mp3 Play    : lame --decode <file> - | aplay -D cloopdmix0
+#          .
+#      cloopdmix0
+#          |
+#    hw:Loopback,1,i
+#          |                                                                                                  . -> Simple Play        : sox -q -t alsa plugloopmixer_stereo -t wav -b 16 -r48k - | aplay -q -
+#    hw:Loopback,0,i --> ploopdsnoop0 -> loopmixer_ch0 -> loopmixer_ch0_softvol _                             . -> Pulse Audio Source : pactl load-module module-alsa-source source_name=srcName source_properties=device.description=Desc  device=plugloopmixer_stereo
+#                                                                                \                            . 
+#                                                                                 = loopmixer_multi -> plugloopmixer_stereo
+#    hw:Loopback,0,j --> ploopdsnoop1 -> loopmixer_ch1 -> loopmixer_ch1_softvol _/                            .  
+#          |                                                                                                  . -> Icecast Streaming : ffmpeg -f alsa -i plugloopmixer_stereo -acodec aac -content_type 'audio/aac' -vn -f adts "icecast://source:pass@localhost:3000"
+#    hw:Loopback,1,j                                                                                          . -> Remote Play       : ssh user@host sox -q -t alsa loopmicmixer_stereo -t wav -b 16 -r48k - | aplay -
+#          |
+#      cloopdmix1
+#          .
+#          . <- Alsa Device : sox -q -t alsa alsadevice -t wav -b 16 -r48k - | aplay -D cloopdmix1
+#          . <- Jack Out    : alsa_out -j ploopmixer -d cloopdmix1
+#
+#######################################################################################################
+
+# Extract single channels
+pcm.loopmixer_ch0 {
+    type route
     slave {
-        #pcm             "hw:Loopback,0,4"  # Loopback Device
-        pcm             cloop
+        pcm ploopdsnoop0
+        channels 2
     }
-    control {
-        name        "CSoftV"
-        card        0
-    }
+    ttable [ [ 1 0 ] ]
 }
 
-pcm.micmixer {
+pcm.loopmixer_ch1 {
+    type route
+    slave {
+        pcm ploopdsnoop1
+        channels 2
+    }
+    ttable [ [ 0 1 ] ]
+}
+
+# Volume Control (alsamixer or Alsa Guis)
+pcm.loopmixer_ch0_softvol {
+    type softvol
+    slave.pcm loopmixer_ch0
+    control.name "MicMix Ch0 Volume"
+    control.card 0    
+}
+pcm.loopmixer_ch1_softvol {
+    type softvol
+    slave.pcm loopmixer_ch1
+    control.name "MicMix Ch1 Volume"
+    control.card 0
+}
+
+# Merge channels into single device
+pcm.loopmixer_multi {
     type multi
-    #slaves.a.pcm "hw:..." # Mic
-    slaves.a.pcm "hw:Loopback,0,5" 
-    slaves.b.pcm csoftvol
-    slaves.a.channels 2
-    slaves.b.channels 2
-
-    bindings.0 { slave a; channel 0; }
-    bindings.1 { slave a; channel 1; }
-    bindings.2 { slave b; channel 0; }
-    bindings.3 { slave b; channel 1; }
+    slaves {
+        a { pcm loopmixer_ch0_softvol channels 1 }
+        b { pcm loopmixer_ch1_softvol channels 1 }
+    }
+    bindings [
+        { slave a channel 0 }
+        { slave b channel 0 }
+    ]
 }
 
-
+# Mix channels together stereo device
+pcm.plugloopmixer_stereo {
+  type plug
+  slave.pcm loopmixer_multi
+  ttable [ [ 0.5 0.5 ]
+           [ 0.5 0.5 ] ]
+}

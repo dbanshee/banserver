@@ -4,6 +4,7 @@
  apt install snapd
  apt install virtualbox-6.1
  apt-get autoremove
+ apt-get install alsamixergui
  apt-get install alsaplayer
  apt-get install alsaplayer-gtk
  apt-get install alsaplayer-jack

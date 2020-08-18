@@ -15,8 +15,8 @@
 #  jack_connect    cloop:capture_1 system:playback_1
 #  jack_disconnect cloop:capture_2 system:playback_2
 
-ALSA_PLAYBACK_DEVICE=ploopdsnoop
-ALSA_CAPTURE_DEVICE=cloopdmix
+ALSA_PLAYBACK_DEVICE=ploopdsnoop0
+ALSA_CAPTURE_DEVICE=cloopdmix0
 
 function abort () {
   echo "Closing Jack clients"
@@ -27,8 +27,8 @@ function abort () {
 trap abort SIGTERM SIGKILL SIGINT
 
 # Create Jack Ports
-alsa_in  -j cloop -d $ALSA_PLAYBACK_DEVICE &
-alsa_out -j ploop -d $ALSA_CAPTURE_DEVICE  &
+#alsa_in  -j cloop -d $ALSA_PLAYBACK_DEVICE &
+alsa_out -j ploop -d $ALSA_CAPTURE_DEVICE  
 
 
 echo "Press any key to terminate Jack clients ..."

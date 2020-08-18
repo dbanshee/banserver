@@ -1,0 +1,11 @@
+Removing a volume control
+This task is not as easy at it seems, if you don't know the trick. If the correspondant part of the configuration file is just deleted and alsactl store has been executed after the usage of the device in question, the volume control won't disappear. alsactl store stores the value of all controls (among them the softvol device) in /etc/asound.state and is most likely executed on every shutdown of your computer.
+
+To make the volume control disappear finally, you have to delete its values in /etc/asound.state or just the whole file (it will be recreated with default values on next reboot). After that, your computer has to be restarted once without the execution of alsactl store on shutdown. On Debian, this can be achieved by temporarily renaming /etc/rc6.d/K50alsa-utils (or similar). Pressing the reset button also works, but should be avoided.
+
+what I did was:
+
+rm /var/lib/alsa/asound.state # remove the state file
+chmod -x /usr/sbin/alsactl # make alsactl non-executable to prevent settings being written on shutdown
+<REBOOT>
+chmod +x /usr/sbin/alsactl

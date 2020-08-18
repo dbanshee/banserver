@@ -15,12 +15,12 @@ else
   PID=$1
 fi
 
-GID=$(ps -p $PID -o pgid -h)
+GID=$(ps -p $PID -o pgid -h | sed -e 's/^[[:space:]]*//' )
 if [ -z  $GID ] ; then
   echo "Pid : $PID not found"
   exit 1
 fi
 
-echo "kill $GID $SIGNAL"
-kill "${SIGNAL}" "-${GID}"
+echo "kill '$GID' '$SIGNAL'"
+kill ${SIGNAL} "-${GID}"
 

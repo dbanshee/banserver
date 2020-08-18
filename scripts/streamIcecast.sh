@@ -11,10 +11,12 @@
 DEFAULT_STREAM_NAME="channel1"
 
 # Alsa Playback Device
-ALSA_DEVICE=ploopdsnoop
-#ALSA_DEVICE=ploop
-#ALSA_DEVICE="hw:Loopback,1,0" # Device 1, Subdevice 0
-#ALSA_DEVICE="hw:Loopback,1,1" # Device 1, Subdevice 1
+ALSA_PLAYBACK_DEVICE=ploopdsnoop0
+ALSA_CAPTURE_DEVICE=cloopdmix0
+
+#ALSA_PLAYBACK_DEVICE=ploop
+#ALSA_PLAYBACK_DEVICE="hw:Loopback,1,0" # Device 1, Subdevice 0
+#ALSA_PLAYBACK_DEVICE="hw:Loopback,1,1" # Device 1, Subdevice 1
 
 ICECAST_DIRECT="icecast://source:sourcepass@localhost:3000"
 ICECAST_LOCAL="icecast://source:sourcepass@192.168.15.10:3000"
@@ -40,11 +42,12 @@ HEADER_FORMAT=$PRESET1_MP3_HEADER
 
 
 function usage () {
-  echo -e "Usage : streamIcecast.sh [<direct|local|remote>] [stream_name] [alsa_device]\n"
+  echo -e "Usage : streamIcecast.sh [<direct|local|remote>] [stream_name] [alsa_playback_device]\n"
   echo -e " example: streamIcecast.sh direct channel1 hw:Loopback,1,0\n"
   echo -e " Play examples:\n"
-  echo -e "  lame --decode file.mp3 - | aplay -vv -D hw:Loopback,1"
-  echo -e "  sox -q file.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,1"
+  echo -e "  lame --decode file.mp3 - | aplay -vv -D ${ALSA_CAPTURE_DEVICE}"
+  echo -e "  sox -q file.mp3 -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,0,0"
+  echo -e "  sox -q -t alsa 'hw:Loopback,1,4' -t wav -b 16 -r48k - | aplay -vv -D hw:Loopback,0,0"
   echo -e "\n"
 }
 
@@ -91,7 +94,7 @@ else
     fi
 
     if [ $nArgs -ge 3 ] ; then
-      ALSA_DEVICE="$3"
+      ALSA_PLAYBACK_DEVICE="$3"
     fi
   fi
 fi
@@ -103,15 +106,16 @@ HTTP_URL="http://`echo $ICECAST_URL | cut -d'@' -f2`"
 echo "------------------------------------------------------------------------------"
 echo " Stream Icecast  - $(date)"
 echo
-echo "  Alsa Device   : ${ALSA_DEVICE}"
-echo "  Channel       : ${STREAM_NAME}"
-echo "  Icecast URL   : ${CODEC}"
-echo "  Audio Codec   : ${ICECAST_URL}"
-echo "  Stream Url    : ${HTTP_URL}"
+echo "  Alsa Playback Device   : ${ALSA_PLAYBACK_DEVICE}"
+echo "  Alsa Capture  Device   : ${ALSA_CAPTURE_DEVICE}"
+echo "  Channel                : ${STREAM_NAME}"
+echo "  Icecast URL            : ${CODEC}"
+echo "  Audio Codec            : ${ICECAST_URL}"
+echo "  Stream Url             : ${HTTP_URL}"
 echo "------------------------------------------------------------------------------"
 echo
 
 echo -e "  Publishing into URL : http://${HTTP_URL}\n"
 
-ffmpeg -f alsa -i $ALSA_DEVICE -acodec $CODEC -content_type $CTYPE -vn -f $HEADER_FORMAT "$ICECAST_URL"
+ffmpeg -f alsa -ac 2 -i $ALSA_PLAYBACK_DEVICE -acodec $CODEC -content_type $CTYPE -vn -f $HEADER_FORMAT "$ICECAST_URL"
 

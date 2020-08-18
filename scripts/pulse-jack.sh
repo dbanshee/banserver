@@ -5,11 +5,13 @@
 #
 # Pulse - Jack Bridge
 #
+# Configured in Jack Start and Jack Stop
+#
 
 
 function startBridge () {
     echo "Starting Pulse-Alsa bridge ..."
-    pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 1 || exit 1
+    #pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 1 || exit 1
     pactl set-default-sink jack_out || exit 1
 } 
 
@@ -17,7 +19,7 @@ function stopBridge () {
     echo "Stopping Pulse-Alsa brigde ..."
     pactl unload-module module-jack-sink || exit 1
     pactl load-module module-jack-source || exit 1
-    pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 0 || exit 1
+    #pactl suspend-sink alsa_output.pci-0000_00_1b.0.analog-stereo 0 || exit 1
     pactl set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo || exit 1
 }
 
