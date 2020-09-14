@@ -1,7 +1,9 @@
 #! /bin/bash
 
-SSH_PORT=9722
-URL_CON="banshee@banserver.bansheerocks.com"
+#SSH_PORT=9722
+SSH_PORT=22
+#URL_CON="banshee@banserver.bansheerocks.com"
+URL_CON="banshee@bantower"
 
 nArgs=$#
 if [ $nArgs != 2 ] ; then

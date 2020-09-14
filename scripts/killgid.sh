@@ -1,7 +1,6 @@
 #! /bin/bash
 
 nArgs=$#
-echo "nArgs : $nArgs"
 
 if [ $nArgs -eq 0 ] || [ $nArgs -gt 2 ] ; then
   echo "Bad Args"
@@ -21,6 +20,5 @@ if [ -z  $GID ] ; then
   exit 1
 fi
 
-echo "kill '$GID' '$SIGNAL'"
 kill ${SIGNAL} "-${GID}"
 

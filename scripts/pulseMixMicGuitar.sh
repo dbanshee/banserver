@@ -58,7 +58,7 @@ alsa_out -j ploopmixer -d $ALSA_LOOP_CH1_CAPTURE &
   
 echo "Creating Pulse Audio Source"
 SRC_ID=$(pactl load-module module-alsa-source source_name=${PULSE_SOURCE_NAME} source_properties=device.description=${PULSE_SOURCE_DESC} device=${ALSA_MIXER_PLAYBACK})
-echo "Create Pulse Source Module with Id : ${SRC_ID}"
+echo "Created Pulse Source Module with Id : ${SRC_ID}"
 
 sleep 2
 

@@ -1,3 +1,5 @@
+# pactl or pacmd
+
 pacmd list-cards
 pacmd list-sinks
 

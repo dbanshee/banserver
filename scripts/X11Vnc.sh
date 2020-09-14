@@ -1,3 +1,3 @@
 #! /bin/bash
 
-x11vnc -forever
+nohup x11vnc -forever > /dev/null  &

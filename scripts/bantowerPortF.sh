@@ -15,7 +15,7 @@
 LOCAL_IP=0.0.0.0
 DEST_IP=192.168.15.101
 
-echo "Banserver Port Forwarding in range 10XXX ..."
+echo "Banserver Port Forwarding in range 11XXX ..."
 ssh -N -4 \
 	-L $LOCAL_IP:11022:$DEST_IP:22    \
 	-L $LOCAL_IP:11021:$DEST_IP:21	  \

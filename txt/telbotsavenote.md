@@ -7,6 +7,107 @@
 
 ## Unclassified
 
+- **[2020-09-10 14:58:37]**
+> **[Medium]** -How to Generate Music using a LSTM Neural Network in Keras\
+An introduction to creating music using LSTM Neural Networks\
+<https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5>\
+![Image](https://miro.medium.com/max/1200/1*evQj8gukICFrnBICeJvY0w.jpeg)
+
+- **[2020-09-10 14:58:36]**
+<http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf>\
+<http://www.cs.smith.edu/~jfrankli/papers/CtColl01.pdf>\
+
+
+- **[2020-09-10 14:58:31]**
+> **[GitHub]** -ybayle/awesome-deep-learning-music\
+List of articles related to deep learning applied to music - ybayle/awesome-deep-learning-music\
+<https://github.com/ybayle/awesome-deep-learning-music>\
+![Image](https://avatars1.githubusercontent.com/u/17142748?s=400&v=4)
+
+- **[2020-09-09 18:27:58]**
+> **[YouTube]** -El Origen del ROCK PSICODÉLICO y los HIPPIES | Radio-Beatle\
+Contacto y redes sociales: Correo: radiobeatlela@gmail.com Facebook: https://www.facebook.com/radiobeatlela Twitter: https://twitter.com/Radio_Beatle Instagr...\
+<https://www.youtube.com/watch?v=fmyROZFxkyU>\
+![Image](https://i.ytimg.com/vi/fmyROZFxkyU/maxresdefault.jpg)
+
+- **[2020-09-09 12:03:45]**
+> **[Making Pusher]** -Per-IP rate limiting with iptables\
+<https://making.pusher.com/per-ip-rate-limiting-with-iptables/>\
+![Image](/images/pusher_icon_purple_grey.svg)
+
+- **[2020-09-02 17:13:22]**
+> **[YouTube]** -Manual para entender a Tool ft Julioprofe\
+Un manual increíblemente subjetivo para entender a Tool. Mi versión del significado de su música hecha con el propósito de enriquecer sus otras versiones. :)...\
+<https://www.youtube.com/watch?v=g9AW1nTPRC0>\
+![Image](https://i.ytimg.com/vi/g9AW1nTPRC0/maxresdefault.jpg)
+
+- **[2020-09-01 11:41:41]**
+Our waveform generators deliver accurately calibrated sound files, with adjustable frequency and amplitude.\
+<https://www.audiocheck.net/audiofrequencysignalgenerator_sinetone.php>\
+![Image](https://www.audiocheck.net/Pix/FBdefault.jpg)
+
+- **[2020-08-31 07:54:12]**
+> **[YouTube]** -PROCESADORES DE SISTEMAS DE AUDIO - COMPARATIVA DCX ULTRADRIVE PRO, dbx PA2 y t.racks DS 2/4\
+Vamos a comparar tres procesadores digitales de sistemas de sonido: el BEHRINGER DCX2496 ULTRADRIVE PRO, el dbx DriveRack PA2 y the t.racks DS 2/4 de THOMANN...\
+<https://www.youtube.com/watch?v=Gt49aSX4lvc>\
+![Image](https://i.ytimg.com/vi/Gt49aSX4lvc/maxresdefault.jpg)
+
+- **[2020-08-27 08:59:24]**
+> **[GitHub]** -spatialaudio/jackclient-python\
+🂻 JACK Audio Connection Kit (JACK) Client for Python :snake: - spatialaudio/jackclient-python\
+<https://github.com/spatialaudio/jackclient-python/blob/master/examples/thru_client.py>\
+![Image](https://avatars1.githubusercontent.com/u/7491513?s=400&v=4)
+
+- **[2020-08-27 08:42:34]**
+> **[GitHub]** -YannickJadoul/Parselmouth\
+Praat in Python, the Pythonic way. Contribute to YannickJadoul/Parselmouth development by creating an account on GitHub.\
+<https://github.com/YannickJadoul/Parselmouth/blob/master/docs/examples/plotting.ipynb>\
+![Image](https://avatars2.githubusercontent.com/u/8025744?s=400&v=4)
+
+- **[2020-08-25 12:58:47]**
+> **[YouTube]** -Reaper Tutorial - Live Mixing Solo Bus\
+In this video I'll show you a work around for Reaper's solo bus when mixing live. Using a DAW is a great way to mix your live stream, but one challenge you'l...\
+<https://www.youtube.com/watch?v=tcP_CWwd1Ac>\
+![Image](https://i.ytimg.com/vi/tcP_CWwd1Ac/maxresdefault.jpg)
+
+- **[2020-08-24 12:56:21]**
+An established studio in the USA is planning to rely on software that can be freely downloaded from the Internet. Are they crazy, or do Linux-based recording applications offer a real alternative to the established Windows and Mac packages?\
+<https://www.soundonsound.com/techniques/using-linux-recording-mastering>\
+
+
+- **[2020-08-24 12:55:53]**
+Once an expensive and futuristic dream, the technology for Internet‑based collaboration is now available and affordable — and more practical than you might think.\
+<https://www.soundonsound.com/techniques/remote-collaboration>\
+
+
+- **[2020-08-24 12:53:01]**
+<https://ccrma.stanford.edu/groups/soundwire/publications/papers/chafe_DAFX2000.pdf>\
+<https://ccrma.stanford.edu/groups/soundwire/publications/papers/chafe_DAFX2000.pdf>\
+
+
+- **[2020-08-21 14:25:43]**
+<https://es.ehomerecordingstudio.com/rack-bastidor-estudio/>\
+<https://es.ehomerecordingstudio.com/rack-bastidor-estudio/>\
+
+
+- **[2020-08-21 14:25:30]**
+<https://es.ehomerecordingstudio.com/home-studio/>\
+<https://es.ehomerecordingstudio.com/home-studio/>\
+
+
+- **[2020-08-21 08:38:09]**
+> **[El chalé de Gaius Baltar]** -TuxGuitar: introducción y “trouble-shooting” del editor de tabulaciones libre\
+Tuxguitar es el equivalente libre al software comercial de nombre GuitarPro. A pesar de que este último es fácilmente instalable bajo Wine y su precio es muy ajustado para un software de tal calida…\
+<https://aerilon.wordpress.com/2012/05/05/tuxguitar-introduccion-y-trouble-shooting-al-editor-de-tabulaciones-libre/>\
+![Image](https://aerilon.files.wordpress.com/2012/05/tuxguitar-fuente.png)
+
+- **[2020-08-20 14:27:56]**
+> **[Ask Ubuntu]** -How to list/access all the available audio input and output ports/channels of a USB soundcard from a particular PC\
+In Windows 7, I used to use pymedia, a python library, to list the available interfaces as well as use them for playing and recording audio. A typical query would look like this:
+Now, I'm no longer \
+<https://askubuntu.com/questions/891623/how-to-list-access-all-the-available-audio-input-and-output-ports-channels-of-a>\
+![Image](https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955)
+
 - **[2020-08-18 14:58:34]**
 >insync
 

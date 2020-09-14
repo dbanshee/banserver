@@ -1,0 +1,5 @@
+Note for develop Note Detector / Partiture generator in Python
+
+Pitch Detector: https://github.com/YannickJadoul/Parselmouth/blob/master/docs/examples/plotting.ipynb
+
+Jack Client: https://github.com/spatialaudio/jackclient-python/blob/master/examples/thru_client.py

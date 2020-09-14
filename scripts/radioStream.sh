@@ -103,6 +103,9 @@ do
 
   echo -e "\nPlay File : '$SONG_PATH' ..."
 
+  # Change icecast metadata
+  #wget -q -O /dev/null 'http://admin:drizztdo0@127.0.0.1:3000/admin/metadata?mount=/channel2&mode=updinfo&song=ACDC+Back+In+Black'
+
   lame --decode "$SONG_PATH" - | aplay -vv -D $ALSA_CAPTURE_DEVICE &
   PLAYER_PID=$!
   echo "Player Pid : $PLAYER_PID"

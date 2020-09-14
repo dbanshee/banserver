@@ -1,0 +1,8 @@
+# Create Linux user
+sudo useradd guest
+
+# Add user to group
+sudo usermod –a –G sambashare guest
+
+# Create Samba User (Must exists same Linux User)
+smbpasswd -a guest
