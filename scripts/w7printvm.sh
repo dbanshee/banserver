@@ -42,8 +42,10 @@ if [ $nArgs = 1 ] ; then
     check=$(isrunning)
     if [ $check = 0 ] ; then
       echo "VM NOT running"
+      exit 0
     else 
       echo "VM IS running"
+      exit 1
     fi
   fi
 else

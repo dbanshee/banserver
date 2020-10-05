@@ -17,6 +17,7 @@
  apt-get install apt-transport-https gpgv
  apt-get install arduino
  apt-get install atop clinfo cockpit
+ apt-get install aubio-tools
  apt-get install audacity
  apt-get install bash-completion
  apt-get install bazel
@@ -123,6 +124,7 @@
  apt-get install --no-install-recommends xinit
  apt-get install --no-install-recommends xserver-xorg
  apt-get install npm
+ apt-get install ntp
  apt-get install numactl
  apt-get install openjdk-11-jdk
  apt-get install openssh-server
@@ -176,6 +178,7 @@
  apt-get install vlc
  apt-get install vnstat
  apt-get install wget
+ apt-get install wine
  apt-get install wireless-tools
  apt-get install wireshark
  apt-get install wkhtmltopdf

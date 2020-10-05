@@ -7,6 +7,92 @@
 
 ## Unclassified
 
+- **[2020-09-30 17:08:25]**
+> **[Clases de Guitarra Online]** -Las 10 Progresiones de Acordes de Guitarra más utilizadas — Clases de Guitarra Online\
+Una progresión de acordes es una secuencia de acordes que se repite. En un tema de pop o rock lo normal es que aparezcan una o varias progresiones basadas casi siempre en los acordes de la tonalidad principal de la canción (normalmente la Tonalidad Mayor o Tonalidad Menor Natural).\
+<https://www.clasesguitarraonline.com/armonia-para-guitarra/2016/12/5/progresiones-tpicas-de-poprock>\
+![Image](http://static1.squarespace.com/static/56c240a0d51cd440f4c3f6ca/56c2428737013b184dfd4526/584527b646c3c4f2f7ef7d70/1600163615031/the-beatles.jpg?format=1500w)
+
+- **[2020-09-25 10:42:58]**
+<https://es.wikipedia.org/wiki/Tonalidad_(m%C3%BAsica)>\
+<https://es.wikipedia.org/wiki/Tonalidad_(m%C3%BAsica)>\
+
+
+- **[2020-09-23 10:08:02]**
+>Hola David estaba intentando entender un poco mas los acordes.
+
+Por ejemplo
+
+Analizando el acorde de E, veo que las notas serian: E, B, Lab/Sol#
+En intervalos contando desde E, me sale:
+ E        : Fundamental
+ Lab/Sol# : Intervalo de 3 
+ B        : Intervalo de 5
+
+Analizando el acorde de F, veo que las notas serian: F, C, A
+En intervalos contando desde F, me sale:
+ F : Fundamental
+ A : Intervalo de 3 
+ C : Intervalo de 5
+
+Analizando el acorde de G, veo que las notas serian: G, B, D
+En intervalos contando desde G, me sale:
+ G : Fundamental
+ B : Intervalo de 3
+ D : Intervalo de 5
+
+Analizando el acorde de A, veo que las notas serian: A, E, C#
+En intervalos contando desde A, me sale:
+ A      : Fundamental
+ Reb/C# : Intervalo de 3 
+ E      : Intervalo de 5
+
+Analizando el acorde de B, veo que las notas serian: B, F#, D#
+En intervalos contando desde B, me sale:
+ B      : Fundamental
+ Re#    : Intervalo de 3 
+ Fa#    : Intervalo de 5
+ 
+Analizando el acorde de C, veo que las notas serian: C, E, G
+En intervalos contando desde C, me sale:
+ C    : Fundamental
+ E    : Intervalo de 3
+ G    : Intervalo de 5
+
+Analizando el acorde de D, veo que las notas serian: D, A, F#
+En intervalos contando desde D, me sale:
+ D    : Fundamental
+ F#   : Intervalo de 3 
+ A    : Intervalo de 5
+
+- **[2020-09-17 15:48:13]**
+> **[Hektor Profe]** -Implementar un sistema clásico de registro, login y logout | Hektor Profe\
+Implementar un sistema clásico de registro, login y logout\
+<https://www.hektorprofe.net/tutorial/django-sistema-registro-login-logout>\
+
+
+- **[2020-09-17 10:49:49]**
+> **[Guitarristas.info]** -¿Cómo cambiar el canal de tu ampli y tus efectos a la vez?\
+Esta es una de las preguntas más frecuentes de los guitarristas que, progresivamente, van avanzando en la construcción de su equipo de directo. En este artículo, te mostramos las diferentes opciones de las que dispones para lograrlo.\
+<https://www.guitarristas.info/tutoriales/como-cambiar-canal-tu-ampli-tus-efectos-vez/7334>\
+![Image](https://files2.soniccdn.com/images/articles/original/7334.jpg)
+
+- **[2020-09-17 10:41:01]**
+> **[Tunanteando guitars!]** -LA SANTÍSIMA TRINIDAD (de los guitarristas) – Tunanteando guitars!\
+Queridos hermanos, permitidme hoy hablaros de la santísima trinidad de la religión de los guitarristas. Esas tres encarnaciones de una única cosa que todo guitarrista suele necesitar durante su interpretación. Esto es: sonido limpio (o clean), rítmico (o crunch), y solista (o lead). Hay quien usa más o menos sonidos …\
+<http://www.tunanteandoguitars.com/historias-opinion/la-santisima-trinidad-de-los-guitarristas/>\
+![Image](https://i2.wp.com/www.tunanteandoguitars.com/wp-content/uploads/2016/07/monocanal-brit.jpg?fit=813%2C394)
+
+- **[2020-09-16 16:51:24]**
+<https://docs.djangoproject.com/en/3.1/intro/tutorial02/>\
+<https://docs.djangoproject.com/en/3.1/intro/tutorial02/>\
+
+
+- **[2020-09-16 16:51:16]**
+<https://docs.djangoproject.com/en/3.1/topics/auth/default/>\
+<https://docs.djangoproject.com/en/3.1/topics/auth/default/>\
+
+
 - **[2020-09-10 14:58:37]**
 > **[Medium]** -How to Generate Music using a LSTM Neural Network in Keras\
 An introduction to creating music using LSTM Neural Networks\
