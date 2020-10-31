@@ -178,6 +178,11 @@ jupyter nbextension install https://github.com/jfbercher/code_prettify/archive/m
 jupyter nbextension enable code_prettify-master/code_prettify
 ```
 
+- Latext
+```bash
+jupyter labextension install @jupyterlab/latex
+```
+
 
 ## Remote SSH Kernel
 <https://stackoverflow.com/questions/29037211/how-do-i-add-a-kernel-on-a-remote-machine-in-ipython-jupyter-notebook>

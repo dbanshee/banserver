@@ -7,6 +7,17 @@
 
 ## Unclassified
 
+- **[2020-10-12 19:45:03]**
+<https://cfp.jupytercon.com/2020/schedule/presentation/221/what-is-my-gpu-doing-using-pynvml-and-the-nvdashboard-jupyter-lab-extension-to-access-gpu-metrics/?linkId=100000015881593#JupyterCon2020>\
+<JupyterCon 2020 - Presentation: What is my GPU doing? Using PyNVML and the NVDashboard Jupyter Lab extension to access GPU metrics
+https://cfp.jupytercon.com/2020/schedule/presentation/221/what-is-my-gpu-doing-using-pynvml-and-the-nvdashboard-jupyter-lab-extension-to-access-gpu-metrics/?linkId=100000015881593#JupyterCon2020>\
+
+
+- **[2020-10-09 14:43:26]**
+💘10% Rabatt für neue Kunden; (code: D10)💘20% Rabatt Über €89 (code: FA)💘💘 \
+<https://www.gorgeoushere.com/collections/herren?fbclid=PAAabNwNRYsNbxN9neeU-uRZ87Io4DKqLcuP-WfjudD7gs6RkoDBmbnJHOqm0>\
+
+
 - **[2020-09-30 17:08:25]**
 > **[Clases de Guitarra Online]** -Las 10 Progresiones de Acordes de Guitarra más utilizadas — Clases de Guitarra Online\
 Una progresión de acordes es una secuencia de acordes que se repite. En un tema de pop o rock lo normal es que aparezcan una o varias progresiones basadas casi siempre en los acordes de la tonalidad principal de la canción (normalmente la Tonalidad Mayor o Tonalidad Menor Natural).\

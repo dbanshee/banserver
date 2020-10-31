@@ -108,7 +108,9 @@ Y partir de aquí, el término *Banshee* me acompaña en *emails*, *nicks*, *use
 
 Tras una Ingeniería Técnica, otra Superior y numerosas certificaciones y proyectos personales, mi curiosidad y conocimientos por la informática en general y el hardware gráfico en particular sigue muy vivo y en constante ampliación. *GPUS*, *Cuda*, *IA*, *DeepLearning* ... A día de hoy puedo presumir que no soy solo un Ingeniero Informático, sino una persona que siente pasión real por lo que hace, que sigo viéndolo como una afición que me plantea continuos y emocionantes retos. Que no me conformo con ver que algo funcione sin saber como lo hace a tantos niveles como sea posible. 
 
-Quizás si todo hubiera funcionado correctamente a la primera, no me hubiera interesado por el funcionamiento interno de estas increíbles máquinas. No habría desarrollado la curiosidad ni el afán de resolución. Y quizás no me hubiera dedicado a esta profesión en la que se apoya el mundo moderno, siendo al mismo tiempo mi mayor afición. Como dijo un sabio *Nunca lo sabremos*.
+Quizás si todo hubiera funcionado correctamente a la primera, no me hubiera interesado por el funcionamiento interno de estas increíbles máquinas. No habría desarrollado la curiosidad ni el afán de resolución. Y quizás no me hubiera dedicado a esta profesión en la que se apoya el mundo moderno, siendo al mismo tiempo mi mayor afición. Como dijo un sabio *"- Nunca lo sabremos"*.
 
 
 Ojalá el lector haya disfrutando esta historia tanto como yo recordándola.
+
+Fin.
